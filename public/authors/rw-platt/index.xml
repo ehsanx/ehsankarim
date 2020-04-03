@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RW Platt | Ehsan&#39;s Page</title>
+    <link>/authors/rw-platt/</link>
+      <atom:link href="/authors/rw-platt/index.xml" rel="self" type="application/rss+xml" />
+    <description>RW Platt</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>RW Platt</title>
+      <link>/authors/rw-platt/</link>
+    </image>
+    
+    <item>
+      <title>Authors&#39; reply: Letter to the Editor: Comparison of statistical approaches dealing with time-dependent confounding in drug effectiveness studies (SMMR, Vol 27, Issue 6, 2018)</title>
+      <link>/publication/journal-article/2019-01-01_karim2019authors/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2019-01-01_karim2019authors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparison of fingolimod, dimethyl fumarate and teriflunomide for multiple sclerosis</title>
+      <link>/publication/journal-article/2019-01-01_platt2019comparison/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2019-01-01_platt2019comparison/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Can we train machine learning methods to outperform the high-dimensional propensity score algorithm?</title>
+      <link>/publication/journal-article/2018-01-01_karim2018can/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2018-01-01_karim2018can/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparison of statistical approaches dealing with time-dependent confounding in drug effectiveness studies</title>
+      <link>/publication/journal-article/2018-01-01_karim2018comparison/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2018-01-01_karim2018comparison/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Estimating inverse probability weights using super learner when weight-model specification is unknown in a marginal structural Cox model context</title>
+      <link>/publication/journal-article/2017-01-01_karim2017estimating/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2017-01-01_karim2017estimating/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

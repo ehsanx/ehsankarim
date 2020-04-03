@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PS Fontela | Ehsan&#39;s Page</title>
+    <link>/authors/ps-fontela/</link>
+      <atom:link href="/authors/ps-fontela/index.xml" rel="self" type="application/rss+xml" />
+    <description>PS Fontela</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>PS Fontela</title>
+      <link>/authors/ps-fontela/</link>
+    </image>
+    
+    <item>
+      <title>Determinants of antibiotic tailoring in pediatric intensive care: a national survey</title>
+      <link>/publication/journal-article/2017-01-01_fontela2017determinants/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2017-01-01_fontela2017determinants/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

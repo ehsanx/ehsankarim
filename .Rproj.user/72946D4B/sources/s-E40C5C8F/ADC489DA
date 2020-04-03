@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1585907128421.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "ADC489DA",
+    "lastKnownWriteTime" : 1585875441,
+    "last_content_update" : 1585875441,
+    "path" : "C:/Users/wildscop/Dropbox/CHEOS/CV/AcademicWebsite/ehsanx/content/publication/journal-article/generate.R",
+    "project_path" : "content/publication/journal-article/generate.R",
+    "properties" : {
+        "cursorPosition" : "13,16",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

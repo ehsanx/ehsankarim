@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>H Tremlett | Ehsan&#39;s Page</title>
+    <link>/authors/h-tremlett/</link>
+      <atom:link href="/authors/h-tremlett/index.xml" rel="self" type="application/rss+xml" />
+    <description>H Tremlett</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>H Tremlett</title>
+      <link>/authors/h-tremlett/</link>
+    </image>
+    
+    <item>
+      <title>Comparison of statistical approaches dealing with time-dependent confounding in drug effectiveness studies</title>
+      <link>/publication/journal-article/2018-01-01_karim2018comparison/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2018-01-01_karim2018comparison/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the application of statistical learning approaches to construct inverse probability weights in marginal structural cox models: hedging against weight-model misspecification</title>
+      <link>/publication/journal-article/2017-01-01_karim2017application/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2017-01-01_karim2017application/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparison of statistical approaches for dealing with immortal time bias in drug effectiveness studies</title>
+      <link>/publication/journal-article/2016-01-01_karim2016comparison/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2016-01-01_karim2016comparison/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interferon beta and long-term disability in multiple sclerosis</title>
+      <link>/publication/journal-article/2016-01-01_shirani2016interferon/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2016-01-01_shirani2016interferon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multiple sclerosis in older adults: the clinical profile and impact of interferon beta treatment</title>
+      <link>/publication/journal-article/2015-01-01_shirani2015multiple/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2015-01-01_shirani2015multiple/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Investigation of heterogeneity in the association between interferon beta and disability progression in multiple sclerosis: an observational study</title>
+      <link>/publication/journal-article/2014-01-01_shirani2014investigation/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2014-01-01_shirani2014investigation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marginal structural Cox models for estimating the association between beta-interferon exposure and disease progression in a multiple sclerosis cohort</title>
+      <link>/publication/journal-article/2014-01-01_karim2014marginal/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2014-01-01_karim2014marginal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interferon beta and long-term disability in multiple sclerosis</title>
+      <link>/publication/journal-article/2013-01-01_shirani2013interferon/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2013-01-01_shirani2013interferon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Association between use of interferon beta and progression of disability in patients with relapsing-remitting multiple sclerosis</title>
+      <link>/publication/journal-article/2012-01-01_shirani2012association/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2012-01-01_shirani2012association/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

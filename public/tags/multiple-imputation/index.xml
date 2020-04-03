@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>multiple-imputation | Ehsan&#39;s Page</title>
+    <link>/tags/multiple-imputation/</link>
+      <atom:link href="/tags/multiple-imputation/index.xml" rel="self" type="application/rss+xml" />
+    <description>multiple-imputation</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>multiple-imputation</title>
+      <link>/tags/multiple-imputation/</link>
+    </image>
+    
+    <item>
+      <title>The effect of serious offending on health: a marginal structural model</title>
+      <link>/publication/journal-article/2019-01-01_bacak2019effect/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2019-01-01_bacak2019effect/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JR Khan | Ehsan&#39;s Page</title>
+    <link>/authors/jr-khan/</link>
+      <atom:link href="/authors/jr-khan/index.xml" rel="self" type="application/rss+xml" />
+    <description>JR Khan</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>JR Khan</title>
+      <link>/authors/jr-khan/</link>
+    </image>
+    
+    <item>
+      <title>Guidance for Practitioners on the Choices of Software Implementation for Frailty Models: Simulations and An Application in Determining the Birth Interval Dynamics</title>
+      <link>/publication/journal-article/2018-01-01_karim2018guidance/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2018-01-01_karim2018guidance/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

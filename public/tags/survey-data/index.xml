@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>survey-data | Ehsan&#39;s Page</title>
+    <link>/tags/survey-data/</link>
+      <atom:link href="/tags/survey-data/index.xml" rel="self" type="application/rss+xml" />
+    <description>survey-data</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>survey-data</title>
+      <link>/tags/survey-data/</link>
+    </image>
+    
+    <item>
+      <title>Are perceived barriers to accessing health care associated with inadequate antenatal care visits among women of reproductive age in Rwanda?</title>
+      <link>/publication/journal-article/2020-01-01_nisingizwe2020perceived/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2020-01-01_nisingizwe2020perceived/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multimorbidity prevalence in Canada: a comparison of Northern Territories with Provinces, 2013/14</title>
+      <link>/publication/journal-article/2019-01-01_basham2019multimorbidity/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2019-01-01_basham2019multimorbidity/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

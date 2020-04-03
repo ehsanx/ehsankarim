@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>E Gibbs | Ehsan&#39;s Page</title>
+    <link>/authors/e-gibbs/</link>
+      <atom:link href="/authors/e-gibbs/index.xml" rel="self" type="application/rss+xml" />
+    <description>E Gibbs</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>E Gibbs</title>
+      <link>/authors/e-gibbs/</link>
+    </image>
+    
+    <item>
+      <title>Antibody dissociation rates are predictive of neutralizing antibody (NAb) course: A comparison of interferon beta-1b-treated Multiple Sclerosis (MS) patients with transient versus sustained NAbs</title>
+      <link>/publication/journal-article/2015-01-01_gibbs2015antibody/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2015-01-01_gibbs2015antibody/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

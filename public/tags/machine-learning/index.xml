@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>machine-learning | Ehsan&#39;s Page</title>
+    <link>/tags/machine-learning/</link>
+      <atom:link href="/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>machine-learning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>machine-learning</title>
+      <link>/tags/machine-learning/</link>
+    </image>
+    
+    <item>
+      <title>Nurses Seeing Forest for the Trees in the Age of Machine Learning: Using Nursing Knowledge to Improve Relevance and Performance</title>
+      <link>/publication/journal-article/2019-01-01_kwon2019nurses/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2019-01-01_kwon2019nurses/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Can we train machine learning methods to outperform the high-dimensional propensity score algorithm?</title>
+      <link>/publication/journal-article/2018-01-01_karim2018can/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2018-01-01_karim2018can/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Estimating inverse probability weights using super learner when weight-model specification is unknown in a marginal structural Cox model context</title>
+      <link>/publication/journal-article/2017-01-01_karim2017estimating/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2017-01-01_karim2017estimating/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the application of statistical learning approaches to construct inverse probability weights in marginal structural cox models: hedging against weight-model misspecification</title>
+      <link>/publication/journal-article/2017-01-01_karim2017application/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2017-01-01_karim2017application/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

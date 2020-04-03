@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>M {Van Der Kop} | Ehsan&#39;s Page</title>
+    <link>/authors/m-van-der-kop/</link>
+      <atom:link href="/authors/m-van-der-kop/index.xml" rel="self" type="application/rss+xml" />
+    <description>M {Van Der Kop}</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>M {Van Der Kop}</title>
+      <link>/authors/m-van-der-kop/</link>
+    </image>
+    
+    <item>
+      <title>Beta-interferon exposure and onset of secondary progressive multiple sclerosis</title>
+      <link>/publication/journal-article/2015-01-01_zhang2015beta/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2015-01-01_zhang2015beta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marginal structural Cox models for estimating the association between beta-interferon exposure and disease progression in a multiple sclerosis cohort</title>
+      <link>/publication/journal-article/2014-01-01_karim2014marginal/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2014-01-01_karim2014marginal/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

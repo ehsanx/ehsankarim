@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>P Liu | Ehsan&#39;s Page</title>
+    <link>/authors/p-liu/</link>
+      <atom:link href="/authors/p-liu/index.xml" rel="self" type="application/rss+xml" />
+    <description>P Liu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>P Liu</title>
+      <link>/authors/p-liu/</link>
+    </image>
+    
+    <item>
+      <title>Nephrology consultation and mortality in people with stage 4 chronic kidney disease: a population-based study</title>
+      <link>/publication/journal-article/2019-01-01_liu2019nephrology/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2019-01-01_liu2019nephrology/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
