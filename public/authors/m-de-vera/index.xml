@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>M {De Vera} | Ehsan&#39;s Page</title>
+    <link>/authors/m-de-vera/</link>
+      <atom:link href="/authors/m-de-vera/index.xml" rel="self" type="application/rss+xml" />
+    <description>M {De Vera}</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>M {De Vera}</title>
+      <link>/authors/m-de-vera/</link>
+    </image>
+    
+    <item>
+      <title>SAT0600 Comparative cardiovascular safety of non-steroidal anti-inflammatory drugs (NSAIDs) among individuals with osteoarthritis; findings from provincial prescription claim records in British Columbia, Canada</title>
+      <link>/publication/journal-article/2019-01-01_atiquzzaman2019sat0600/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2019-01-01_atiquzzaman2019sat0600/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using External Data to Estimate Omitted Variables in Observational Data: A Plasmode Simulation Study Investigating the Relationship Between Osteoarthritis and Cardiovascular Diseases to Compare Alternative Approaches in Imputing the Body Mass Index Variable</title>
+      <link>/publication/journal-article/2019-01-01_atiquzzaman2019using/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2019-01-01_atiquzzaman2019using/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

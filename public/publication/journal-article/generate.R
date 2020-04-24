@@ -1,4 +1,4 @@
-bibfolder <- "C:/Users/wildscop/Dropbox/CHEOS/CV/AcademicWebsite/ehsankarim/content/publication/journal-article"
+bibfolder <- "C:/Users/wildscop/Documents/GitHub/ehsankarim/content/publication/journal-article"
 setwd(bibfolder)
 if (!require("bib2academic")) devtools::install_github("petzi53/bib2academic")
 #Load package

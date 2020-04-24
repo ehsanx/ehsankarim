@@ -6,6 +6,22 @@ title: Supervision
 layout: docs
 ---
 
+# Grant support
+
+Some notable funding sources listed below:
+
+- [Michael Smith Foundation for Health Research](https://www.msfhr.org/causal-inference-framework-analyzing-large-administrative-healthcare-databases-focus-multiple), 
+- [Natural Sciences and Engineering Research Council of Canada](https://www.nserc-crsng.gc.ca/ase-oro/Details-Detailles_eng.asp?id=655112), 
+- [BC SUPPORT Unit](https://bcsupportunit.ca/real-world-clinical-trials-project-themes).
+
+# Available to supervise
+
+I am currently looking for multiple graduate students (current and prospective) for a number of projects (with methodologic focuses within epidemiologic contexts). Following are few examples:
+
+- Improving Causal Inference Methods in Statistics for Analyzing [High-dimensional / Big Data](https://t.co/vvjmIrKMrR).
+- Developing and Evaluating Causal Inference Methods for Pragmatic Trials to [address nonadherence](https://www.youtube.com/watch?v=ur1etAewqHA).
+- Applying causal inference methods within the context of the disease [multiple sclerosis](https://journals.sagepub.com/doi/full/10.1177/0962280216668554) in particular.
+
 # Instructions to Apply
 
 Graduate students in statistics, biostatistics, epidemiology, economics or computer science with somewhat strong **methodological expertise in statistics** (as well as statistical computing) are encouraged to contact me directly; particularly those with some of the following skills: 
@@ -31,21 +47,3 @@ Interested candidates should email me (at my UBC email address) the following:
 Please check out my [G+PS profile](https://www.grad.ubc.ca/researcher/16712-karim) for my research interests, as well as my previous publications. 
 
 <span style="color:red">Only shortlisted candidates will be contacted.</span>
-
-
-
-# Available to supervise
-
-I am currently looking for multiple graduate students (current and prospective) for a number of projects (with methodologic focuses within epidemiologic contexts). Following are few examples:
-
-- Improving Causal Inference Methods in Statistics for Analyzing [High-dimensional / Big Data](https://t.co/vvjmIrKMrR).
-- Developing and Evaluating Causal Inference Methods for Pragmatic Trials to [address nonadherence](https://www.youtube.com/watch?v=ur1etAewqHA).
-- Applying causal inference methods within the context of the disease [multiple sclerosis](https://journals.sagepub.com/doi/full/10.1177/0962280216668554) in particular.
-
-# Grant support
-
-Some notable funding sources listed below:
-
-- [Michael Smith Foundation for Health Research](https://www.msfhr.org/causal-inference-framework-analyzing-large-administrative-healthcare-databases-focus-multiple), 
-- [Natural Sciences and Engineering Research Council of Canada](https://www.nserc-crsng.gc.ca/ase-oro/Details-Detailles_eng.asp?id=655112), 
-- [BC SUPPORT Unit](https://bcsupportunit.ca/real-world-clinical-trials-project-themes).

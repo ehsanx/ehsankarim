@@ -1,3 +1,3 @@
 # Website
 
-Deployed in [netlify](https://ehsanx.netlify.com/).
+Deployed in [ehsank.com](https://ehsank.com/).
