@@ -33,6 +33,26 @@ layout: docs
 
 # Reviewer for Journal Articles
 
-- 'Best reviewer for the year' for 2017. Also was recognized in 2015.
+- Acted as reviewer for the following journals
+  - Biometrics
+  - American Journal of Epidemiology 
+  - Statistics in Medicine 
+  - Epidemiology
+  - BMJ 
+  - BMC Medical Research Methodology 
+  - Biometrical Journal
+  - Pharmacoepidemiology and Drug Safety 
+  - Journal of Statistical Research 
+  - R Journal 
+  - Journal of Data Science 
+  - Annals of Epidemiology 
+  - Global Epidemiology 
+  - Annals of Neurology 
+  - Journal of Neurology and Neuromedicine 
+  -	Current Developments in Nutrition 
+  - PharmacoEconomics
+  - Journal of Biomedical Analytics 
+  - International Journal of Statistics and Probability 
+- Received 'Best reviewer for the year' for 2017 from Pharmacoepidemiology and Drug Safety. Also was recognized in 2015.
 
 {{< tweet 1032706096878649344 >}}
