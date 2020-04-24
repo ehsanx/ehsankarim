@@ -13,6 +13,17 @@ Some notable funding sources listed below:
 - [Michael Smith Foundation for Health Research](https://www.msfhr.org/causal-inference-framework-analyzing-large-administrative-healthcare-databases-focus-multiple), 
 - [Natural Sciences and Engineering Research Council of Canada](https://www.nserc-crsng.gc.ca/ase-oro/Details-Detailles_eng.asp?id=655112), 
 - [BC SUPPORT Unit](https://bcsupportunit.ca/real-world-clinical-trials-project-themes).
+- Co-investigator and Collaborator in other BC SUPPORT Unit, CIHR and SSHRC grants. 
+
+# Graduate Students
+
+- PhD Supervision
+  - 2 PhD students from SPPH (1 of which is transferred from MSc), 2 scheduled to start at SPPH in Sept, 2020.
+- MSc Supervision
+  - 1 MSc student from SPPH, 1 scheduled to start at SPPH in Sept, 2020
+  - 1 MSc student from Statistics, 1 MSc student from Statistics already graduated in 2019.
+- Co-supervising / Committee member 
+  - On the supervising committee for another 9 students (6 PhD and 3 MSc) from SPPH and Pharmaceutical Sciences (2 of them already graduated in 2019). 
 
 # Available to supervise
 

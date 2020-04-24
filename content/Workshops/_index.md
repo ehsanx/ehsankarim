@@ -24,6 +24,6 @@ layout: docs
 
 {{< tweet 1245771872123396102 >}}
 
-  2.	Introduction to Propensity Score Methods, Webinar for the Canadian Statistics Student Society, Sept 30, 2020 (Invited Webinar).
+  2.	Introduction to Propensity Score Methods, Webinar for the Canadian Statistics Student Society, Sept 30, 2020 (Invited Webinar, scheduled in the Methods Speaker Series at the Therapeutics Initiative, UBC).
   3. [Comparing approaches for Confounding Adjustment in Secondary Database Analyses: High-Dimensional Propensity Score versus two machine learning algorithms](http://www.safeandeffectiverx.com/events/view/52), Drug Safety and Effectiveness Cross-Disciplinary Training  / Drug Safety and Effectiveness Network (DSECT/DSEN) Monthly Seminar Series, Online Seminar, Mar 23, 2017 (100 registered nationwide, which is the maximum limit accommodated by the seminar organizers.)
   4. SAS introductory course designed for online educational site [shikkhok.com](https://tinyurl.com/SASbangla) (This educational site is a recipient of 2013 Google RISE Award from Asia Pacific region; 491 students). 
