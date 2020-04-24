@@ -42,6 +42,9 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/ehsan7x
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0002-0346-2871
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/ehsan-karim-3747ba45/
