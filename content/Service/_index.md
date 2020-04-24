@@ -30,3 +30,9 @@ layout: docs
 -	Committee Member, UBC Master of Health Administration (MHA) Admissions Committee, School of Population and Public Health, University of British Columbia, 2018.
 -	Committee Member, Awards Committee, School of Population and Public Health, University of British Columbia, 2018.
 -	Committee Member, UBC Master of Public Health (MPH) Admissions Committee, School of Population and Public Health, University of British Columbia, 2018.
+
+# Reviewer for Journal Articles
+
+- 'Best reviewer for the year' for 2017. Also was recognized in 2015.
+
+{{< tweet 1032706096878649344 >}}

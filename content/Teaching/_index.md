@@ -25,6 +25,6 @@ layout: docs
 5.	Graduate course “SPPH 501: Analysis of Longitudinal Data from Epidemiological Studies”, School of Population and Public Health, University of British Columbia (November 8, 2011).
 
 
-# Undegraduate
+## Undegraduate
 - UBC Statistics
   - STAT 200: Elementary Statistics for Applications, 2008-2009 [138 students]

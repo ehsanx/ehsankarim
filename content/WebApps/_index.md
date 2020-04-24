@@ -32,7 +32,7 @@ layout: docs
 -	[simMSM](https://github.com/ehsanx/simMSM): R package for generating survival data suitable for fitting longitudinal Marginal Structural Cox Models
 - [Setoguchi](https://github.com/ehsanx/setoguchi) simulation algorithm from 2008 PDS paper
 
-## Analysis
+## Analysis tool for Causal inference
 -	[iptw](https://github.com/ehsanx/iptw/): R package for implementing standardization and inverse probability weights (point treatment)
 
 ## Complex Survey Data Analysis
@@ -57,3 +57,9 @@ Reserved for collaborators and students: authentication required for access.
 - [Kaggle Kernel](https://www.kaggle.com/wildscop) 
 - [Google Colab](https://colab.research.google.com/notebooks/) 
 - [Jupyter for UBC](https://ubc.syzygy.ca/) 
+
+# Web-tutorials
+
+- Tutorial on Bayesian computation using Stan: [Youtube](https://www.youtube.com/watch?v=tLprFqSWS1w)
+- Tutorial on RMarkdown: [Youtube](https://www.youtube.com/watch?v=DWxDWyqWnX0)
+

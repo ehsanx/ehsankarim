@@ -7,7 +7,11 @@ view: 2
 ---
 
 #	Invited Conference Presentations
+
   1.	Karim ME “Healthcare data analytics in the era of machine learning and artificial intelligence”, LifeSciences BC Access to Innovation, Vancouver Convention Centre West, Vancouver, Feb 5th, 2020. [URL](https://lifesciencesbc.ca/wp-content/uploads/2019/08/Access-to-Innovation-020320009-1.pdf).
+
+{{< tweet 1225157285325885440 >}}
+
   2.	Karim ME; Tremlett H; Zhu F; Petkau, J; Kingwell, E “Dealing with treatment-confounder feedback and sparse follow-up in longitudinal studies - an application of the marginal structural model in a multiple sclerosis cohort”; 
     -	Invited session on ‘Novel methods and applications in the estimation of longitudinal effects’, Statistical Society of Canada Annual Meeting 2020, May 31-June 3, 2020, Carleton University, Ottawa, Ontario (scheduled).
     -	Invited Session - 7: Biostatistics and data science; 2nd International Conference on Applied Statistics 2019, Dhaka University, Bangladesh; December 27-29, 2019.
