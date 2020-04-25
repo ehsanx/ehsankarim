@@ -6,6 +6,7 @@
 
 # Title of your site
 title = "Ehsan's Page"
+googleAnalytics = "UA-164587756-1"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.

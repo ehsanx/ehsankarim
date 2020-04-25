@@ -206,6 +206,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164587756-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-164587756-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -803,15 +841,15 @@
     
     <h1>Biography</h1>
 
-    <p>Dr. M. Ehsan Karim is an Assistant Professor in the UBC School of Population and Public Health [
-<a href="http://www.spph.ubc.ca/person/ehsan-karim/" target="_blank" rel="noopener">SPPH</a>], a Michael Smith Foundation for Health Research [
-<a href="https://www.msfhr.org/causal-inference-framework-analyzing-large-administrative-healthcare-databases-focus-multiple" target="_blank" rel="noopener">MSFHR</a>] Scholar, a Scientist and Biostatistician at the Centre for Health Evaluation and Outcome Sciences [
-<a href="http://www.cheos.ubc.ca/people/mohammad-ehsanul-ehsan-karim/" target="_blank" rel="noopener">CHEOS</a>], St. Paul&rsquo;s Hospital, and an Associate Member, 
-<a href="https://www.stat.ubc.ca/people" target="_blank" rel="noopener">UBC Statistics</a>. He obtained his Ph.D. in Statistics from UBC, supported by a studentship from the Multiple Sclerosis Society of Canada [
-<a href="https://mssociety.ca/" target="_blank" rel="noopener">MSSOC</a>]. He completed his postgraduate training in the Department of Epidemiology / Biostatistics at McGill. The American Journal of Epidemiology has selected one of his first-authored 
-<a href="/publication/">publications</a> as &lsquo;Top 10 Articles of the Year&rsquo;, and Pharmacoepidemiology and Drug Safety has twice recognized him as the 
-<a href="/Service/">best reviewer for the year</a>. His current program of research focuses on developing causal inference and pharmacoepidemiological methodologies, and applications of data science approaches in the large healthcare data analysis context to answer real-world comparative effectiveness research questions. His program of research is supported by grants from the Natural Sciences and Engineering Research Council of Canada [
-<a href="https://www.nserc-crsng.gc.ca/ase-oro/Details-Detailles_eng.asp?id=655112" target="_blank" rel="noopener">NSERC</a>] and the 
+    <p>Dr. M. Ehsan Karim is an Assistant Professor in the UBC School of Population and Public Health /
+<a href="http://www.spph.ubc.ca/person/ehsan-karim/" target="_blank" rel="noopener">SPPH</a>, a Michael Smith Foundation for Health Research /
+<a href="https://www.msfhr.org/causal-inference-framework-analyzing-large-administrative-healthcare-databases-focus-multiple" target="_blank" rel="noopener">MSFHR</a> Scholar, a Scientist and Biostatistician at the Centre for Health Evaluation and Outcome Sciences /
+<a href="http://www.cheos.ubc.ca/people/mohammad-ehsanul-ehsan-karim/" target="_blank" rel="noopener">CHEOS</a>, St. Paul&rsquo;s Hospital, and an Associate Member, 
+<a href="https://www.stat.ubc.ca/people" target="_blank" rel="noopener">UBC Statistics</a>. He obtained his Ph.D. in Statistics from UBC, supported by a studentship from the Multiple Sclerosis Society of Canada /
+<a href="https://mssociety.ca/" target="_blank" rel="noopener">MSSOC</a>. He completed his postgraduate training in the Department of Epidemiology / Biostatistics at McGill. The American Journal of Epidemiology has selected one of his first-authored 
+<a href="/publication/">publications</a> as &lsquo;Top 10 Articles of the Year&rsquo;, and Pharmacoepidemiology and Drug Safety has twice recognized him as the &lsquo;best reviewer for the year&rsquo; for his 
+<a href="/Service/">service</a>. He conducts, supports, collaborates and implements patient-oriented research as well as pragmatic / clinical trial design and analysis. His current program of research focuses on developing causal inference and pharmacoepidemiological methodologies, and applications of data science approaches in the large healthcare data analysis context to answer real-world comparative effectiveness research questions. His program of research is supported by grants from the Natural Sciences and Engineering Research Council of Canada /
+<a href="https://www.nserc-crsng.gc.ca/ase-oro/Details-Detailles_eng.asp?id=655112" target="_blank" rel="noopener">NSERC</a> and the 
 <a href="https://bcsupportunit.ca/real-world-clinical-trials-project-themes" target="_blank" rel="noopener">BC SUPPORT Unit</a>. He 
 <a href="/supervision/">supervises</a> graduate students from both SPPH and Statistics Department. Within SPPH, he developed and 
 <a href="/Teaching/">teaches</a> a core PhD capstone course that integrates state-of-the-art epidemiological, data science, and data analytic methods. He regularly offers 
