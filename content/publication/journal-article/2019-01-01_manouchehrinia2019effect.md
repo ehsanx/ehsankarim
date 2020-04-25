@@ -18,7 +18,7 @@ url_project = ""
 url_slides = ""
 url_video = ""
 url_poster = ""
-url_source = ""
+url_source = "https://journals.sagepub.com/doi/pdf/10.1177/1352458519868080"
 math = true
 highlight = true
 [header]
