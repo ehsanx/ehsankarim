@@ -39,21 +39,31 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/ehsan7x
-- icon: orcid
-  icon_pack: ai
-  link: https://orcid.org/0000-0002-0346-2871
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/in/ehsan-karim-3747ba45/
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.ca/citations?user=fStySaMAAAAJ&hl=en
+- icon: pubmed
+  icon_pack: ai
+  link: https://www.ncbi.nlm.nih.gov/myncbi/1PCD5j7s5g8Qe/bibliography/public/
 - icon: github
   icon_pack: fab
   link: https://github.com/ehsanx/
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0002-0346-2871
+- icon: mendeley
+  icon_pack: ai
+  link: https://www.mendeley.com/profiles/mohammad-ehsanul-karim/ 
+- icon: researchgate
+  icon_pack: ai
+  link: https://www.researchgate.net/profile/Mohammad_Karim2
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/ehsan-karim-3747ba45/
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/ehsan7x
+
 superuser: true
 user_groups:
 - Researchers
