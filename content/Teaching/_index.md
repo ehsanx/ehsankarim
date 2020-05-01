@@ -11,8 +11,8 @@ layout: docs
 ## Graduate
 - UBC School of Population and Public Health 
   - SPPH 504/007: *Application of Epidemiological Methods* (Section 7: restricted to Ph.D. level students).
-  - [Syllabus from 2019-2020]((https://med-fom-spph.sites.olt.ubc.ca/files/2018/04/SPPH-504-007-Course-Outline-Sep-2019.pdf))
-  - [Open lab materials from 2019-2020](https://github.com/ehsanx/spph504-007/blob/master/README.md)
+    - [Syllabus from 2019-2020]((https://med-fom-spph.sites.olt.ubc.ca/files/2018/04/SPPH-504-007-Course-Outline-Sep-2019.pdf))
+    - [Open lab materials from 2019-2020](https://ehsanx.github.io/spph504-007/)
       - 2018-2019 [10 students]
       - 2019-2020 [8 students]
 - Epidemiology, Biostatistics and Occupational Health, McGill University
