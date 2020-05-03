@@ -31,7 +31,7 @@
   <meta name="description" content="Assistant Professor; Scientist and Biostatistician">
 
   
-  <link rel="alternate" hreflang="en-us" href="/supervision-copy/">
+  <link rel="alternate" hreflang="en-us" href="/workshops/materials/">
 
   
 
@@ -206,18 +206,56 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164587756-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-164587756-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
   
-  <link rel="alternate" href="/supervision-copy/index.xml" type="application/rss+xml" title="Ehsan&#39;s Page">
+  <link rel="alternate" href="/workshops/materials/index.xml" type="application/rss+xml" title="Ehsan&#39;s Page">
   
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/supervision-copy/">
+  <link rel="canonical" href="/workshops/materials/">
 
   
   
@@ -234,8 +272,8 @@
   <meta property="twitter:creator" content="@ehsan7x">
   
   <meta property="og:site_name" content="Ehsan&#39;s Page">
-  <meta property="og:url" content="/supervision-copy/">
-  <meta property="og:title" content="Supervision | Ehsan&#39;s Page">
+  <meta property="og:url" content="/workshops/materials/">
+  <meta property="og:title" content="Workshop Materials | Ehsan&#39;s Page">
   <meta property="og:description" content="Assistant Professor; Scientist and Biostatistician"><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
@@ -256,7 +294,7 @@
 
 
 
-  <title>Supervision | Ehsan&#39;s Page</title>
+  <title>Workshop Materials | Ehsan&#39;s Page</title>
 
 </head>
 
@@ -507,6 +545,28 @@
         
         
         
+
+        <li class="nav-item">
+          <a class="nav-link " href="/Service/"><span>Service</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
           
           
           
@@ -583,7 +643,7 @@
     
   
 <div class="universal-wrapper pt-3">
-  <h1>Supervision</h1>
+  <h1>Workshop Materials</h1>
 
   
 
@@ -594,53 +654,128 @@
 
 <div class="universal-wrapper">
   
-  <div class="article-style"><h1 id="grant-support">Grant support</h1>
-<p>Some notable funding sources listed below:</p>
+  <div class="article-style"><h1 id="propensity-score-analysis-in-the-context-of-complex-survey-data">Propensity Score Analysis in the Context of Complex Survey Data</h1>
+<h2 id="summary">Summary</h2>
+<p>Researchers and statisticians frequently use propensity score analyses (PSA) to analyze observational datasets and reduce the impact of confounding due to observed covariates. In many of these applied studies, nationally representative population-based complex survey datasets are frequently used. Most of these studies incorrectly choose to ignore the complex survey design features; partly because there is a lack of clear guidelines of how PSA should be implemented in a complex survey data analysis context. Only a few relatively recent studies have examined how to incorporate PSA in this context, and some of these recommendations are contradictory, inconclusive, or not generalizable to all types of PSA. This workshop will help recognize some of the challenges and open questions in the 'big data' analysis setting. The workshop is aimed at practitioners and is particularly focused on demonstrating the implementation of PSA in a complex survey data analysis context through an illustrative data analysis exercise.</p>
+<h2 id="requirement">Requirement</h2>
+<p>Background in causal inference or survey data analysis is not required. Attendees should have prerequisite knowledge of multiple regression analysis and working knowledge in R (e.g., basic data manipulation and regression fitting). In the workshop, R will be the primary software package used to demonstrate the implementations. The provided software codes will be annotated and basic steps will be explained for those who prefer to use other software packages.</p>
+<h2 id="slides">Slides</h2>
+<ul>
+<li>Live links:
+<ul>
+<li><strong>Link for the slides will be live during the workshop event</strong>.</li>
+<li>Past workshop participants can contact me directly for any relevant questions (please use the email address via which you registered). The links provided during those workshops (for online viewing and download) are still live.</li>
+</ul>
+</li>
+</ul>
+<h2 id="pre-reading">Pre-reading</h2>
+<p>recommend taking a look at the following sections for some background knowledge:</p>
+<ul>
+<li>&quot;Methods&quot; section of <em>Austin, P. C.</em> (2011). A tutorial and case study in propensity score analysis: an application to estimating the effect of in-hospital smoking cessation counseling on mortality. Multivariate behavioral research, 46(1), 119-151. (
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3266945/" target="_blank" rel="noopener">link</a>)</li>
+<li>(optional) &quot;Section 4&quot; of <em>Zanutto EL.</em> (2006) A comparison of propensity score and linear regression analysis of complex survey data. Journal of Data Science; 4: 67-91. (
+<a href="http://www.jds-online.com/file_download/94/jds-233.pdf" target="_blank" rel="noopener">link</a>)</li>
+</ul>
+<h2 id="pre-workshop-quiz">Pre-workshop Quiz</h2>
+<ul>
+<li>Response link: 
+<a href="https://forms.gle/zeXZTCS3bYusPQTq9" target="_blank" rel="noopener">forms.gle/zeXZTCS3bYusPQTq9</a></li>
+</ul>
+<h2 id="sample-data-source">Sample Data Source</h2>
+<ul>
+<li>National Health and Nutrition Examination Survey (
+<a href="https://wwwn.cdc.gov/nchs/nhanes/" target="_blank" rel="noopener">NHANES</a>) cycle 2007-08</li>
+<li>Sample data in R format (
+<a href="https://drive.google.com/uc?id=1SrnmBN2GE6H3sRDsRTyEUtrIioAbVxZ1" target="_blank" rel="noopener">download</a>): <em>object  <strong>DT9a</strong>  contains our analytic data example</em>.</li>
+<li>How was the analytic data created? (<em>for those who are interested</em>)
 <ul>
 <li>
-<a href="https://www.msfhr.org/causal-inference-framework-analyzing-large-administrative-healthcare-databases-focus-multiple" target="_blank" rel="noopener">Michael Smith Foundation for Health Research</a>,</li>
+<a href="https://www.kaggle.com/wildscop/accessing-nhanes-data-directly-from-cdc-website" target="_blank" rel="noopener">Kaggle notebook</a>, or</li>
 <li>
-<a href="https://www.nserc-crsng.gc.ca/ase-oro/Details-Detailles_eng.asp?id=655112" target="_blank" rel="noopener">Natural Sciences and Engineering Research Council of Canada</a>,</li>
+<a href="https://drive.google.com/file/d/1ls01M4R9uxMazVY-oDdwN-IL4zRHihIr/view?usp=sharing" target="_blank" rel="noopener">R logbook</a> (Rmarkdown output PDF file)</li>
+</ul>
+</li>
+<li>Estimates shown in the slide (see the 
+<a href="https://drive.google.com/file/d/1FueY3IS2q-3s7IxIEXsIqVx-ZAqa4-8F/view?usp=sharing" target="_blank" rel="noopener">Rmarkdown file</a> for the exact same dataset as shown in the slides) and the estimates in the markdown/Kaggle notebook files may vary. The analyses shown in the markdown/Kaggle notebook files are using a slightly more complex eligibility criteria. See the 'Sample Code Chunks' below.</li>
+</ul>
+<h2 id="software-requirements">Software Requirements</h2>
+<p>It is assumed that you have the following software packages installed. Workshop does not provide any installation support. Note that, bringing a laptop is not mandatory. But if the participant would like to browse through the workshop slides (as well as check out other materials) in their own laptop, they are welcome to bring a laptop that is adequately charged (enough outlet may not be available).</p>
+<ul>
+<li>R from 
+<a href="https://cran.r-project.org/" target="_blank" rel="noopener">CRAN</a> or 
+<a href="https://mran.microsoft.com/open" target="_blank" rel="noopener">MRAN</a> (installing either one is fine)</li>
 <li>
-<a href="https://bcsupportunit.ca/real-world-clinical-trials-project-themes" target="_blank" rel="noopener">BC SUPPORT Unit</a>.</li>
-</ul>
-<h1 id="available-to-supervise">Available to supervise</h1>
-<p>I am currently looking for multiple graduate students (current and prospective) for a number of projects (with methodologic focuses within epidemiologic contexts). Following are few examples:</p>
+<a href="https://www.rstudio.com/products/rstudio/download/" target="_blank" rel="noopener">RStudio desktop</a> (installation necessary)</li>
+<li>Online accounts (no installation necessary, a supported browser is fine)
 <ul>
-<li>Improving Causal Inference Methods in Statistics for Analyzing 
-<a href="https://t.co/vvjmIrKMrR" target="_blank" rel="noopener">High-dimensional / Big Data</a>.</li>
-<li>Developing and Evaluating Causal Inference Methods for Pragmatic Trials to 
-<a href="https://www.youtube.com/watch?v=ur1etAewqHA" target="_blank" rel="noopener">address nonadherence</a>.</li>
-<li>Applying causal inference methods within the context of the disease 
-<a href="https://journals.sagepub.com/doi/full/10.1177/0962280216668554" target="_blank" rel="noopener">multiple sclerosis</a> in particular.</li>
+<li>Signup for an account on 
+<a href="https://login.rstudio.cloud/login?redirect=%2Foauth%2Fauthorize%3Fredirect_uri%3Dhttps%253A%252F%252Frstudio.cloud%252Flogin%26client_id%3Drstudio-cloud%26response_type%3Dcode%26show_auth%3D0%26show_login%3D1%26show_setup%3D1&amp;amp;setup=True" target="_blank" rel="noopener">rstudio.cloud</a></li>
+<li>Signup for an account on 
+<a href="https://www.kaggle.com/" target="_blank" rel="noopener">Kaggle</a> (and choose R)</li>
 </ul>
-<h1 id="instructions-to-apply">Instructions to Apply</h1>
-<p>Graduate students in statistics, biostatistics, epidemiology, economics or computer science with somewhat strong <strong>methodological expertise in statistics</strong> (as well as statistical computing) are encouraged to contact me directly; particularly those with some of the following skills:</p>
+</li>
+</ul>
+<h2 id="sample-code-chunks">Sample Code Chunks:</h2>
+<p>Code of some of the analyses shown in the workshop. Feel free to take a look at them beforehand if you wish. Code for installing required packages are provided at the top of each code chink</p>
 <ul>
-<li>making data requests,</li>
-<li>extracting analytic data from administrative (e.g., health admin) and survey databases (e.g., DHS, NHANES, BRFSS or CCHS),</li>
-<li>running statistical analyses using standard software (e.g., SAS, R or python),</li>
-<li>coding statistical estimators (via SAS macro/IML, R or stata mata),</li>
-<li>conducting simulation studies (e.g., in servers / parallel computing),</li>
-<li>excellent scientific writing (e.g., demonstrated via peer-reviewed publications),</li>
-<li>ability to work on a multidisciplinary team (e.g., work within biostatistics groups).</li>
-</ul>
-<p>Interested candidates should email me (at my UBC email address) the following:</p>
+<li>Codes/Markdowns
 <ul>
-<li>a cover letter, mentioning whether you are interested in an MSc or a PhD program, why you want to work with me,</li>
-<li>a complete CV (including award list, if any),</li>
-<li>full publication record (peer-reviewed articles with full co-authors listed),</li>
-<li>copy of the unofficial transcripts (post-secondary), and</li>
-<li>list of research / work experiences in healthcare related settings (if any)</li>
-<li>Names of 2 referees (with official email addresses).</li>
-<li>If you are coming from an institution where English is not used as the first language, please also include your TOEFL (iBT), IELTS or equivalent scores in your CV. Please check out these websites for 
-<a href="https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-population-public-health" target="_blank" rel="noopener">MSc</a> and 
-<a href="https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-population-public-health" target="_blank" rel="noopener">PhD</a> requirements for SPPH, UBC (see under &lsquo;Requirements&rsquo; section). Note that the requirements vary by department (e.g., check for 
-<a href="https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-statistics" target="_blank" rel="noopener">Statistics</a>).</li>
+<li>
+<a href="https://drive.google.com/uc?id=1W1Tu6IVOY5_eIUSX7757zRNQ_hsFwiBL" target="_blank" rel="noopener">chunk1</a> (<em>data download</em>),
+<ul>
+<li>Markdown logfile for the above code chunk: 
+<a href="https://drive.google.com/uc?id=1yB2Txg0JYEvoIkJH3ezeyCmzN9LWbQAP" target="_blank" rel="noopener">log1</a></li>
 </ul>
-<p>Please check out my 
-<a href="https://www.grad.ubc.ca/researcher/16712-karim" target="_blank" rel="noopener">G+PS profile</a> for my research interests, as well as my previous publications.</p>
-<p><span style="color:red">Only shortlisted candidates will be contacted.</span></p>
+</li>
+<li>
+<a href="https://drive.google.com/uc?id=13RoSjc9CR7qfj0YFmnbgehr7mgYfLRrg" target="_blank" rel="noopener">chunk2</a> (<em>table 1 &amp; logistic regression fit</em>),
+<ul>
+<li>Markdown logfile for the above code chunk: 
+<a href="https://drive.google.com/uc?id=1h9CHS5YkMWMYmf0bf4b721MUq8VX7Vbe" target="_blank" rel="noopener">log2</a></li>
+<li>
+<a href="https://www.kaggle.com/wildscop/nhanes-data-regression-summary" target="_blank" rel="noopener">Kaggle notebook</a> of the above code chunk</li>
+</ul>
+</li>
+<li>
+<a href="https://drive.google.com/uc?id=1ibFRKXucoPjUjyekbgsH4WSZQTDA0hqG" target="_blank" rel="noopener">chunk3</a> (<em>basic propensity score matching</em>),
+<ul>
+<li>Markdown logfile for the above code chunk: 
+<a href="https://drive.google.com/uc?id=1LaU3zcjtFSAPrFJM1VoiTW1oSiHkuZyN" target="_blank" rel="noopener">log3</a></li>
+<li>
+<a href="https://www.kaggle.com/wildscop/propensity-score-matching-on-nhanes" target="_blank" rel="noopener">Kaggle notebook</a> of the above code chunk</li>
+<li>Note: In matching, estimates may vary due to randomness. Set 
+<a href="https://www.rdocumentation.org/packages/simEd/versions/1.0.3/topics/set.seed" target="_blank" rel="noopener">seed</a>.</li>
+</ul>
+</li>
+<li>
+<a href="https://drive.google.com/uc?id=1T-y5jjdq7FOqPRusFN9RfMSOePKGG2Fp" target="_blank" rel="noopener">chunk4</a> (<em>basic survey data analysis</em>),
+<ul>
+<li>Markdown logfile for the above code chunk: 
+<a href="https://drive.google.com/uc?id=1TmlewoN_A8c18qyAvFmWb3Bk2oDpkK5U" target="_blank" rel="noopener">log4</a></li>
+<li>
+<a href="https://www.kaggle.com/wildscop/nhanes-complex-survey-data-analysis" target="_blank" rel="noopener">Kaggle notebook</a> of the above code chunk</li>
+</ul>
+</li>
+<li>
+<a href="https://drive.google.com/uc?id=1VpYhyUmBw6FzJ8qMs5IGdq3FL8k994Sj" target="_blank" rel="noopener">chunk5</a> (<em>basic propensity score weighting</em>)
+<ul>
+<li>Markdown logfile for the above code chunk: 
+<a href="https://drive.google.com/uc?id=1VRrQjZaTT8Wrpf5H-G6U8WFLHjyXCD0H" target="_blank" rel="noopener">log5</a></li>
+<li>
+<a href="https://www.kaggle.com/wildscop/propensity-score-weighting-on-nhanes" target="_blank" rel="noopener">Kaggle notebook</a> of the above code chunk</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Brainstorming exercise: (optional) After reviewing the above codes of propensity score analysis (chunk3) and survey data analysis (chunk4), can you think of ways to combine both analysis (i.e., applying propensity score analysis in the context of complex surveys, where you may want to incorporate survey features, such as, interview weights, strata and PSU in your propensity score analysis)? We will discuss in details about various options during the workshop.</li>
+</ul>
+<h2 id="in-workshop-quiz">In-workshop Quiz:</h2>
+<ul>
+<li>Response link: 
+<a href="http://pollev.com/ehsank878" target="_blank" rel="noopener">pollEv.com/ehsank878</a> (will be activated during the workshop if internet available: eduroam network should be available for North American Universities).</li>
+<li>Get the 
+<a href="https://www.polleverywhere.com/mobile" target="_blank" rel="noopener">relevant app</a> if responding from your smartphone. Note that, downloading the app is not necessary; there is a text option available as well for North American cell phone carriers.</li>
+</ul>
 </div>
   
   <ul class="list-unstyled">
