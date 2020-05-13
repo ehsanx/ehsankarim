@@ -11,7 +11,7 @@ layout: docs
 
 ## Methods Workshop Pre-reading Materials
 
-- [x] Workshop pre-reading materials can be **downloaded** from [here](/Workshops/materials/).
+- [x] Workshop pre-reading materials can be **downloaded** from [here](/Workshops/wsmaterials/).
 
 ## Future Methods Workshops
 
@@ -28,7 +28,13 @@ layout: docs
 
 # Webinar
 
-  1. [Introduction to Causal Inference: Propensity Score Analysis in Healthcare Data](https://www.popdata.bc.ca/events/etu/Advanced_Methods_Causal_Inf_May14_2020), Webinar for Population Data BC (in partnership with [ICES](https://www.ices.on.ca/)), May 14th, 2020 (Invited Webinar) 
+## Methods Webinar Pre-reading Materials
+
+- [x] Workshop pre-reading materials can be **downloaded** from [here](/Workshops/wbmaterials/).
+
+## Methods Webinars
+
+  1. [Introduction to Causal Inference: Propensity Score Analysis in Healthcare Data](https://www.popdata.bc.ca/events/etu/Advanced_Methods_Causal_Inf_May14_2020), Webinar for Population Data BC (in partnership with [IC/ES](https://www.ices.on.ca/)), May 14th, 2020 (Invited Webinar) 
 
 {{< tweet 1245771872123396102 >}}
 

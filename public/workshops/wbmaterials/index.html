@@ -31,7 +31,7 @@
   <meta name="description" content="Assistant Professor; Scientist and Biostatistician">
 
   
-  <link rel="alternate" hreflang="en-us" href="/workshops/materials/">
+  <link rel="alternate" hreflang="en-us" href="/workshops/wbmaterials/">
 
   
 
@@ -248,14 +248,14 @@
 
 
   
-  <link rel="alternate" href="/workshops/materials/index.xml" type="application/rss+xml" title="Ehsan&#39;s Page">
+  <link rel="alternate" href="/workshops/wbmaterials/index.xml" type="application/rss+xml" title="Ehsan&#39;s Page">
   
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/workshops/materials/">
+  <link rel="canonical" href="/workshops/wbmaterials/">
 
   
   
@@ -272,8 +272,8 @@
   <meta property="twitter:creator" content="@ehsan7x">
   
   <meta property="og:site_name" content="Ehsan&#39;s Page">
-  <meta property="og:url" content="/workshops/materials/">
-  <meta property="og:title" content="Workshop Materials | Ehsan&#39;s Page">
+  <meta property="og:url" content="/workshops/wbmaterials/">
+  <meta property="og:title" content="Webinar Materials | Ehsan&#39;s Page">
   <meta property="og:description" content="Assistant Professor; Scientist and Biostatistician"><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
@@ -294,7 +294,7 @@
 
 
 
-  <title>Workshop Materials | Ehsan&#39;s Page</title>
+  <title>Webinar Materials | Ehsan&#39;s Page</title>
 
 </head>
 
@@ -643,7 +643,7 @@
     
   
 <div class="universal-wrapper pt-3">
-  <h1>Workshop Materials</h1>
+  <h1>Webinar Materials</h1>
 
   
 
@@ -654,56 +654,43 @@
 
 <div class="universal-wrapper">
   
-  <div class="article-style"><h1 id="propensity-score-analysis-in-the-context-of-complex-survey-data">Propensity Score Analysis in the Context of Complex Survey Data</h1>
+  <div class="article-style"><h1 id="introduction-to-causal-inference-propensity-score-analysis-in-healthcare-data">Introduction to Causal Inference: Propensity Score Analysis in Healthcare Data</h1>
 <h2 id="summary">Summary</h2>
-<p>Researchers and statisticians frequently use propensity score analyses (PSA) to analyze observational datasets and reduce the impact of confounding due to observed covariates. In many of these applied studies, nationally representative population-based complex survey datasets are frequently used. Most of these studies incorrectly choose to ignore the complex survey design features; partly because there is a lack of clear guidelines of how PSA should be implemented in a complex survey data analysis context. Only a few relatively recent studies have examined how to incorporate PSA in this context, and some of these recommendations are contradictory, inconclusive, or not generalizable to all types of PSA. This workshop will help recognize some of the challenges and open questions in the 'big data' analysis setting. The workshop is aimed at practitioners and is particularly focused on demonstrating the implementation of PSA in a complex survey data analysis context through an illustrative data analysis exercise.</p>
+<p>This webinar will focus on learning causal inference approaches in a healthcare data analysis context with a particular focus on explaining the application of propensity score analysis in a real-world data analysis context. The session will outline how these analyses are different than conventional regression methods and will address key assumptions/diagnostics of these models.</p>
+<h2 id="objectives">Objectives</h2>
+<ul>
+<li>Describe the basic concepts associated with causal inference and propensity score approaches</li>
+<li>Review guidelines for applying propensity score methods (e.g., matching and inverse probability weighting)</li>
+<li>Demonstrate a propensity score analysis using R software and a sample training dataset</li>
+<li>Explain assumptions and diagnostics of propensity score analyses</li>
+<li>Discuss the best practices associated with propensity score analyses</li>
+<li>Outline some extensions of this approach in solving complex real-world problems in the healthcare data analysis context (e.g., in longitudinal and big-data context).</li>
+<li>To learn more about the research case example and related training dataset that will be used for this webinar session, please see the following web links:</li>
+</ul>
 <h2 id="requirement">Requirement</h2>
-<p>Background in causal inference or survey data analysis is not required. Attendees should have prerequisite knowledge of multiple regression analysis and working knowledge in R (e.g., basic data manipulation and regression fitting). In the workshop, R will be the primary software package used to demonstrate the implementations. The provided software codes will be annotated and basic steps will be explained for those who prefer to use other software packages.</p>
-<h2 id="slides">Slides</h2>
-<ul>
-<li>Live links:
-<ul>
-<li><strong>Link for the slides will be live during the workshop event</strong>.</li>
-<li>Past workshop participants can contact me directly for any relevant questions (please use the email address via which you registered). The links provided during those workshops (for online viewing and download) are still live.</li>
-</ul>
-</li>
-</ul>
-<h2 id="pre-reading">Pre-reading</h2>
-<p>recommend taking a look at the following sections for some background knowledge:</p>
-<ul>
-<li>&quot;Methods&quot; section of <em>Austin, P. C.</em> (2011). A tutorial and case study in propensity score analysis: an application to estimating the effect of in-hospital smoking cessation counseling on mortality. Multivariate behavioral research, 46(1), 119-151. (
-<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3266945/" target="_blank" rel="noopener">link</a>)</li>
-<li>(optional) &quot;Section 4&quot; of <em>Zanutto EL.</em> (2006) A comparison of propensity score and linear regression analysis of complex survey data. Journal of Data Science; 4: 67-91. (
-<a href="http://www.jds-online.com/file_download/94/jds-233.pdf" target="_blank" rel="noopener">link</a>)</li>
-</ul>
-<h2 id="pre-workshop-quiz">Pre-workshop Quiz</h2>
-<ul>
-<li>Response link: 
-<a href="https://forms.gle/zeXZTCS3bYusPQTq9" target="_blank" rel="noopener">forms.gle/zeXZTCS3bYusPQTq9</a></li>
-</ul>
+<p>Background in causal inference is not required. Attendees should have prerequisite knowledge of multiple regression analysis and working knowledge in R (e.g., basic data manipulation and regression fitting). In the webinar, R will be the primary software package used to demonstrate the implementations.</p>
 <h2 id="sample-data-source">Sample Data Source</h2>
 <ul>
-<li>National Health and Nutrition Examination Survey (
-<a href="https://wwwn.cdc.gov/nchs/nhanes/" target="_blank" rel="noopener">NHANES</a>) cycle 2007-08</li>
-<li>Sample data in R format (
-<a href="https://drive.google.com/uc?id=1SrnmBN2GE6H3sRDsRTyEUtrIioAbVxZ1" target="_blank" rel="noopener">download</a>): <em>object  <strong>DT9a</strong>  contains our analytic data example</em>.</li>
-<li>How was the analytic data created? (<em>for those who are interested</em>)
-<ul>
 <li>
-<a href="https://www.kaggle.com/wildscop/accessing-nhanes-data-directly-from-cdc-website" target="_blank" rel="noopener">Kaggle notebook</a>, or</li>
+<a href="https://jamanetwork.com/journals/jama/articlepdf/407990/jama_276_11_030.pdf" target="_blank" rel="noopener">Research Article</a>: The effectiveness of Right Heart Catheterization in the initial care of critically ill patients.</li>
 <li>
-<a href="https://drive.google.com/file/d/1ls01M4R9uxMazVY-oDdwN-IL4zRHihIr/view?usp=sharing" target="_blank" rel="noopener">R logbook</a> (Rmarkdown output PDF file)</li>
-</ul>
-</li>
-<li>Estimates shown in the slide (see the 
-<a href="https://drive.google.com/file/d/1FueY3IS2q-3s7IxIEXsIqVx-ZAqa4-8F/view?usp=sharing" target="_blank" rel="noopener">Rmarkdown file</a> for the exact same dataset as shown in the slides) and the estimates in the markdown/Kaggle notebook files may vary. The analyses shown in the markdown/Kaggle notebook files are using a slightly more complex eligibility criteria. See the 'Sample Code Chunks' below.</li>
+<a href="http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/rhc.html" target="_blank" rel="noopener">Details</a> about the training dataset:</li>
+<li>Link to download the 
+<a href="http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/rhc.csv" target="_blank" rel="noopener">training dataset</a>.</li>
 </ul>
 <h2 id="software-requirements">Software Requirements</h2>
-<p>It is assumed that you have the following software packages installed. Workshop does not provide any installation support. Note that, bringing a laptop is not mandatory. But if the participant would like to browse through the workshop slides (as well as check out other materials) in their own laptop, they are welcome to bring a laptop that is adequately charged (enough outlet may not be available).</p>
+<p>It is assumed that you have the following software packages installed. Webinar does not provide any installation support. Note that, working on software during the webinar is not mandatory. But if the participant like, they are welcome to browse through the webinar slides (as well as check out other materials) in their own laptop.</p>
 <ul>
-<li>R from 
-<a href="https://cran.r-project.org/" target="_blank" rel="noopener">CRAN</a> or 
-<a href="https://mran.microsoft.com/open" target="_blank" rel="noopener">MRAN</a> (installing either one is fine)</li>
+<li>R from the following sources (installing either one is fine)
+<ul>
+<li>
+<a href="https://cran.r-project.org/" target="_blank" rel="noopener">CRAN</a> or</li>
+<li>
+<a href="https://mran.microsoft.com/open" target="_blank" rel="noopener">MRAN</a></li>
+</ul>
+</li>
+<li>IDE
+<ul>
 <li>
 <a href="https://www.rstudio.com/products/rstudio/download/" target="_blank" rel="noopener">RStudio desktop</a> (installation necessary)</li>
 <li>Online accounts (no installation necessary, a supported browser is fine)
@@ -715,66 +702,14 @@
 </ul>
 </li>
 </ul>
-<h2 id="sample-code-chunks">Sample Code Chunks:</h2>
-<p>Code of some of the analyses shown in the workshop. Feel free to take a look at them beforehand if you wish. Code for installing required packages are provided at the top of each code chink</p>
-<ul>
-<li>Codes/Markdowns
-<ul>
-<li>
-<a href="https://drive.google.com/uc?id=1W1Tu6IVOY5_eIUSX7757zRNQ_hsFwiBL" target="_blank" rel="noopener">chunk1</a> (<em>data download</em>),
-<ul>
-<li>Markdown logfile for the above code chunk: 
-<a href="https://drive.google.com/uc?id=1yB2Txg0JYEvoIkJH3ezeyCmzN9LWbQAP" target="_blank" rel="noopener">log1</a></li>
-</ul>
-</li>
-<li>
-<a href="https://drive.google.com/uc?id=13RoSjc9CR7qfj0YFmnbgehr7mgYfLRrg" target="_blank" rel="noopener">chunk2</a> (<em>table 1 &amp; logistic regression fit</em>),
-<ul>
-<li>Markdown logfile for the above code chunk: 
-<a href="https://drive.google.com/uc?id=1h9CHS5YkMWMYmf0bf4b721MUq8VX7Vbe" target="_blank" rel="noopener">log2</a></li>
-<li>
-<a href="https://www.kaggle.com/wildscop/nhanes-data-regression-summary" target="_blank" rel="noopener">Kaggle notebook</a> of the above code chunk</li>
-</ul>
-</li>
-<li>
-<a href="https://drive.google.com/uc?id=1ibFRKXucoPjUjyekbgsH4WSZQTDA0hqG" target="_blank" rel="noopener">chunk3</a> (<em>basic propensity score matching</em>),
-<ul>
-<li>Markdown logfile for the above code chunk: 
-<a href="https://drive.google.com/uc?id=1LaU3zcjtFSAPrFJM1VoiTW1oSiHkuZyN" target="_blank" rel="noopener">log3</a></li>
-<li>
-<a href="https://www.kaggle.com/wildscop/propensity-score-matching-on-nhanes" target="_blank" rel="noopener">Kaggle notebook</a> of the above code chunk</li>
-<li>Note: In matching, estimates may vary due to randomness. Set 
-<a href="https://www.rdocumentation.org/packages/simEd/versions/1.0.3/topics/set.seed" target="_blank" rel="noopener">seed</a>.</li>
-</ul>
-</li>
-<li>
-<a href="https://drive.google.com/uc?id=1T-y5jjdq7FOqPRusFN9RfMSOePKGG2Fp" target="_blank" rel="noopener">chunk4</a> (<em>basic survey data analysis</em>),
-<ul>
-<li>Markdown logfile for the above code chunk: 
-<a href="https://drive.google.com/uc?id=1TmlewoN_A8c18qyAvFmWb3Bk2oDpkK5U" target="_blank" rel="noopener">log4</a></li>
-<li>
-<a href="https://www.kaggle.com/wildscop/nhanes-complex-survey-data-analysis" target="_blank" rel="noopener">Kaggle notebook</a> of the above code chunk</li>
-</ul>
-</li>
-<li>
-<a href="https://drive.google.com/uc?id=1VpYhyUmBw6FzJ8qMs5IGdq3FL8k994Sj" target="_blank" rel="noopener">chunk5</a> (<em>basic propensity score weighting</em>)
-<ul>
-<li>Markdown logfile for the above code chunk: 
-<a href="https://drive.google.com/uc?id=1VRrQjZaTT8Wrpf5H-G6U8WFLHjyXCD0H" target="_blank" rel="noopener">log5</a></li>
-<li>
-<a href="https://www.kaggle.com/wildscop/propensity-score-weighting-on-nhanes" target="_blank" rel="noopener">Kaggle notebook</a> of the above code chunk</li>
-</ul>
 </li>
 </ul>
-</li>
-<li>Brainstorming exercise: (optional) After reviewing the above codes of propensity score analysis (chunk3) and survey data analysis (chunk4), can you think of ways to combine both analysis (i.e., applying propensity score analysis in the context of complex surveys, where you may want to incorporate survey features, such as, interview weights, strata and PSU in your propensity score analysis)? We will discuss in details about various options during the workshop.</li>
-</ul>
-<h2 id="in-workshop-quiz">In-workshop Quiz:</h2>
+<h1 id="references">References</h1>
 <ul>
-<li>Response link: 
-<a href="http://pollev.com/ehsank878" target="_blank" rel="noopener">pollEv.com/ehsank878</a> (will be activated during the workshop if internet available: eduroam network should be available for North American Universities).</li>
-<li>Get the 
-<a href="https://www.polleverywhere.com/mobile" target="_blank" rel="noopener">relevant app</a> if responding from your smartphone. Note that, downloading the app is not necessary; there is a text option available as well for North American cell phone carriers.</li>
+<li>Austin, P. C. (2011). A tutorial and case study in propensity score analysis: an application to estimating the effect of in-hospital smoking cessation counseling on mortality. Multivariate behavioral research, 46(1), 119-151. 
+<a href="https://www.tandfonline.com/doi/pdf/10.1080/00273171.2011.540480" target="_blank" rel="noopener">link</a></li>
+<li>Lee, J., &amp; Little, T. D. (2017). A practical guide to propensity score analysis for applied clinical research. Behaviour research and therapy, 98, 76-90. 
+<a href="https://www.sciencedirect.com/science/article/abs/pii/S0005796717300141" target="_blank" rel="noopener">link</a></li>
 </ul>
 </div>
   

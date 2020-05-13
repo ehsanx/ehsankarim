@@ -962,10 +962,6 @@
   </url>
   
   <url>
-    <loc>/talks/</loc>
-  </url>
-  
-  <url>
     <loc>/categories/</loc>
   </url>
   
@@ -990,7 +986,11 @@
   </url>
   
   <url>
-    <loc>/workshops/materials/</loc>
+    <loc>/workshops/wbmaterials/</loc>
+  </url>
+  
+  <url>
+    <loc>/workshops/wsmaterials/</loc>
   </url>
   
   <url>
