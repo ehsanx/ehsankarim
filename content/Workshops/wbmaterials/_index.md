@@ -32,6 +32,11 @@ Background in causal inference is not required. Attendees should have prerequisi
 - [Details](http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/rhc.html) about the training dataset:
 - Link to download the [training dataset](http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/rhc.csv).
 
+## Webinar files
+
+- [GitHub page](https://ehsanx.github.io/popdataBCwebinar/)
+- [GitHub files](https://github.com/ehsanx/popdataBCwebinar)
+
 ## Software Requirements
 
 It is assumed that you have the following software packages installed. Webinar does not provide any installation support. Note that, working on software during the webinar is not mandatory. But if the participant like, they are welcome to browse through the webinar slides (as well as check out other materials) in their own laptop.
