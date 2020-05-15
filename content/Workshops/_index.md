@@ -32,14 +32,21 @@ layout: docs
 
 - [x] Workshop pre-reading materials can be **downloaded** from [here](/Workshops/wbmaterials/).
 
-## Methods Webinars
+## Future Methods Webinars
 
-  1. [Introduction to Causal Inference: Propensity Score Analysis in Healthcare Data](https://www.popdata.bc.ca/events/etu/Advanced_Methods_Causal_Inf_May14_2020), Webinar for Population Data BC (in partnership with [IC/ES](https://www.ices.on.ca/)), May 14th, 2020 (Invited Webinar) 
+  1.	Introduction to Propensity Score Methods, Webinar for the Canadian Statistics Student Society, Sept 30, 2020 (Invited Webinar, scheduled in the [Methods Speaker Series](https://www.ti.ubc.ca/2019/12/20/methods-speaker-series-2020/) at the Therapeutics Initiative, UBC).
+
+## Past Methods Webinars
+
+  2. [Introduction to Causal Inference: Propensity Score Analysis in Healthcare Data](https://www.popdata.bc.ca/events/etu/Advanced_Methods_Causal_Inf_May14_2020), Webinar for Population Data BC (in partnership with [IC/ES](https://www.ices.on.ca/)), May 14th, 2020 (Invited Webinar) 
+  
+  - 106 registered worldwide.
 
 {{< tweet 1245771872123396102 >}}
 
-  2.	Introduction to Propensity Score Methods, Webinar for the Canadian Statistics Student Society, Sept 30, 2020 (Invited Webinar, scheduled in the Methods Speaker Series at the Therapeutics Initiative, UBC).
-  3. [Comparing approaches for Confounding Adjustment in Secondary Database Analyses: High-Dimensional Propensity Score versus two machine learning algorithms](http://www.safeandeffectiverx.com/events/view/52), Drug Safety and Effectiveness Cross-Disciplinary Training  / Drug Safety and Effectiveness Network (DSECT/DSEN) Monthly Seminar Series, Online Seminar, Mar 23, 2017 (100 registered nationwide, which is the maximum limit accommodated by the seminar organizers.)
+  3. [Comparing approaches for Confounding Adjustment in Secondary Database Analyses: High-Dimensional Propensity Score versus two machine learning algorithms](http://www.safeandeffectiverx.com/events/view/52), Drug Safety and Effectiveness Cross-Disciplinary Training  / Drug Safety and Effectiveness Network (DSECT/DSEN) Monthly Seminar Series, Online Seminar, Mar 23, 2017 
+  
+  - 100 registered nationwide, which is the maximum limit accommodated by the seminar organizers.
 
 # Software Training Events
 

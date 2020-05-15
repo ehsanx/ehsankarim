@@ -42,6 +42,9 @@ social:
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.ca/citations?user=fStySaMAAAAJ&hl=en
+- icon: publons
+  icon_pack: ai
+  link: https://publons.com/researcher/3615680/ehsan-karim
 - icon: pubmed
   icon_pack: ai
   link: https://www.ncbi.nlm.nih.gov/myncbi/1PCD5j7s5g8Qe/bibliography/public/
