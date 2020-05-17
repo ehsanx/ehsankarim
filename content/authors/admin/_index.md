@@ -44,7 +44,7 @@ social:
   link: https://scholar.google.ca/citations?user=fStySaMAAAAJ&hl=en
 - icon: publons
   icon_pack: ai
-  link: https://publons.com/researcher/3615680/ehsan-karim
+  link: https://publons.com/researcher/1172512/ehsan-karim/
 - icon: pubmed
   icon_pack: ai
   link: https://www.ncbi.nlm.nih.gov/myncbi/1PCD5j7s5g8Qe/bibliography/public/
@@ -57,6 +57,9 @@ social:
 - icon: mendeley
   icon_pack: ai
   link: https://www.mendeley.com/profiles/mohammad-ehsanul-karim/ 
+- icon: zotero
+  icon_pack: ai
+  link: https://www.zotero.org/ehsanx
 - icon: researchgate
   icon_pack: ai
   link: https://www.researchgate.net/profile/Mohammad_Karim2
