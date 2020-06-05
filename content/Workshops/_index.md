@@ -16,7 +16,7 @@ layout: docs
 ## Future Methods Workshops
 
   1. [Applying Propensity Score Methods in a Large Healthcare Data Analysis Context](https://cumming.ucalgary.ca/centres/centre-health-informatics/education/conferences/western-canadian-universities-big-data-health-conference-2020), Western Canadian Universities Big Data Health Conference, March 26-27, 2020 (proposal accepted, conference postponed due to COVID-19, new date to be updated).
-  2. Propensity Score Analysis in the Context of Complex Survey Data, Society for Epidemiologic Research, 53rd Annual Meeting, 2020, Boston (Proposal accepted).
+  2. Propensity Score Analysis in the Context of Complex Survey Data, Society for Epidemiologic Research, 53rd Annual Meeting, 2020, Boston (now withdrawn due to covid19).
 
 ## Past Methods Workshops
 
@@ -30,7 +30,7 @@ layout: docs
 
 ## Methods Webinar Pre-reading Materials
 
-- [x] Workshop pre-reading materials can be **downloaded** from [here](/Workshops/wbmaterials/).
+- [x] Workshop pre-reading materials can be **downloaded** from [here](/Workshops/wbmaterials/), and the **video** link is also embeded.
 
 ## Future Methods Webinars
 
@@ -42,7 +42,7 @@ layout: docs
   
   - 106 registered worldwide.
 
-{{< tweet 1245771872123396102 >}}
+{{< tweet 1268252863895126016 >}}
 
   3. [Comparing approaches for Confounding Adjustment in Secondary Database Analyses: High-Dimensional Propensity Score versus two machine learning algorithms](http://www.safeandeffectiverx.com/events/view/52), Drug Safety and Effectiveness Cross-Disciplinary Training  / Drug Safety and Effectiveness Network (DSECT/DSEN) Monthly Seminar Series, Online Seminar, Mar 23, 2017 
   

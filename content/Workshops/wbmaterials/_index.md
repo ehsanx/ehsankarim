@@ -39,6 +39,9 @@ To learn more about the research case example and related training dataset that 
 - [Slides](https://tinyurl.com/ps20slides) are viewable online
 - [GitHub page](https://ehsanx.github.io/popdataBCwebinar/)
 - [GitHub files](https://github.com/ehsanx/popdataBCwebinar)
+- [PopData BC link](https://www.popdata.bc.ca/events/etu/Advanced_Methods_Causal_Inf_May14_2020) for the general description of the webinar. The video is hosted on the [PopData BC youtube channel](https://www.youtube.com/channel/UCavuC5RfLRUv_8XZxYDR0FA).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nPnaZV1Lr2s" frameborder="0" allowfullscreen></iframe>
 
 ## Software Requirements
 

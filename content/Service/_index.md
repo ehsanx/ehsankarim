@@ -18,7 +18,7 @@ layout: docs
 
 # Services to UBC
 -	Committee Member, PhD Comprehensive Examination Committee, School of Population and Public Health, University of British Columbia.
-    1.	2019-2020
+    1.	2019-2020 (Co-Chair)
     2.	2018-2019
     3.	2017-2018
 -	Committee Member, SPPH Thesis Screening Panel (TSP) Committee, School of Population and Public Health, University of British Columbia, 2020.
@@ -32,27 +32,7 @@ layout: docs
 
 # Reviewer for Journal Articles
 
-- Acted as reviewer for the following journals
-  - Biometrics
-  - BMJ 
-  - International Journal of Epidemiology
-  - Epidemiology
-  - American Journal of Epidemiology 
-  - Statistics in Medicine 
-  - BMC Medical Research Methodology 
-  - Biometrical Journal
-  - Pharmacoepidemiology and Drug Safety 
-  - Journal of Statistical Research 
-  - R Journal 
-  - Journal of Data Science 
-  - Annals of Epidemiology 
-  - Global Epidemiology 
-  - Annals of Neurology 
-  - Journal of Neurology and Neuromedicine 
-  -	Current Developments in Nutrition 
-  - PharmacoEconomics
-  - Journal of Biomedical Analytics 
-  - International Journal of Statistics and Probability 
+- Acted as reviewer for peer-reviewed journals from different disciplines. See the [publons peer-review](https://publons.com/researcher/1172512/ehsan-karim/peer-review/) profile for details.
 - Received 'Best reviewer for the year' for 2017 from Pharmacoepidemiology and Drug Safety. Also was recognized in 2015.
 
 {{< tweet 1032706096878649344 >}}
