@@ -56,7 +56,7 @@ social:
   link: https://orcid.org/0000-0002-0346-2871
 - icon: mendeley
   icon_pack: ai
-  link: https://www.mendeley.com/profiles/mohammad-ehsanul-karim/ 
+  link: https://www.mendeley.com/profiles/ehsan-karim/ 
 - icon: zotero
   icon_pack: ai
   link: https://www.zotero.org/ehsanx
