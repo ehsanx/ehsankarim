@@ -61,7 +61,7 @@ Interested candidates should email me (at my UBC email address) the following:
 
 Please check out my [G+PS profile](https://www.grad.ubc.ca/researcher/16712-karim) for my research interests, as well as my previous publications. 
 
-<span style="color:blue">Applications without the above components will not be considered.</span>
+<span style="color:green">Applications without the above components will not be considered.</span>
 <span style="color:red">Only shortlisted candidates will be contacted.</span>
 
 # Grant support
