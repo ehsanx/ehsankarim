@@ -2,15 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>F Zhu | Ehsan&#39;s Page</title>
-    <link>/authors/f-zhu/</link>
-      <atom:link href="/authors/f-zhu/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/F-Zhu/</link>
+      <atom:link href="/authors/F-Zhu/index.xml" rel="self" type="application/rss+xml" />
     <description>F Zhu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>F Zhu</title>
-      <link>/authors/f-zhu/</link>
+      <link>/authors/F-Zhu/</link>
     </image>
+    
+    <item>
+      <title>Dealing with Treatment-confounder Feedback and Sparse Follow-up in Longitudinal studies-Application of a Marginal Structural Model in a Multiple Sclerosis Cohort</title>
+      <link>/publication/journal-article/2020-01-01_karim2020dealing/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2020-01-01_karim2020dealing/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Beta-interferon exposure and onset of secondary progressive multiple sclerosis</title>

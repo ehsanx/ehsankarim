@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>I Kockum | Ehsan&#39;s Page</title>
-    <link>/authors/i-kockum/</link>
-      <atom:link href="/authors/i-kockum/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/I-Kockum/</link>
+      <atom:link href="/authors/I-Kockum/index.xml" rel="self" type="application/rss+xml" />
     <description>I Kockum</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>I Kockum</title>
-      <link>/authors/i-kockum/</link>
+      <link>/authors/I-Kockum/</link>
     </image>
     
     <item>

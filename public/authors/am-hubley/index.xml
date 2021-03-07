@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AM Hubley | Ehsan&#39;s Page</title>
-    <link>/authors/am-hubley/</link>
-      <atom:link href="/authors/am-hubley/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/AM-Hubley/</link>
+      <atom:link href="/authors/AM-Hubley/index.xml" rel="self" type="application/rss+xml" />
     <description>AM Hubley</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>AM Hubley</title>
-      <link>/authors/am-hubley/</link>
+      <link>/authors/AM-Hubley/</link>
     </image>
     
     <item>

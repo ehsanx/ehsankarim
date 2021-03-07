@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>M Zoratti | Ehsan&#39;s Page</title>
+    <link>/authors/M-Zoratti/</link>
+      <atom:link href="/authors/M-Zoratti/index.xml" rel="self" type="application/rss+xml" />
+    <description>M Zoratti</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>M Zoratti</title>
+      <link>/authors/M-Zoratti/</link>
+    </image>
+    
+    <item>
+      <title>Comparative efficacy, tolerability and safety of dolutegravir and efavirenz 400mg among antiretroviral therapies for first-line HIV treatment: A systematic literature review and network meta-analysis</title>
+      <link>/publication/journal-article/2020-01-01_kanters2020comparative/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2020-01-01_kanters2020comparative/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

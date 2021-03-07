@@ -1,4 +1,5 @@
-bibfolder <- "C:/Users/wildscop/Documents/GitHub/ehsankarim/content/publication/journal-article"
+# bibfolder <- "C:/Users/wildscop/Documents/GitHub/ehsankarim/content/publication/journal-article"
+bibfolder <- "C:/Users/ehsan/Documents/GitHub/ehsankarim/content/publication/journal-article"
 setwd(bibfolder)
 if (!require("bib2academic")) devtools::install_github("petzi53/bib2academic")
 #Load package
@@ -22,3 +23,4 @@ unlink(paste0(getwd(),"/my-md-folder"), recursive = TRUE, force = TRUE)
 #blogdown::build_site()
 #If you wish to build and preview the site
 #blogdown::serve_site()
+

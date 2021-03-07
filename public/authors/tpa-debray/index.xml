@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>TPA Debray | Ehsan&#39;s Page</title>
-    <link>/authors/tpa-debray/</link>
-      <atom:link href="/authors/tpa-debray/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/TPA-Debray/</link>
+      <atom:link href="/authors/TPA-Debray/index.xml" rel="self" type="application/rss+xml" />
     <description>TPA Debray</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>TPA Debray</title>
-      <link>/authors/tpa-debray/</link>
+      <link>/authors/TPA-Debray/</link>
     </image>
     
     <item>

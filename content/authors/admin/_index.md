@@ -22,11 +22,13 @@ education:
 email: "ehsan.karim@ubc.ca"
 interests:
 - Causal inference
-- Biostatistics / Epidemiology
-- Machine Learning
-- Observational data analysis 
+- Machine Learning and AI
+- Biostatistics & Epidemiology
+- Observational data analysis
 - Time-dependent confounding 
+- Pragmatic Trials
 - Mediation analysis 
+- Longitudinal analysis
 - Survival analysis 
 - Survey data analysis
 
@@ -34,7 +36,7 @@ name: M. Ehsan Karim
 organizations:
 - name: University of British Columbia (UBC)
   url: ""
-role: Assistant Professor; Scientist and Biostatistician
+role: Assistant Professor in Health Data Science; MSFHR Scholar; CHEOS Scientist
 social:
 - icon: envelope
   icon_pack: fas
@@ -76,9 +78,16 @@ user_groups:
 - Visitors
 ---
 
-Dr. M. Ehsan Karim is an Assistant Professor in the UBC School of Population and Public Health /[SPPH](http://www.spph.ubc.ca/person/ehsan-karim/), a Michael Smith Foundation for Health Research /[MSFHR](https://www.msfhr.org/causal-inference-framework-analyzing-large-administrative-healthcare-databases-focus-multiple) Scholar, a Scientist and Biostatistician at the Centre for Health Evaluation and Outcome Sciences /[CHEOS](http://www.cheos.ubc.ca/people/mohammad-ehsanul-ehsan-karim/), St. Paul's Hospital, and an Associate Member, [UBC Statistics](https://www.stat.ubc.ca/people). He obtained his Ph.D. in Statistics from [UBC](http://hdl.handle.net/2429/51933), supported by a studentship from the Multiple Sclerosis Society of Canada /[MSSOC](https://mssociety.ca/). He completed his postgraduate training in the Department of Epidemiology, Biostatistics and Occupational Health at [McGill](https://www.mcgill.ca/epi-biostat-occh/), supported by a fellowship from the Canadian Network for Observational Drug Effect Studies /[CNODES](https://www.cnodes.ca/methods/methods-members/). 
+Dr. M. Ehsan Karim is 
 
-His current *program of research* focuses on developing causal inference and pharmacoepidemiological methodologies, and applications of data science approaches in the large healthcare data analysis context to answer real-world comparative effectiveness research questions. His program of research is supported by grants from the Natural Sciences and Engineering Research Council of Canada /[NSERC](https://www.nserc-crsng.gc.ca/ase-oro/Details-Detailles_eng.asp?id=655112) and the [BC SUPPORT Unit](https://bcsupportunit.ca/real-world-clinical-trials-project-themes). He [supervises](/supervision/) graduate students from both SPPH and Statistics Department. 
+- an Assistant Professor in Health Data Science in the UBC School of Population and Public Health /[SPPH](http://www.spph.ubc.ca/person/ehsan-karim/), 
+- a Michael Smith Foundation for Health Research /[MSFHR](https://www.msfhr.org/causal-inference-framework-analyzing-large-administrative-healthcare-databases-focus-multiple) Scholar, 
+- a Scientist and Biostatistician at the Centre for Health Evaluation and Outcome Sciences /[CHEOS](http://www.cheos.ubc.ca/people/mohammad-ehsanul-ehsan-karim/), St. Paul's Hospital, and 
+- an Associate Member, [UBC Statistics](https://www.stat.ubc.ca/people). 
 
-He also conducts, supports, collaborates and implements patient-oriented research as well as pragmatic / clinical trial design and analysis. The American Journal of Epidemiology has selected one of his first-authored [publications](/publication/) as 'Top 10 Articles of the Year', and Pharmacoepidemiology and Drug Safety has twice recognized him as the 'best reviewer for the year' for his [services](/Service/). Within SPPH, he developed and [teaches](/Teaching/) a core PhD capstone course that integrates state-of-the-art epidemiological, data science, and data analytic methods. He regularly offers [workshops and webinars](/workshops/) about emerging methods nationally and internationally.
+He obtained his Ph.D. in Statistics from [UBC](http://hdl.handle.net/2429/51933), supported by a studentship from the Multiple Sclerosis Society of Canada /[MSSOC](https://mssociety.ca/). He completed his postgraduate training in the Department of Epidemiology, Biostatistics and Occupational Health at [McGill](https://www.mcgill.ca/epi-biostat-occh/), supported by a fellowship from the Canadian Network for Observational Drug Effect Studies /[CNODES](https://www.cnodes.ca/methods/methods-members/). 
+
+His current *program of research* focuses on developing causal inference and pharmacoepidemiological methodologies, and applications of data science approaches in the large healthcare data analysis context to answer real-world comparative effectiveness research questions. His program of research is supported by grants from the Natural Sciences and Engineering Research Council of Canada /[NSERC](https://www.nserc-crsng.gc.ca/ase-oro/Details-Detailles_eng.asp?id=655112) and the [BC SUPPORT Unit](https://bcsupportunit.ca/real-world-clinical-trials-project-themes). He [supervises](/supervision/) graduate students from both [SPPH](http://www.spph.ubc.ca/) and [Statistics](https://www.stat.ubc.ca/people) Department. 
+
+He also conducts, supports, collaborates and implements patient-oriented research as well as pragmatic / clinical trial design and analysis. Within SPPH, he developed and [teaches](/Teaching/) a core PhD capstone course that integrates state-of-the-art epidemiological, data science, and data analytic methods. He regularly offers [workshops and webinars](/workshops/) about emerging methods nationally and internationally. [Publication](/publication/) list and selected [services](/Service/) can be accessed from the [current website](https://ehsank.com/). 
 

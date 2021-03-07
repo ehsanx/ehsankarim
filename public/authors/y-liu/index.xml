@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Y Liu | Ehsan&#39;s Page</title>
-    <link>/authors/y-liu/</link>
-      <atom:link href="/authors/y-liu/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/Y-Liu/</link>
+      <atom:link href="/authors/Y-Liu/index.xml" rel="self" type="application/rss+xml" />
     <description>Y Liu</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Y Liu</title>
-      <link>/authors/y-liu/</link>
+      <link>/authors/Y-Liu/</link>
     </image>
     
     <item>

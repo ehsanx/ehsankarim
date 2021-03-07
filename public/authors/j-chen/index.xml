@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>J Chen | Ehsan&#39;s Page</title>
-    <link>/authors/j-chen/</link>
-      <atom:link href="/authors/j-chen/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/J-Chen/</link>
+      <atom:link href="/authors/J-Chen/index.xml" rel="self" type="application/rss+xml" />
     <description>J Chen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>J Chen</title>
-      <link>/authors/j-chen/</link>
+      <link>/authors/J-Chen/</link>
     </image>
     
     <item>

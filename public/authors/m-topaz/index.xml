@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>M Topaz | Ehsan&#39;s Page</title>
-    <link>/authors/m-topaz/</link>
-      <atom:link href="/authors/m-topaz/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/M-Topaz/</link>
+      <atom:link href="/authors/M-Topaz/index.xml" rel="self" type="application/rss+xml" />
     <description>M Topaz</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>M Topaz</title>
-      <link>/authors/m-topaz/</link>
+      <link>/authors/M-Topaz/</link>
     </image>
     
     <item>

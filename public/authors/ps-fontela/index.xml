@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PS Fontela | Ehsan&#39;s Page</title>
-    <link>/authors/ps-fontela/</link>
-      <atom:link href="/authors/ps-fontela/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/PS-Fontela/</link>
+      <atom:link href="/authors/PS-Fontela/index.xml" rel="self" type="application/rss+xml" />
     <description>PS Fontela</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>PS Fontela</title>
-      <link>/authors/ps-fontela/</link>
+      <link>/authors/PS-Fontela/</link>
     </image>
     
     <item>

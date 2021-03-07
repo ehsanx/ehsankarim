@@ -2,15 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>E Wood | Ehsan&#39;s Page</title>
-    <link>/authors/e-wood/</link>
-      <atom:link href="/authors/e-wood/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/E-Wood/</link>
+      <atom:link href="/authors/E-Wood/index.xml" rel="self" type="application/rss+xml" />
     <description>E Wood</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>E Wood</title>
-      <link>/authors/e-wood/</link>
+      <link>/authors/E-Wood/</link>
     </image>
+    
+    <item>
+      <title>Comparative effectiveness of buprenorphine-naloxone versus methadone for treatment of opioid use disorder: a population-based observational study protocol in British Columbia, Canada</title>
+      <link>/publication/journal-article/2020-01-01_piske2020comparative/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2020-01-01_piske2020comparative/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Directed Acyclic Graphs to Identify Confounders: A Case Study Exploring the Impact of Hunger on Virologic Suppression Among HIV-Positive Illicit Drug Users Receiving HIV Treatment</title>

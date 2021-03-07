@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LM Currie | Ehsan&#39;s Page</title>
-    <link>/authors/lm-currie/</link>
-      <atom:link href="/authors/lm-currie/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/LM-Currie/</link>
+      <atom:link href="/authors/LM-Currie/index.xml" rel="self" type="application/rss+xml" />
     <description>LM Currie</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>LM Currie</title>
-      <link>/authors/lm-currie/</link>
+      <link>/authors/LM-Currie/</link>
     </image>
     
     <item>

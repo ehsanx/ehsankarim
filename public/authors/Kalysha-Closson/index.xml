@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kalysha Closson | Ehsan&#39;s Page</title>
+    <link>/authors/Kalysha-Closson/</link>
+      <atom:link href="/authors/Kalysha-Closson/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kalysha Closson</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Kalysha Closson</title>
+      <link>/authors/Kalysha-Closson/</link>
+    </image>
+    
+    <item>
+      <title>Association between human papillomavirus vaccine status and sexually transmitted infection outcomes among females aged 18-35 with a history of sexual activity in the United States: A population survey-based cross-sectional analysis</title>
+      <link>/publication/journal-article/2020-01-01_closson2020association/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2020-01-01_closson2020association/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

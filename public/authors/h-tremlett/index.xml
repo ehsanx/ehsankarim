@@ -2,15 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>H Tremlett | Ehsan&#39;s Page</title>
-    <link>/authors/h-tremlett/</link>
-      <atom:link href="/authors/h-tremlett/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/H-Tremlett/</link>
+      <atom:link href="/authors/H-Tremlett/index.xml" rel="self" type="application/rss+xml" />
     <description>H Tremlett</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>H Tremlett</title>
-      <link>/authors/h-tremlett/</link>
+      <link>/authors/H-Tremlett/</link>
     </image>
+    
+    <item>
+      <title>Dealing with Treatment-confounder Feedback and Sparse Follow-up in Longitudinal studies-Application of a Marginal Structural Model in a Multiple Sclerosis Cohort</title>
+      <link>/publication/journal-article/2020-01-01_karim2020dealing/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2020-01-01_karim2020dealing/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Comparison of statistical approaches dealing with time-dependent confounding in drug effectiveness studies</title>

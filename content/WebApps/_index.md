@@ -2,7 +2,7 @@
 header:
   caption: ""
   image: ""
-title: Ehsan's Software and WebApps
+title: Software and WebApps
 layout: docs
 ---
 

@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RW Platt | Ehsan&#39;s Page</title>
-    <link>/authors/rw-platt/</link>
-      <atom:link href="/authors/rw-platt/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/RW-Platt/</link>
+      <atom:link href="/authors/RW-Platt/index.xml" rel="self" type="application/rss+xml" />
     <description>RW Platt</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>RW Platt</title>
-      <link>/authors/rw-platt/</link>
+      <link>/authors/RW-Platt/</link>
     </image>
     
     <item>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mohammad Ehsanul Karim | Ehsan&#39;s Page</title>
+    <link>/authors/Mohammad-Ehsanul-Karim/</link>
+      <atom:link href="/authors/Mohammad-Ehsanul-Karim/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mohammad Ehsanul Karim</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Mohammad Ehsanul Karim</title>
+      <link>/authors/Mohammad-Ehsanul-Karim/</link>
+    </image>
+    
+    <item>
+      <title>When does the use of individual patient data in network meta-analysis make a difference? A simulation study</title>
+      <link>/publication/journal-article/2021-01-01_kanters2021does/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2021-01-01_kanters2021does/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Propensity Score Analysis of the Effect of a Single Dose Vitamin A Supplementation on Child Hemoglobin Status in Bangladesh</title>
+      <link>/publication/journal-article/2020-01-01_khan2020propensity/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2020-01-01_khan2020propensity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Explaining the variation in the attained power of a stepped-wedge trial with unequal cluster sizes</title>
+      <link>/publication/journal-article/2020-01-01_ouyang2020explaining/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2020-01-01_ouyang2020explaining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The use and quality of reporting of propensity score methods in multiple sclerosis literature: A review</title>
+      <link>/publication/journal-article/2020-01-01_karim2020use/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2020-01-01_karim2020use/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,7 +2,7 @@
 header:
   caption: ""
   image: ""
-title: Workshops
+title: Workshops (Research or Educational)
 layout: docs
 ---
 
@@ -12,11 +12,6 @@ layout: docs
 ## Methods Workshop Pre-reading Materials
 
 - [x] Workshop pre-reading materials can be **downloaded** from [here](/Workshops/wsmaterials/).
-
-## Future Methods Workshops
-
-  1. [Applying Propensity Score Methods in a Large Healthcare Data Analysis Context](https://cumming.ucalgary.ca/centres/centre-health-informatics/education/conferences/western-canadian-universities-big-data-health-conference-2020), Western Canadian Universities Big Data Health Conference, March 26-27, 2020 (proposal accepted, conference postponed due to COVID-19, new date to be updated).
-  2. Propensity Score Analysis in the Context of Complex Survey Data, Society for Epidemiologic Research, 53rd Annual Meeting, 2020, Boston (now withdrawn due to covid19).
 
 ## Past Methods Workshops
 
@@ -30,16 +25,19 @@ layout: docs
 
 ## Methods Webinar Pre-reading Materials
 
-- [x] Workshop pre-reading materials can be **downloaded** from [here](/Workshops/wbmaterials/), and the **video** link is also embeded.
-
-## Future Methods Webinars
-
-  1.	Introduction to Propensity Score Methods, Webinar for the Canadian Statistics Student Society, Sept 30, 2020 (Invited Webinar, scheduled in the [Methods Speaker Series](https://www.ti.ubc.ca/2019/12/20/methods-speaker-series-2020/) at the Therapeutics Initiative, UBC).
-
 ## Past Methods Webinars
 
+  1.	A Practical Introduction to Propensity Score Analysis using R, Webinar for the Canadian Statistics Student Society, Sept 30, 2020 (Invited Webinar, [Methods Speaker Series](https://www.ti.ubc.ca/2019/12/20/methods-speaker-series-2020/) at the Therapeutics Initiative, UBC).
+  
+  - 328 registrants nationwide
+  - [x] [Materials](https://ehsanx.github.io/SARGC-TIMethods/) can be downloaded (the slides, software requirements, link to the github page) from here.
+  - [Video recording posted online](https://t.co/S8cwiHajvE?amp=1) 
+  
+{{< tweet 1312181045815463936 >}}  
+  
   2. [Introduction to Causal Inference: Propensity Score Analysis in Healthcare Data](https://www.popdata.bc.ca/events/etu/Advanced_Methods_Causal_Inf_May14_2020), Webinar for Population Data BC (in partnership with [IC/ES](https://www.ices.on.ca/)), May 14th, 2020 (Invited Webinar) 
   
+  - [x] Workshop pre-reading materials can be **downloaded** from [here](/Workshops/wbmaterials/), and the **video** link is also embeded.
   - 106 registered worldwide.
 
 {{< tweet 1268252863895126016 >}}

@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Canada | Ehsan&#39;s Page</title>
-    <link>/tags/canada/</link>
-      <atom:link href="/tags/canada/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/Canada/</link>
+      <atom:link href="/tags/Canada/index.xml" rel="self" type="application/rss+xml" />
     <description>Canada</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Canada</title>
-      <link>/tags/canada/</link>
+      <link>/tags/Canada/</link>
     </image>
     
     <item>

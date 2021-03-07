@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A Bello | Ehsan&#39;s Page</title>
-    <link>/authors/a-bello/</link>
-      <atom:link href="/authors/a-bello/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/A-Bello/</link>
+      <atom:link href="/authors/A-Bello/index.xml" rel="self" type="application/rss+xml" />
     <description>A Bello</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>A Bello</title>
-      <link>/authors/a-bello/</link>
+      <link>/authors/A-Bello/</link>
     </image>
     
     <item>

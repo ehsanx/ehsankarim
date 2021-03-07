@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MJ Milloy | Ehsan&#39;s Page</title>
-    <link>/authors/mj-milloy/</link>
-      <atom:link href="/authors/mj-milloy/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/MJ-Milloy/</link>
+      <atom:link href="/authors/MJ-Milloy/index.xml" rel="self" type="application/rss+xml" />
     <description>MJ Milloy</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>MJ Milloy</title>
-      <link>/authors/mj-milloy/</link>
+      <link>/authors/MJ-Milloy/</link>
     </image>
     
     <item>

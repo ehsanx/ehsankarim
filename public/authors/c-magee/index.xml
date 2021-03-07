@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>C Magee | Ehsan&#39;s Page</title>
-    <link>/authors/c-magee/</link>
-      <atom:link href="/authors/c-magee/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/C-Magee/</link>
+      <atom:link href="/authors/C-Magee/index.xml" rel="self" type="application/rss+xml" />
     <description>C Magee</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>C Magee</title>
-      <link>/authors/c-magee/</link>
+      <link>/authors/C-Magee/</link>
     </image>
     
     <item>

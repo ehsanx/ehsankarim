@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>T Zhang | Ehsan&#39;s Page</title>
-    <link>/authors/t-zhang/</link>
-      <atom:link href="/authors/t-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/T-Zhang/</link>
+      <atom:link href="/authors/T-Zhang/index.xml" rel="self" type="application/rss+xml" />
     <description>T Zhang</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>T Zhang</title>
-      <link>/authors/t-zhang/</link>
+      <link>/authors/T-Zhang/</link>
     </image>
     
     <item>
