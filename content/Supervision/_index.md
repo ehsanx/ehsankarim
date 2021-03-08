@@ -51,18 +51,37 @@ Graduate students in statistics, biostatistics, epidemiology, economics or compu
 
 Interested candidates should email me (at my UBC email address) the following: 
 
-- a cover letter, mentioning whether you are interested in an MSc or a PhD program, why you want to work with me,
-- a complete CV (including award list, if any), 
-- full publication record (peer-reviewed articles with full co-authors listed),
-- copy of the unofficial transcripts (post-secondary), and 
-- list of research / work experiences in healthcare related settings (if any)
-- Names of 2 referees (with official email addresses).
-- If you are coming from an institution where English is not used as the first language, please also include your TOEFL (iBT), IELTS or equivalent scores in your CV. Please check out these websites for [MSc](https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-population-public-health) and [PhD](https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-population-public-health) requirements for SPPH, UBC (see under 'Requirements' section). Note that the requirements vary by department (e.g., check for [Statistics](https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-statistics)).
+1. [x] a cover letter (2 page max), mentioning 
+  - whether you are interested in an MSc or a PhD program, 
+  - why you want to work with me,
+  - a short overview of your research background,
+  - what makes you an outstanding candidate?
+2. [x] a complete CV, including 
+  - research interests
+  - degrees obtained
+  - award list, if any, 
+  - list presentation (seminar, conference, workshop) activities (*if any*)
+  - list of research / work experiences / volunteering activities (*if any*)
+    - in healthcare related settings 
+    - in methodological research
+    - in teaching 
+    - in software publishing 
+    - in leadership activities 
+  - Names of 2 referees
+    - with official email addresses.
+3. [x] full publication record 
+  - peer-reviewed published / accepted articles with full co-authors listed,
+  - do not include in-progress or unsubmitted works
+  - Send at most 2 samples (*if any*)
+4. [x] copy of the unofficial transcripts (post-secondary), and 
+5. [x] If you are coming from an institution where English is not used as the first language, also include your TOEFL (iBT), IELTS or equivalent scores in your CV. 
+  - Please check out these websites for [MSc](https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-population-public-health) and [PhD](https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-population-public-health) requirements for SPPH, UBC (see under 'Requirements' section). 
+  - Note that the requirements vary by department (e.g., check for [Statistics](https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-statistics)).
 
 Please check out my [G+PS profile](https://www.grad.ubc.ca/researcher/16712-karim) for my research interests, as well as my previous publications. 
 
 <span style="color:green">Applications without the above components will not be considered.</span>
-<span style="color:red">Only shortlisted candidates will be contacted.</span>
+<span style="color:red">Only shortlisted candidates will be contacted. Please do not email multiple times.</span>
 
 # Grant support
 
