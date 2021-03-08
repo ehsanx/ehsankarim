@@ -51,7 +51,7 @@ Graduate students in statistics, biostatistics, epidemiology, economics or compu
 
 Interested candidates should email me (at my UBC email address) the following: 
 
-1. [x] a cover letter (2 page max), mentioning 
+1. [x] a cover letter (2 pages max), mentioning 
   - whether you are interested in an MSc or a PhD program, 
   - why you want to work with me,
   - a short overview of your research background,
@@ -72,7 +72,7 @@ Interested candidates should email me (at my UBC email address) the following:
 3. [x] full publication record 
   - peer-reviewed published / accepted articles with full co-authors listed,
   - do not include in-progress or unsubmitted works
-  - Send at most 2 samples (*if any*)
+  - Send at most 2 sample articles of your choice where you are an author, and mention your contributions in each (*if any*)
 4. [x] copy of the unofficial transcripts (post-secondary), and 
 5. [x] If you are coming from an institution where English is not used as the first language, also include your TOEFL (iBT), IELTS or equivalent scores in your CV. 
   - Please check out these websites for [MSc](https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-population-public-health) and [PhD](https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-population-public-health) requirements for SPPH, UBC (see under 'Requirements' section). 
