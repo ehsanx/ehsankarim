@@ -10,20 +10,20 @@ layout: docs
 
 ## Current Trainees
 
-- [x] **PhD Supervision**
+- [ ] **PhD Supervision**
   - 4 PhD students from [SPPH](http://www.spph.ubc.ca/) (1 of which is transferred from MSc) working in developing methods for the following application areas
     - Tuberculosis (causal modelling, mediation, time-dependent confounding, AI, prediction modelling)
     - Multiple sclerosis (data mining, clustering)
     - Substance use (data mining, causal modelling)
     - Addressing medication non-adherence in pragmatic trials in point-treatment settings
-- [x] **MSc Supervision**
+- [ ] **MSc Supervision**
   - 2 MSc student from [SPPH](http://www.spph.ubc.ca/)
     - Challenges of applying machine learning approaches in propensity score
     - Effect modification in propensity score
-- [x] **Undergraduate Supervision**
+- [ ] **Undergraduate Supervision**
   - 2 undergraduate students via [Work Learn Program](https://students.ubc.ca/career/ubc-experiences/work-learn-program)
     - Data wrangling (R, Python)
-- [x] **Co-supervising / Committee member** 
+- [ ] **Co-supervising / Committee member** 
   - 2 [SPPH](http://www.spph.ubc.ca/) PhD students
     - prison health policy
     - hepatitis C and time-dependent modelling
@@ -107,12 +107,3 @@ Please check out my [G+PS profile](https://www.grad.ubc.ca/researcher/16712-kari
 
 <span style="color:green">Applications without the above components will not be considered.</span>
 <span style="color:red">Only **shortlisted** candidates will be contacted. Please do not email multiple times.</span>
-
-# Grant support
-
-Some notable funding sources listed below (excluding start-up fundings):
-
-- [Michael Smith Foundation for Health Research](https://www.msfhr.org/causal-inference-framework-analyzing-large-administrative-healthcare-databases-focus-multiple), 
-- [Natural Sciences and Engineering Research Council of Canada](https://www.nserc-crsng.gc.ca/ase-oro/Details-Detailles_eng.asp?id=655112), 
-- [BC SUPPORT Unit](https://bcsupportunit.ca/real-world-clinical-trials-project-themes), and other start-up funds.
-- Co-investigator and Collaborator in various other grants (NIDA/NIH, BC SUPPORT Unit, CIHR, and SSHRC). 
