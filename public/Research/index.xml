@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Program of Research | Ehsan&#39;s Page</title>
+    <link>/Research/</link>
+      <atom:link href="/Research/index.xml" rel="self" type="application/rss+xml" />
+    <description>Program of Research</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Program of Research</title>
+      <link>/Research/</link>
+    </image>
+    
+  </channel>
+</rss>

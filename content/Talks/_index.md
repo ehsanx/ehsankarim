@@ -8,8 +8,6 @@ layout: docs
 
 #	Invited Conference Presentations
 
-{{< tweet 1265312988786880512 >}}
-
 1.	Karim ME Healthcare data analytics in the era of machine learning and artificial intelligence, LifeSciences BC Access to Innovation, Vancouver Convention Centre West, Vancouver, Feb 5th, 2020. 
 2.	Karim ME (joint work with Tremlett H; Zhu F; Petkau, J; Kingwell, E) Dealing with treatment-confounder feedback and sparse follow-up in longitudinal studies - an application of the marginal structural model in a multiple sclerosis cohort; 
 -	Invited session on ‘Novel methods and applications in the estimation of longitudinal effects’, Statistical Society of Canada Annual Meeting 2021, June 7-June11, 2021, Virtual (scheduled)

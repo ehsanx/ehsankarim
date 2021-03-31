@@ -14,39 +14,44 @@
   weight = 20
 
 [[main]]
+  name = "Research"
+  url = "Research/"
+  weight = 30
+
+[[main]]
   name = "Talks"
   url = "Talks/"
-  weight = 30
+  weight = 40
 
 [[main]]
   name = "Supervision"
   url = "Supervision/"
-  weight = 40
+  weight = 50
 
 [[main]]
   name = "Teaching"
   url = "Teaching/"
-  weight = 50
+  weight = 60
   
 [[main]]
   name = "Workshops"
   url = "Workshops/"
-  weight = 60  
+  weight = 70  
 
 [[main]]
   name = "Software"
   url = "WebApps/"
-  weight = 70  
+  weight = 80  
 
 [[main]]
   name = "Service"
   url = "Service/"
-  weight = 80  
+  weight = 90  
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 90
+  weight = 100
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
