@@ -80,7 +80,7 @@ user_groups:
 
 Dr. M. Ehsan Karim is 
 
-- an Assistant Professor in Health Data Science in the UBC School of Population and Public Health /[SPPH](http://www.spph.ubc.ca/person/ehsan-karim/), 
+- an Assistant Professor (tenure-track) in Health Data Science in the UBC School of Population and Public Health /[SPPH](http://www.spph.ubc.ca/person/ehsan-karim/), 
 - a Michael Smith Foundation for Health Research /[MSFHR](https://www.msfhr.org/causal-inference-framework-analyzing-large-administrative-healthcare-databases-focus-multiple) Scholar, 
 - a Scientist at the Centre for Health Evaluation and Outcome Sciences /[CHEOS](http://www.cheos.ubc.ca/people/mohammad-ehsanul-ehsan-karim/), St. Paul's Hospital, and 
 - an Associate Member, [UBC Statistics](https://www.stat.ubc.ca/people). 
