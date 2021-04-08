@@ -10,15 +10,15 @@ layout: docs
 
 ## Graduate
 - UBC School of Population and Public Health 
-  - SPPH 504/007: *Application of Epidemiological Methods* (Section 7: restricted to Ph.D. level students).
+  - SPPH 604: *Application of Advanced Epidemiological Methods* (restricted to Ph.D. level students).
     - [Syllabus for upcoming session 2020-2021](/Teaching/SPPH-604-Course-Outline.pdf)
-    - Previous versions
-      - 2019-2020 [15 students] (online) 
-        - [Preview of the materials](https://www.youtube.com/playlist?list=PL2yD6frXhFob_Mvfg21Y01t_yu1aC9NnP)
-        - [Syllabus from 2019-2020](/Teaching/SPPH-504-section-007-Course-Outline.pdf)
-      - 2018-2019 [10 students]
-        - [Open lab materials from 2018-2019](https://ehsanx.github.io/spph504-007/)
-      - 2019-2020 [8 students]
+  - SPPH 504/007: *Application of Epidemiological Methods* (Section 7: restricted to Ph.D. level students).
+    - 2019-2020 [15 students] (online) 
+      - [Preview of the materials](https://www.youtube.com/playlist?list=PL2yD6frXhFob_Mvfg21Y01t_yu1aC9NnP)
+      - [Syllabus from 2019-2020](/Teaching/SPPH-504-section-007-Course-Outline.pdf)
+    - 2018-2019 [10 students]
+      - [Open lab materials from 2018-2019](https://ehsanx.github.io/spph504-007/)
+    - 2019-2020 [8 students]
 - Epidemiology, Biostatistics and Occupational Health, McGill University
   - EPIB 591 Regression Analysis for Health Sciences, 2015-2016 [7 students]
 

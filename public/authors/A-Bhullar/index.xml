@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A Bhullar | Ehsan&#39;s Page</title>
+    <link>/authors/A-Bhullar/</link>
+      <atom:link href="/authors/A-Bhullar/index.xml" rel="self" type="application/rss+xml" />
+    <description>A Bhullar</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>A Bhullar</title>
+      <link>/authors/A-Bhullar/</link>
+    </image>
+    
+    <item>
+      <title>Supporting heart failure patient transitions from acute to community care with home telemonitoring technology: a protocol for a provincial randomized controlled trial (TEC4Home)</title>
+      <link>/publication/journal-article/2016-01-01_community2016supporting/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2016-01-01_community2016supporting/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

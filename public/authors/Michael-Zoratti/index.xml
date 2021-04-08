@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Michael Zoratti | Ehsan&#39;s Page</title>
+    <link>/authors/Michael-Zoratti/</link>
+      <atom:link href="/authors/Michael-Zoratti/index.xml" rel="self" type="application/rss+xml" />
+    <description>Michael Zoratti</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Michael Zoratti</title>
+      <link>/authors/Michael-Zoratti/</link>
+    </image>
+    
+    <item>
+      <title>Comparing the use of aggregate data and various methods of integrating individual patient data to network meta-analysis and its application to first-line ART</title>
+      <link>/publication/journal-article/2021-01-01_kanters2021comparing/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2021-01-01_kanters2021comparing/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
