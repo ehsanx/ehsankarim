@@ -82,18 +82,18 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir 
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "ehsan.karim@ubc.ca"
-phone = "*(917) 720-4256 (voicemail); 604-682-2344 ext. 64251 (St. Paul's; if scheduled)"
+phone = "*(917) 720-4256 (voicemail); 604-682-2344 ext. 64251 (St. Paul's; don't leave voicemail)"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "588 - 1081 Burrard Street; St. Paul's Hospital", city = "Vancouver", region = "BC", postcode = "V6Z 1Y6", country = "Canada", country_code = "CA"}
-
+# address = {street = "588 - 1081 Burrard Street; St. Paul's Hospital", city = "Vancouver", region = "BC", postcode = "V6Z 1Y6", country = "Canada", country_code = "CA"}
+address = {street = "[UBC:] 2206 East Mall", city = "Vancouver", region = "BC", postcode = "V6T 1Z3", country = "Canada", country_code = "CA"}
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
 # coordinates = {latitude = "37.4275", longitude = "-122.1697"}
 
 # Directions for visitors to locate you.
-directions = "St. Paul's, 5th floor> office area #570 security door > Call (extension 64251)."
+directions = "[Hospital:] 588 - 1081 Burrard Street; St. Paul's Hospital, Vancouver, BC, V6Z 1Y6"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.

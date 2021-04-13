@@ -80,9 +80,9 @@ user_groups:
 
 Dr. M. Ehsan Karim is 
 
-- an Assistant Professor (tenure-track) in Health Data Science in the UBC School of Population and Public Health /[SPPH](http://www.spph.ubc.ca/person/ehsan-karim/), 
-- a Michael Smith Foundation for Health Research /[MSFHR](https://www.msfhr.org/causal-inference-framework-analyzing-large-administrative-healthcare-databases-focus-multiple) Scholar, 
-- a Scientist at the Centre for Health Evaluation and Outcome Sciences /[CHEOS](http://www.cheos.ubc.ca/people/mohammad-ehsanul-ehsan-karim/), St. Paul's Hospital, and 
+- an Assistant Professor (tenure-track) in Health Data Science in the School of Population and Public Health /[SPPH](http://www.spph.ubc.ca/person/ehsan-karim/), The University of British Columbia /[UBC](http://www.ubc.ca/),
+- a Scientist at the Centre for Health Evaluation and Outcome Sciences /[CHEOS](http://www.cheos.ubc.ca/people/mohammad-ehsanul-ehsan-karim/), St. Paul's Hospital, 
+- a Michael Smith Foundation for Health Research /[MSFHR](https://www.msfhr.org/causal-inference-framework-analyzing-large-administrative-healthcare-databases-focus-multiple) Scholar, and
 - an Associate Member, [UBC Statistics](https://www.stat.ubc.ca/people). 
 
 He obtained his Ph.D. in Statistics from [UBC](http://hdl.handle.net/2429/51933), supported by a studentship from the Multiple Sclerosis Society of Canada /[MSSOC](https://mssociety.ca/). He completed his postgraduate training in the Department of Epidemiology, Biostatistics and Occupational Health at [McGill](https://www.mcgill.ca/epi-biostat-occh/), supported by a fellowship from the Canadian Network for Observational Drug Effect Studies /[CNODES](https://www.cnodes.ca/methods/methods-members/). 

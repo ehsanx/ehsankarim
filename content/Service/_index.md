@@ -23,8 +23,12 @@ layout: docs
 # On-going review activities
 
 - Reviewer for peer-reviewed journals from different disciplines. See the [publons peer-review](https://publons.com/researcher/1172512/ehsan-karim/peer-review/) profile for details.
+  - Recognized as 'Exemplary Reviewers in 2020' from [Epidemiology](https://journals.lww.com/epidem/fulltext/2021/05000/thanks_to_our_reviewers.1.aspx). 
+  
+{{< tweet 1381807627101896704 >}}  
+  
   - Received 'Best reviewer for the year' for 2017 from Pharmacoepidemiology and Drug Safety. Also was recognized in 2015.
-
+  
 {{< tweet 1032706096878649344 >}}
 
 - Funding reviewer
