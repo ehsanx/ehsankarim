@@ -63,3 +63,14 @@ Reserved for collaborators and students: authentication required for access.
 - Tutorial on Bayesian computation using Stan: [Youtube](https://www.youtube.com/watch?v=tLprFqSWS1w)
 - Tutorial on RMarkdown: [Youtube](https://www.youtube.com/watch?v=DWxDWyqWnX0)
 
+# External helpful resources 
+
+The following are not my work, just the resources that I found useful.
+
+- RStudio recourse for learning machine learning
+ - [rsample: General Resampling Infrastructure](https://cran.r-project.org/web/packages/rsample/index.html)
+ - [Tidymodels](https://www.tidymodels.org/)
+ - [Tidy Modeling with R](https://www.tmwr.org/)
+- RStudio recourse for learning text mining
+ - [Text Mining with R](https://www.tidytextmining.com/)
+ - [Supervised Machine Learning for Text Analysis in R](https://smltar.com/)
