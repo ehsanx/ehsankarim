@@ -12,6 +12,10 @@ My program of research is about developing causal inference methods for large he
 
 ## Methodological Research: 
 
+- [x] **Use of machine learning / AI approaches in the causal inference context**
+  - TMLE and variants
+  - Double machine learning
+  - Autoencoders for dimensionality reduction
 - [x] **Practical issues dealing with large health administrative databases**
   - Longitudinal studies: dealing with data sparseness in Marginal structural models
   - Incorporating proxy information via high-dimensional propensity score modelling and it's machine learning versions

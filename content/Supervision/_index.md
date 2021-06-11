@@ -63,10 +63,10 @@ table th:nth-of-type(3) {
 | Katherine McLeod | Prison health policy, time-dependent modelling | [Jane Buxton](https://scholar.google.com/citations?user=pPItoZAAAAAJ) | PhD | [SPPH](http://www.spph.ubc.ca/) | Graduated expected 2021 |
 | [Dahn Jeong](https://scholar.google.com/citations?user=hCn2msMAAAAJ) | Hepatitis C and time-dependent modelling, causal inference | [Naveed Janjua](https://scholar.google.com/citations?user=1jeSvjUAAAAJ) | PhD | [SPPH](http://www.spph.ubc.ca/) | ongoing |
 | Randip Gill | Childhood Poverty, Immigration, Mental Health, Educational Trajectories | [Anne Gadermann](https://scholar.google.ca/citations?user=sAp60rAAAAAJ) | PhD | [SPPH](http://www.spph.ubc.ca/) | ongoing |
-| [Kamila Romanowski](https://scholar.google.com/citations?user=zF2bLbkAAAAJ) | Tuberculosis long-term impacts and trajectories | James Johnson | PhD | [Experimental Medicine](https://exp.med.ubc.ca/) | ongoing |
+| [Kamila Romanowski](https://scholar.google.com/citations?user=zF2bLbkAAAAJ) | Tuberculosis long-term impacts and trajectories | James Johnson | PhD | [Respiratory Medicine](https://respiratory.med.ubc.ca/) | ongoing |
 | Stephen van Gaal | Carotid endarterectomy, administrative data, data science and data mining | [Jason Sutherland](https://scholar.google.com/citations?user=0UzWKx8AAAAJ) | MSc | [SPPH](http://www.spph.ubc.ca/) | Graduated expected 2021 |
 | Liang Xu | Stepped-wedge trial and sample size | [Hubert Wong](https://scholar.google.com/citations?user=ZkOv_mkAAAAJ) | MSc | [SPPH](http://www.spph.ubc.ca/) | Graduated expected 2021 |
-| [Taraneh Bahremand](https://scholar.google.com/citations?hl=en&user=fK6uYIoAAAAJ) | COPD | [Mohsen Sadatsafavi](https://scholar.google.com/citations?user=SxrGIa4AAAAJ)| MSc | [Pharmaceutical Sciences](https://pharmsci.ubc.ca/) | Graduated expected 2021 |
+| [Taraneh Bahremand](https://scholar.google.com/citations?hl=en&user=fK6uYIoAAAAJ) | Utilization and safety studies of inhaled pharmacotherapies in COPD | [Mohsen Sadatsafavi](https://scholar.google.com/citations?user=SxrGIa4AAAAJ)| MSc | [Pharmaceutical Sciences](https://pharmsci.ubc.ca/) | Graduated expected 2021 |
 
 # Available to supervise
 
