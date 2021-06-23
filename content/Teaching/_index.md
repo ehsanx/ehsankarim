@@ -9,12 +9,7 @@ layout: docs
 # In-class Teaching
 
 ## Graduate
-- UBC Department of Medicine: Experimental Medicine
-  - **MEDI 504**: Data Science and Health Applications
-    - **2021-2022** (upcoming term) Still in the UBC process of approval.
-- UBC School of Population and Public Health 
-  - **SPPH 604**: *Application of Advanced Epidemiological Methods* (restricted to Ph.D. level students).
-    - Still in the UBC process of approval. 
+- <u>UBC School of Population and Public Health</u>
   - **SPPH 504/007**: *Application of Epidemiological Methods* (Section 7: restricted to Ph.D. level students).
     - *General note about the expectation / requirement of the course*:
       - SPPH 504-007  is known to have a <u>heavy workload</u>, and a greater time commitment is expected. Based on students' background and comfortability with the quantitative subject materials covered in the course, they should make a judgment on how many other commitments they want to make during that term.
@@ -28,7 +23,12 @@ layout: docs
     - **2019-2020** [10 students]
       - [Open lab materials from 2018-2019](https://ehsanx.github.io/spph504-007/)
     - **2018-2019** [8 students]
-- Epidemiology, Biostatistics and Occupational Health, McGill University
+  - **SPPH 604**: *Application of Advanced Epidemiological Methods* (restricted to Ph.D. level students).
+    - Still in the UBC process of approval. 
+- <u>UBC Department of Medicine: Experimental Medicine</u>
+  - **MEDI 504**: Data Science and Health Applications
+    - **2021-2022** (upcoming term) Still in the UBC process of approval.
+- <u>Epidemiology, Biostatistics and Occupational Health, McGill University</u>
   - **EPIB 591**: Regression Analysis for Health Sciences, 2015-2016 [7 students]
 
 ## Guest Lecturing
