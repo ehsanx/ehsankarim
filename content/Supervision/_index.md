@@ -46,11 +46,17 @@ table th:nth-of-type(3) {
 
 - [x] **Undergraduate Supervision**
 
-| Name | Research Interests and activities| Image |
+| Name | Research Interests and activities|  |
 |--|----|-|
-| Jingyi Huang, [Statistics](http://www.stat.ubc.ca/), Graduated 2018 | Simulating complex cross-sectional and longitudinal data based on hypothesized causal diagrams; jointly supervised with [Hubert Wong](https://scholar.google.com/citations?user=ZkOv_mkAAAAJ). After finishing her undergraduate degree, she joined as a Biostatistics M.Sc. Student at Harvard T.H. Chan School of Public Health. | ![](./images/m.jpg) |
-| Yang Qu, [Statistics](http://www.stat.ubc.ca/) | Data wrangling (R, Python) | ![](./images/m.jpg) |
-| An Hoang, [Foresry](https://forestry.ubc.ca/) | Data wrangling (R, Python) | ![](./images/m.jpg) |
+| Jingyi Huang, [Statistics](http://www.stat.ubc.ca/), Graduated 2018 | Simulating complex cross-sectional and longitudinal data based on hypothesized causal diagrams; jointly supervised with [Hubert Wong](https://scholar.google.com/citations?user=ZkOv_mkAAAAJ). After finishing her undergraduate degree, she joined as a Biostatistics M.Sc. Student at Harvard T.H. Chan School of Public Health. |  |
+| Yang Qu, [Statistics](http://www.stat.ubc.ca/) | Data wrangling (R, Python) |  |
+| An Hoang, [Foresry](https://forestry.ubc.ca/) | Data wrangling (R, Python) |  |
+
+- [x] **Postdoctoral Fellow Supervision** 
+
+| Name | Research Interests | Department |
+|--|----|-|
+| [Michael Asamoah-Boaheng](https://scholar.google.com/citations?user=0ySHLOIAAAAJ&hl=en), [CORSIP](https://www.occupationalcancer.ca/2021/corsip/), Started 2021 | Discriminant analysis, Classification, time series, epidemiology, medical statistics. Jointly supervised by [Brian Grunau](https://scholar.google.ca/citations?hl=en&user=uOHQ19QAAAAJ).  | [UBC Emergency Medicine](https://emergency.med.ubc.ca/) |
 
 - [x] **Co-supervising / Committee member** 
 

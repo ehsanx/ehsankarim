@@ -9,6 +9,9 @@ layout: docs
 # In-class Teaching
 
 ## Graduate
+- UBC Department of Medicine: Experimental Medicine
+  - **MEDI 504**: Data Science and Health Applications
+    - **2021-2022** (upcoming term) Still in the UBC process of approval.
 - UBC School of Population and Public Health 
   - **SPPH 604**: *Application of Advanced Epidemiological Methods* (restricted to Ph.D. level students).
     - Still in the UBC process of approval. 
@@ -21,7 +24,7 @@ layout: docs
       - Currently, the content, as well as structure of the course, is in the process of updating based on the feedback from the previous year, and also based on resources allocation from the School in the upcoming year. The updated syllabus will be published in August.
     - **2020-2021** [15 students] (online) 
       - [Preview of the materials](https://www.youtube.com/playlist?list=PL2yD6frXhFob_Mvfg21Y01t_yu1aC9NnP)
-      - [Syllabus from 2019-2020](/Teaching/SPPH-504-section-007-Course-Outline.pdf)
+      - [Syllabus from 2020-2021](/Teaching/SPPH-504-section-007-Course-Outline.pdf)
     - **2019-2020** [10 students]
       - [Open lab materials from 2018-2019](https://ehsanx.github.io/spph504-007/)
     - **2018-2019** [8 students]
