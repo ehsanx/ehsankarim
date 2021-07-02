@@ -14,6 +14,7 @@ layout: docs
     - *General note about the expectation / requirement of the course*:
       - SPPH 504-007  is known to have a <u>heavy workload</u>, and a greater time commitment is expected. Based on students' background and comfortability with the quantitative subject materials covered in the course, they should make a judgment on how many other commitments they want to make during that term.
       - Strongly encourages students to have <u>fluency in R</u>. The time commitment can exponentially increase if the student is also trying to learn data wrangling with R at the same time.
+      - SPPH 504-007 is an advanced-level course that focused on the extension, implementation of ideas and concepts already taught in pre-requisite courses (SPPH400, SPPH500, SPPH502, and at least one of the following: one of SPPH503, SPPH506, SPPH519, SPPH530). <u>Students are responsible for covering all of the background materials necessary from the pre-requisite courses</u> (even if they are exempt from taking some of them). Given the dense materials (analyzing a new dataset from scratch and writing a manuscript) to be covered in this course, the instructor or the TAs (if any) will not be able to repeat covering any of the background/ pre-requisite materials. 
     - **2021-2022** (upcoming term)
       - Registration [link](https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=SPPH&course=504&section=007)
       - Currently, the content, as well as structure of the course, is in the process of updating based on the feedback from the previous year, and also based on resources allocation from the School in the upcoming year. The updated syllabus will be published in August.
@@ -27,7 +28,7 @@ layout: docs
     - Still in the UBC process of approval. 
 - <u>UBC Department of Medicine: Experimental Medicine</u>
   - **MEDI 504**: Data Science and Health Applications
-    - **2021-2022** (upcoming term) Still in the UBC process of approval.
+    - **2021-2022** ([upcoming term](https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-department&dept=MEDI)) Still in the UBC process of approval.
 - <u>Epidemiology, Biostatistics and Occupational Health, McGill University</u>
   - **EPIB 591**: Regression Analysis for Health Sciences, 2015-2016 [7 students]
 
