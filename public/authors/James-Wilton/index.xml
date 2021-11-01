@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>James Wilton | Ehsan&#39;s Page</title>
+    <link>/authors/James-Wilton/</link>
+      <atom:link href="/authors/James-Wilton/index.xml" rel="self" type="application/rss+xml" />
+    <description>James Wilton</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>James Wilton</title>
+      <link>/authors/James-Wilton/</link>
+    </image>
+    
+    <item>
+      <title>Impact of HCV infection and ethnicity on incident type 2 diabetes: findings from a large population-based cohort in British Columbia</title>
+      <link>/publication/journal-article/2021-01-01_jeong2021impact/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2021-01-01_jeong2021impact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

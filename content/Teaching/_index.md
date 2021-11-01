@@ -27,8 +27,8 @@ layout: docs
   - **SPPH 604**: *Application of Advanced Epidemiological Methods* (restricted to Ph.D. level students).
     - Still in the UBC process of approval. 
 - <u>UBC Department of Medicine: Experimental Medicine</u>
-  - **MEDI 504**: Data Science and Health Applications
-    - **2021-2022** ([upcoming term](https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-department&dept=MEDI)) Still in the UBC process of approval.
+  - **MEDI 504**: MEDI 504A Emerging Topics in Experimental Medicine (Data Science and Health Applications)
+    - **2021-2022** ([The course](https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=MEDI&course=504A)) 
 - <u>Epidemiology, Biostatistics and Occupational Health, McGill University</u>
   - **EPIB 591**: Regression Analysis for Health Sciences, 2015-2016 [7 students]
 

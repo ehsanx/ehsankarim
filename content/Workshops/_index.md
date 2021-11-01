@@ -15,13 +15,17 @@ layout: docs
 
 ## Past Methods Workshops
 
-  1. [Understanding Propensity Score Matching](https://cseb.ca/wp-content/uploads/2021/06/Conference-Program-CSEB2021-210601.pdf); CSEB 2021 Virtual Conference, June 3, 2021 [11 participants].
+  1. [An Introductory R Guide for Targeted Maximum Likelihood Estimation in Medical Research](https://r-medicine.org/schedule/) (organized together with Hanna Frank), 2021 R/Medicine Virtual Conference, August 24, 2021. [36 participants for live session; recording open to all conference delegates] 
+
+{{< tweet 1430306896754339840 >}}
+
+  2. [Understanding Propensity Score Matching](https://cseb.ca/wp-content/uploads/2021/06/Conference-Program-CSEB2021-210601.pdf); CSEB 2021 Virtual Conference, June 3, 2021 [11 participants].
 
 {{< tweet 1401350445335924736 >}}
 
-  2. [Applying Propensity Score Approaches to Complex Survey Data Analyses](https://icas2019.isrt.ac.bd/home/conference-workshops); International Conference on Applied Statistics 2019, Dhaka, Bangladesh (26th December, 2019). [59 participants] 
-  3. [Propensity Score Analysis in the Context of Complex Survey Data](https://www.mcgill.ca/epi-biostat-occh/seminars-events/atlantic-causal-inference-conference-2019/workshop-descriptions); Atlantic Causal Inference Conference, May 22 2019, Montreal [16 participants]. 
-  4. [Guide to Applying Propensity Score Methods in a Complex Survey Data Context](http://www.cheos.ubc.ca/news/event/workshop-guide-to-applying-propensity-score-methods-in-a-complex-survey-data-context/), SPH 1500, St. Paul's Hospital, Vancouver (May 7th, 2019). [39 participants] 
+  3. [Applying Propensity Score Approaches to Complex Survey Data Analyses](https://icas2019.isrt.ac.bd/home/conference-workshops); International Conference on Applied Statistics 2019, Dhaka, Bangladesh (26th December, 2019). [59 participants] 
+  4. [Propensity Score Analysis in the Context of Complex Survey Data](https://www.mcgill.ca/epi-biostat-occh/seminars-events/atlantic-causal-inference-conference-2019/workshop-descriptions); Atlantic Causal Inference Conference, May 22 2019, Montreal [16 participants]. 
+  5. [Guide to Applying Propensity Score Methods in a Complex Survey Data Context](http://www.cheos.ubc.ca/news/event/workshop-guide-to-applying-propensity-score-methods-in-a-complex-survey-data-context/), SPH 1500, St. Paul's Hospital, Vancouver (May 7th, 2019). [39 participants] 
 
 {{< tweet 1125798604839383041 >}}
 
