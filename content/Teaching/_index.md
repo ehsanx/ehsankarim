@@ -10,14 +10,20 @@ layout: docs
 
 ## Graduate
 - <u>UBC School of Population and Public Health</u>
-  - **SPPH 504/007**: *Application of Epidemiological Methods* (Section 7: restricted to Ph.D. level students).
-    - *General note about the expectation / requirement of the course*:
-      - SPPH 504-007  is known to have a <u>heavy workload</u>, and a greater time commitment is expected. Based on students' background and comfortability with the quantitative subject materials covered in the course, they should make a judgment on how many other commitments they want to make during that term.
-      - Strongly encourages students to have <u>fluency in R</u>. The time commitment can exponentially increase if the student is also trying to learn data wrangling with R at the same time.
-      - In the [SPPH PhD timeline](https://www.spph.ubc.ca/programs/phd/program-details/timeline-2/), SPPH 504-007 is usually the last course in the [core required courses](https://www.spph.ubc.ca/programs/phd/program-details/) for the PhD students before the [comprehensive examination](https://www.spph.ubc.ca/programs/phd/program-details/comprehensive-examination/). This is an advanced-level course (primarily 2nd-year students take this course) that focused on extension and implementation of ideas and concepts already taught in pre-requisite courses (SPPH400, SPPH500, SPPH502, and at least one of the following: one of SPPH503, SPPH506, SPPH519, SPPH530). <u>Students are responsible for having an appropriate background in the materials that were already covered in the pre-requisite courses</u> (even if they are exempt from taking some of them). Given the dense materials (preparing a new dataset from scratch, proposing an appropriate analysis strategy based on a given research question of your choice, writing a manuscript based on that analysis, and presenting the key results) to be covered in this course, the instructor or the TAs (if any) will not be able to repeat covering any of the background/ pre-requisite materials. 
-    - **2021-2022** (upcoming term)
-      - Registration [link](https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=SPPH&course=504&section=007)
-      - Currently, the content, as well as structure of the course, is in the process of updating based on the feedback from the previous year, and also based on resources allocation from the School in the upcoming year. The updated syllabus will be published in August.
+  - **SPPH 504/007**: *Application of Epidemiological Methods* (Section 7: restricted to Ph.D. level SPPH students).
+    - <span style="color:blue">*General note about the expectation / requirement of the course*</span>:
+      - SPPH 504-007 is a required course for SPPH PhD, and is known to have a <u>heavy workload</u>, and a greater time commitment is expected. Based on students' background and comfortability with the quantitative subject materials covered in the course, they should make a judgment on how many other commitments they want to make during that term.
+      - Strongly encourages students to have <span style="color:blue">fluency in R</span>. The <u>time commitment can exponentially increase</u> if the student is also trying to learn data wrangling with R at the same time. 
+        - If you are not a regular R user, or want to check some of the background materials, I encourage you to take a look at [these basic resources](https://ehsanx.github.io/intro2R/) about importing, wrangling, visualization, tabulation (or feel free to consult other open resources as well), and practice to be comfortable with R coding. 
+        - In the lab, students are expected to reproduce analyses of a published article from scratch in R (as lab assignment) within a 2-3 hour time frame.
+      - In the [SPPH PhD timeline](https://www.spph.ubc.ca/programs/phd/program-details/timeline-2/), SPPH 504-007 is usually the last course in the [core required courses](https://www.spph.ubc.ca/programs/phd/program-details/) for the PhD students before the [comprehensive examination](https://www.spph.ubc.ca/programs/phd/program-details/comprehensive-examination/). This is an advanced-level course (primarily 2nd-year students take this course) that focused on extension and implementation of ideas and concepts already taught in pre-requisite courses (SPPH400, SPPH500, SPPH502, and at least one of the following: one of SPPH503, SPPH506, SPPH519, SPPH530). <u>Students are responsible for having an appropriate background in the materials that were already covered in the pre-requisite courses</u> (even if they are exempt from taking some of them). Given the dense materials, the instructor or the TAs (if any) will not be able to repeat covering any of the background/ pre-requisite materials. 
+      - Some <span style="color:blue">open educational resources</span> from this course from previous years are listed below:
+        - [understanding survey data](https://ehsanx.github.io/SPPH504007SurveyData/docs/), 
+        - [preparing a new dataset from scratch](https://ehsanx.github.io/SurveyDataAnalysis/), 
+        - proposing an appropriate analysis strategy based on a given research question of your choice (see open lab materials listed below for some examples), 
+        - [writing a manuscript based on that analysis](https://ehsanx.github.io/Scientific-Writing-for-Health-Research/), and presenting the key results.
+    - **2021-2022** [18 students]
+      - [Syllabus from 2021-2022](https://med-fom-spph.sites.olt.ubc.ca/files/2021/09/SPPH-504-section-007-Course-Outline.pdf)
     - **2020-2021** [15 students] (online) 
       - [Preview of the materials](https://www.youtube.com/playlist?list=PL2yD6frXhFob_Mvfg21Y01t_yu1aC9NnP)
       - [Syllabus from 2020-2021](/Teaching/SPPH-504-section-007-Course-Outline.pdf)
@@ -51,10 +57,11 @@ layout: docs
   
 # Teaching-related Awards 
 
-- Outstanding academic performance (OAP), Faculty of Medicine, University of British Columbia, for research, teaching and service contributions, 
+- Outstanding academic performance (OAP) and merit, Faculty of Medicine, University of British Columbia, for research, teaching and service contributions, 
   - July 2019.
-  - July 2020
+  - July 2020.
+  - July 2021.
 - Received following teaching awards and nominations as a graduate student:
-  - Winner of UBC Statistics Department's  2011-12 Graduate Teaching Assistant Award
-  - Winner of UBC Science Achievement Award, 2009 partially due to  teaching, initiatives within the Department of Statistics, UBC
+  - Winner of [UBC Statistics Department's  2011-12 Graduate Teaching Assistant Award](https://www.stat.ubc.ca/statistics-graduate-teaching-assistant-award),
+  - Winner of [UBC Science Achievement Award](https://science.ubc.ca/news/stats-physics-shine-ubc-science-service-awards), 2009 partially due to  teaching, initiatives within the Department of Statistics, UBC
   - Nominated for the Killam Graduate TA Teaching Award for teaching twice: 2008/2009 and 2011/2012.  

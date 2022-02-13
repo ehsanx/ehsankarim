@@ -66,66 +66,73 @@ table th:nth-of-type(3) {
 | [Steve Kanters](https://scholar.google.com/citations?user=Y52-vGUAAAAJ) | Network meta analysis, Bayesian analysis, IPD, HIV | [Nick Bansback](https://scholar.google.com/citations?user=HMs0olgAAAAJ) | PhD | [SPPH](http://www.spph.ubc.ca/) | 2019, [Thesis](https://dx.doi.org/10.14288/1.0383244) |
 | [Molly Sweeney Magee](https://scholar.google.com/citations?user=4bXL3kcAAAAJ) | Colorectal Cancer and missing data | [Trevor Dummer](https://scholar.google.com/citations?user=6qXib9YAAAAJ) | PhD | [SPPH](http://www.spph.ubc.ca/) | 2021, [Thesis](https://dx.doi.org/10.14288/1.0396770) |
 | Derek Ouyang | Stepped-wedge Trial, and power | [Hubert Wong](https://scholar.google.com/citations?user=ZkOv_mkAAAAJ) | PhD | [SPPH](http://www.spph.ubc.ca/) | 2021, [Thesis](https://dx.doi.org/10.14288/1.0396685) |
-| Katherine McLeod | Prison health policy, time-dependent modelling | [Jane Buxton](https://scholar.google.com/citations?user=pPItoZAAAAAJ) | PhD | [SPPH](http://www.spph.ubc.ca/) | Graduated expected 2021 |
+| Katherine McLeod | Prison health policy, time-dependent modelling | [Jane Buxton](https://scholar.google.com/citations?user=pPItoZAAAAAJ) | PhD | [SPPH](http://www.spph.ubc.ca/) | 2021, [Thesis](https://dx.doi.org/10.14288/1.0403799) |
 | [Dahn Jeong](https://scholar.google.com/citations?user=hCn2msMAAAAJ) | Hepatitis C and time-dependent modelling, causal inference | [Naveed Janjua](https://scholar.google.com/citations?user=1jeSvjUAAAAJ) | PhD | [SPPH](http://www.spph.ubc.ca/) | ongoing |
 | Randip Gill | Childhood Poverty, Immigration, Mental Health, Educational Trajectories | [Anne Gadermann](https://scholar.google.ca/citations?user=sAp60rAAAAAJ) | PhD | [SPPH](http://www.spph.ubc.ca/) | ongoing |
 | [Kamila Romanowski](https://scholar.google.com/citations?user=zF2bLbkAAAAJ) | Tuberculosis long-term impacts and trajectories | James Johnson | PhD | [Respiratory Medicine](https://respiratory.med.ubc.ca/) | ongoing |
-| Stephen van Gaal | Carotid endarterectomy, administrative data, data science and data mining | [Jason Sutherland](https://scholar.google.com/citations?user=0UzWKx8AAAAJ) | MSc | [SPPH](http://www.spph.ubc.ca/) | Graduated expected 2021 |
-| Liang Xu | Stepped-wedge trial and sample size | [Hubert Wong](https://scholar.google.com/citations?user=ZkOv_mkAAAAJ) | MSc | [SPPH](http://www.spph.ubc.ca/) | Graduated expected 2021 |
-| [Taraneh Bahremand](https://scholar.google.com/citations?hl=en&user=fK6uYIoAAAAJ) | Utilization and safety studies of inhaled pharmacotherapies in COPD | [Mohsen Sadatsafavi](https://scholar.google.com/citations?user=SxrGIa4AAAAJ)| MSc | [Pharmaceutical Sciences](https://pharmsci.ubc.ca/) | Graduated expected 2021 |
+| [Taraneh Bahremand](https://scholar.google.com/citations?hl=en&user=fK6uYIoAAAAJ) | Utilization and safety studies of inhaled pharmacotherapies in COPD | [Mohsen Sadatsafavi](https://scholar.google.com/citations?user=SxrGIa4AAAAJ)| MSc | [Pharmaceutical Sciences](https://pharmsci.ubc.ca/) | 2021, [Thesis](https://dx.doi.org/10.14288/1.0401798) |
+| Stephen van Gaal | Carotid endarterectomy, administrative data, data science and data mining | [Jason Sutherland](https://scholar.google.com/citations?user=0UzWKx8AAAAJ) | MSc | [SPPH](http://www.spph.ubc.ca/) | Ongoing |
+| Liang Xu | Stepped-wedge trial and sample size | [Hubert Wong](https://scholar.google.com/citations?user=ZkOv_mkAAAAJ) | MSc | [SPPH](http://www.spph.ubc.ca/) | Ongoing |
+
 
 # Available to supervise
 
 I am currently looking for a postdoctoral researchers and multiple graduate students (current and prospective) for a number of projects (with methodologic focuses within epidemiologic contexts). See [program of research](/Research/) for details about my research. Following are few examples:
 
-- Improving Causal Inference Methods in Statistics for Analyzing [High-dimensional / Big Data](https://t.co/vvjmIrKMrR).
-- Developing and Evaluating Causal Inference Methods for Pragmatic Trials to [address nonadherence](https://www.youtube.com/watch?v=ur1etAewqHA).
+- Improving Causal Inference Methods in Statistics for Analyzing [High-dimensional / Big Data](https://doi.org/10.1097/EDE.0000000000000787).
+- Developing and Evaluating Causal Inference Methods for Pragmatic Trials to [address nonadherence](https://ehsanx.github.io/Causal-Inference-Methods-for-Pragmatic-Trials/).
 - Applying causal inference methods within the context of the disease [multiple sclerosis](https://journals.sagepub.com/doi/full/10.1177/0962280216668554) in particular.
 
 # Instructions to Apply
 
-Graduate students in statistics, biostatistics, epidemiology, economics or computer science with somewhat strong **methodological expertise in statistics** (as well as statistical computing) are encouraged to contact me directly; particularly those with some of the following skills: 
+Graduate students in statistics, biostatistics, epidemiology, economics or computer science with strong **methodological expertise in statistics** (as well as statistical computing) are encouraged to contact me directly; particularly those with some of the following skills: 
 
-- making data requests, 
-- extracting analytic data from administrative (e.g., health admin) and survey databases (e.g., DHS, NHANES, BRFSS or CCHS), 
-- running statistical analyses using standard software (e.g., SAS, R or python), 
-- coding statistical estimators (via SAS macro/IML, R, python or stata mata), 
+- extracting *analytic data* from administrative (e.g., health admin) and [survey databases](https://ehsanx.github.io/SPPH504007SurveyData/docs/) (e.g., DHS, NHANES, BRFSS or CCHS), 
+- preparing *statistical analysis plans* according to research questions and available data,
+- ability to conduct statistical literature reviews ([example](https://journals.sagepub.com/doi/full/10.1177/1352458520972557)),
+- running *statistical analyses* using standard software (e.g., SAS, [R](https://ehsanx.github.io/intro2R/) or python), 
+- coding *statistical estimators* (via SAS macro/IML, R, python or stata mata; [example](https://ehsanx.github.io/TMLEworkshop/tmle.html)), 
 - conducting simulation studies (e.g., in servers, parallel computing, High Performance Computing), 
-- excellent scientific writing (e.g., demonstrated via peer-reviewed publications), 
-- ability to work on a multidisciplinary team (e.g., work within biostatistics groups). 
+- [excellent scientific writing](https://ehsanx.github.io/Scientific-Writing-for-Health-Research/) (e.g., demonstrated via peer-reviewed publications), 
+- ability to work on a *multidisciplinary team* (e.g., work within bio-statistics or epidemiological groups),
+- experiences in [machine learning](https://ehsanx.github.io/into2ML/), [causal inference](https://ehsanx.github.io/psw/) and making data requests are preferred; but not a requirement.
+
+<span style="color:blue">Applications without the components mentioned below will not be considered.</span>
+<span style="color:red">Only **shortlisted** candidates will be contacted. Please do not email multiple times.</span>
 
 Interested candidates should email me (at my UBC email address) the following: 
 
-1. [x] a cover letter (2 pages max), mentioning 
+1. [x] <span style="color:red">a *cover letter*</span> (2 pages max), mentioning all of the following: 
   - whether you are interested in an MSc or a PhD program, or postdoctoral research? 
-  - why you want to work with me?
+  - why you want to work with me? How is your background related to mine?
   - a short overview of your research background.
   - what makes you an outstanding candidate for this lab?
-2. [x] a complete CV, including 
+2. [x] <span style="color:red">a complete *CV*</span>, including 
   - research interests
   - degrees obtained
   - award list, if any, 
   - list presentation (seminar, conference, workshop) activities (*if any*)
   - list of research / work experiences / volunteering activities (*if any*)
     - in healthcare related settings 
-    - in methodological research
+    - in *methodological research*
     - in teaching 
-    - in software publishing 
+    - in *software publishing* 
     - in leadership activities 
-  - Names of 2 referees
+  - Names of 2 *referees*
     - with official email addresses.
-3. [x] full publication record 
+3. [x] <span style="color:red">full *publication record*</span> (particularly list **publications in methodological (statistical and epidemiological) journals** in separate sections, *if any*)
   - peer-reviewed published and/or accepted articles with full co-authors listed,
     - with each publication, mention what was *your contribution* (study conception, analysis, writing, critiquing, etc. in detail, with *contribution percent*),
-  - list of manuscripts under review at the moment, with manuscript ID and abstracts
+  - list of manuscripts under review at the moment, with manuscript submission ID and abstracts
   - *do not include in-progress or unsubmitted works*
   - Send at most 2 sample articles of your choice where you are an author with most contribution, and mention your contributions in each (*if any*)
-4. [x] copy of the unofficial transcripts (post-secondary), and 
-5. [x] If you are coming from an institution where English is not used as the first language, also include your TOEFL (iBT), IELTS or equivalent scores in your CV. 
+4. [x] copy of the unofficial <span style="color:red">*transcripts*</span> (post-secondary), and 
+5. [x] If you are coming from an institution where *English* is not used as the first language, also include your <span style="color:red">TOEFL (iBT), IELTS or equivalent scores</span> in your CV. 
+
+
+Note:
+
   - Please check out these websites for [MSc](https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-population-public-health) and [PhD](https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-population-public-health) requirements for [SPPH](http://www.spph.ubc.ca/), UBC (see under 'Requirements' section). 
   - Note that the requirements vary by department (e.g., check for [Statistics](https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-statistics)).
+  - Please check out my [G+PS profile](https://www.grad.ubc.ca/researcher/16712-karim) for my research interests, as well as my previous publications. 
 
-Please check out my [G+PS profile](https://www.grad.ubc.ca/researcher/16712-karim) for my research interests, as well as my previous publications. 
-
-<span style="color:green">Applications without the above components will not be considered.</span>
-<span style="color:red">Only **shortlisted** candidates will be contacted. Please do not email multiple times.</span>

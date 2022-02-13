@@ -5,7 +5,7 @@
     <link>/publication_types/2/</link>
       <atom:link href="/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>2</title>
@@ -13,10 +13,50 @@
     </image>
     
     <item>
+      <title>Association Between Prescription Opioid Therapy for Noncancer Pain and Hepatitis C Virus Seroconversion</title>
+      <link>/publication/journal-article/2022-01-01_wilton2022association/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2022-01-01_wilton2022association/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The association between Diabetes and Excessive Daytime Sleepiness among American adults aged 20-79 years: Findings from the 2015-2018 National Health and Nutrition Examination Surveys</title>
+      <link>/publication/journal-article/2022-01-01_yusuf2022association/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2022-01-01_yusuf2022association/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Higher Antibody Response Is Generated With a 6-to 7-Week (vs Standard) Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) Vaccine Dosing Interval</title>
+      <link>/publication/journal-article/2021-01-01_grunau2021higher/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2021-01-01_grunau2021higher/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An E-value analysis of potential unmeasured or residual confounding in systematic reviews of post-tuberculosis mortality, respiratory disease, and cardiovascular disease</title>
+      <link>/publication/journal-article/2021-01-01_basham2021value/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2021-01-01_basham2021value/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Comparing the use of aggregate data and various methods of integrating individual patient data to network meta-analysis and its application to first-line ART</title>
       <link>/publication/journal-article/2021-01-01_kanters2021comparing/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>/publication/journal-article/2021-01-01_kanters2021comparing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CRTpowerdist: An R package to calculate attained power and construct the power distribution for cross-sectional stepped-wedge and parallel cluster randomized trials</title>
+      <link>/publication/journal-article/2021-01-01_ouyang2021crtpowerdist/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2021-01-01_ouyang2021crtpowerdist/</guid>
       <description></description>
     </item>
     
@@ -37,10 +77,34 @@
     </item>
     
     <item>
+      <title>Is Regular Access to Internet Services Associated with Comprehensive Correct HIV/AIDS Knowledge among People Aged 15--49 Years in Nigeria? Findings from the 2018 Demographic Health Survey</title>
+      <link>/publication/journal-article/2021-01-01_iyamu2021regular/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2021-01-01_iyamu2021regular/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Performance of statistical methods to address treatment non-adherence in pragmatic clinical trials with point-treatment settings: a simulation study</title>
+      <link>/publication/journal-article/2021-01-01_hossain2021performance/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2021-01-01_hossain2021performance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Post-tuberculosis airway disease: A population-based cohort study of people immigrating to British Columbia, Canada, 1985--2015</title>
       <link>/publication/journal-article/2021-01-01_basham2021post/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>/publication/journal-article/2021-01-01_basham2021post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tuberculosis-associated depression: a population-based cohort study of people immigrating to British Columbia, Canada, 1985--2015</title>
+      <link>/publication/journal-article/2021-01-01_basham2021tuberculosis/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2021-01-01_basham2021tuberculosis/</guid>
       <description></description>
     </item>
     

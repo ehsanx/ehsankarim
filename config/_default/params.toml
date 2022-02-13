@@ -82,7 +82,7 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir 
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "ehsan.karim@ubc.ca"
-phone = "*(917) 720-4256 (voicemail); 604-682-2344 ext. 64251 (St. Paul's; don't leave voicemail)"
+phone = "*(917) 720-4256 (voicemail)"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )

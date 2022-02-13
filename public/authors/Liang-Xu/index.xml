@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Liang Xu | Ehsan&#39;s Page</title>
+    <link>/authors/Liang-Xu/</link>
+      <atom:link href="/authors/Liang-Xu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Liang Xu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Liang Xu</title>
+      <link>/authors/Liang-Xu/</link>
+    </image>
+    
+    <item>
+      <title>CRTpowerdist: An R package to calculate attained power and construct the power distribution for cross-sectional stepped-wedge and parallel cluster randomized trials</title>
+      <link>/publication/journal-article/2021-01-01_ouyang2021crtpowerdist/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2021-01-01_ouyang2021crtpowerdist/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

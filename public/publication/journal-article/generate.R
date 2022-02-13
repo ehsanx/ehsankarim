@@ -1,7 +1,12 @@
 # bibfolder <- "C:/Users/wildscop/Documents/GitHub/ehsankarim/content/publication/journal-article"
-bibfolder <- "C:/Users/ehsan/Documents/GitHub/ehsankarim/content/publication/journal-article"
+#bibfolder <- "C:/Users/ehsan/Documents/GitHub/ehsankarim/content/publication/journal-article"
+bibfolder <- "C:/Users/wilds/Documents/GitHub/ehsankarim/content/publication/journal-article"
+
+# open R (not rstudio) as an admin, and install required packages; packages required by  bib2academic and bibtex
+
 setwd(bibfolder)
-if (!require("bib2academic")) devtools::install_github("petzi53/bib2academic")
+devtools::install_github("petzi53/bib2academic")
+remotes::install_github("ROpenSci/bibtex")
 #Load package
 library(bib2academic)
 bib2acad(

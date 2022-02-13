@@ -40,9 +40,6 @@ My program of research is about developing causal inference methods for large he
 - [x] **Survey data analysis**
   - Incorporating causal inference and data science approaches within the survey data analysis framework
   - Motivating examples from DHS, NHANES, CCHS.
-- [x] **Stepped-wedge Trial**
-  - Sample size and power related practical issues when unequal clusters are present
-
 
 ## Real-World Applications 
 
