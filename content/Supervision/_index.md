@@ -9,73 +9,6 @@ output:
 always_allow_html: true    
 ---
 
-# Trainees (Present and Alumni)
-
-
-
-- [X] **PhD Supervision**
-
-
-<style>
-table th:first-of-type {
-    width: 15%;
-}
-table th:nth-of-type(2) {
-    width: 65%;
-}
-table th:nth-of-type(3) {
-    width: 15%;
-}
-</style>
-
-| Name and website link | Research Interests or Bio | Image |
-|--|----|-|
-| [Christopher Andrew Basham](https://www.linkedin.com/in/candrewbasham/), [SPPH](http://www.spph.ubc.ca/), Graduated in 2021,  [Thesis](https://dx.doi.org/10.14288/1.0402446) | C. Andrew Basham is a tuberculosis (TB) epidemiologist with a background in Environmental and Urban Studies (BA) from the University of Winnipeg. Andrew has worked with First Nations in remote communities as a health policy analyst for Manitoba Keewatinowi Okimakanak. In his MSc thesis in the University of Manitoba, Andrew investigated differences in TB program performance between First Nations (on and off-reserve), immigrants, and Canadian-born non-First Nations, discovering important population and geographic differences in program performance in the first application of quantitative performance measurement to a Canadian TB program. Andrew then worked for the Manitoba Centre for Health Policy, where he developed an interest in health administrative data linkage and analysis. Under the supervision of Drs. Ehsan Karim and James Johnston, Andrew has completed his doctoral research on TB survivor health using causal inference methods with health administrative data. Methods used included high-dimensional propensity scoring, with hybrid machine learning, directed acyclic graphs (DAGs), E-values for unmeasured confounding, and causal mediation analysis. Andrew has published extensively during his Ph.D. and is developing a new research interest in survivorship epidemiology. Andrew plans to develop a Partnership for Post-TB Health as a knowledge exchange and models of care development network. | ![](./images/ab.jpg) |
-| [Md. Belal Hossain](https://www.linkedin.com/in/md-belal-hossain-3906b36a/), [SPPH](http://www.spph.ubc.ca/), transferred from MSc | Belal Hossain is a Ph.D. student at the School of Population and Public Health, University British Columbia. He is also working with Dr. Ehsan Karim as a Graduate Research Assistant at the School. Belal did his Bachelor’s and MSc degrees in Applied Statistics from the University of Dhaka. A recurring theme in his research is analyzing complex survey data collected through stratification and cluster sampling. He is motivated to develop and apply his skills within the public health realm through working experiences with various healthcare institutes in Bangladesh. Under Dr. Karim’s guidance, Belal has been working with causal inference methods to estimate treatment effects in trials with incomplete medication adherence, integrating machine learning approaches within the framework of causal inference, and applying/adapting these innovative and emerging techniques in real-life epidemiological data analysis. His current research interests include biostatistics and epidemiology, focusing on causal inference from observational studies and clinical trials with medication nonadherence, and machine learning and deep learning approaches in risk score prediction from a large healthcare database. | ![](./images/bh.jpg) |
-| Fardowsa Yusuf, [SPPH](http://www.spph.ubc.ca/) | Multiple sclerosis, data mining, clustering; jointly supervised with Helen Tremlett. Awarded the CIHR Frederick Banting and Charles Best Canada Graduate Scholarship Doctoral Award for her research on the Multiple Sclerosis (MS) prodrome. | ![](./images/m.jpg) |
-| [Hanna Frank](https://www.linkedin.com/in/hanna-f-940813b9/), [SPPH](http://www.spph.ubc.ca/) | Hanna Frank is an PhD student at the UBC School of Population and Public Health, where she is currently performing research under the supervision of Dr. Ehsan Karim. She gained a background in mathematics, statistics, and computer science through the completion of a BSc in mathematical sciences at the University of British Columbia. She has worked in the industry at the German chemical company BASF to analyze agricultural research data, and at the Vancouver start-up Thrive Health to analyze COVID-19 data for presentation in interactive statistics dashboards. Her research interests focus on the use of data science in health care, and she is currently working on a project looking at the use of machine learning in propensity score methods in epidemiology. | ![](./images/hf.jpg) |
-
-
-- [x] **MSc Supervision**
-
-| Name and website link | Research Interests or Bio | Image |
-|--|----|-|
-| Eric Sanders, [Statistics](http://www.stat.ubc.ca/), Graduated 2019, [Thesis](https://dx.doi.org/10.14288/1.0380529) | After completing BSc in Statistics at Queen’s University and MSc in Statistics with a Biostatistics specialization at the University of British Columbia (MSc thesis jointly supervised by [Prof. Paul Gustafson](https://scholar.google.ca/citations?user=yxcvXB0AAAAJ) and Dr. Ehsan Karim), Eric Sanders began working at TD Bank in Toronto, where he now holds a position as a Senior Risk Analyst. Research projects he has been involved with over the years include RCT analysis in pragmatic clinical trial settings, artificial light at night exposure and its supposed link to cancer risks, and avian influenza rates and varieties in waterfowl populations. | ![](./images/es.jpg) |
-| [Lucy Mosquera](https://www.linkedin.com/in/lucy-k-mosquera/), [Statistics](http://www.stat.ubc.ca/), Graduated 2020, [Thesis](https://dx.doi.org/10.14288/1.0392954) | Lucy Mosquera has a background in biology and mathematics, having completed her BSc at Queen’s University in Kingston and her MSc in statistics at the University of British Columbia. She is motivated by problems at the intersection of healthcare and data science, specifically ways to make health research more efficient. Under the supervision of Dr. Ehsan Karim, Lucy’s MSc. thesis compared causal inference methods to recover the true effect of receiving a new treatment when trial participants do not adhere to the treatment protocol. She has provided data management support to clinical trials and observational studies at Kingston General Hospital in the past. Currently, she is focused on methods to make better use of existing data through synthetic data generation to enable widespread data sharing at the start-up Replica Analytics. | ![](./images/lm.jpg) |
-| [Mohammad Abdullah Heel Kafi](https://scholar.google.ca/citations?user=zAkZwDMAAAAJ), [SPPH](http://www.spph.ubc.ca/), Graduated 2021, [Thesis](http://hdl.handle.net/2429/78089) | Effect modification in propensity score | ![](./images/m.jpg) |
-
-
-- [x] **Undergraduate Supervision**
-
-| Name | Research Interests and activities|  |
-|--|----|-|
-| Jingyi Huang, [Statistics](http://www.stat.ubc.ca/), Graduated 2018 | Simulating complex cross-sectional and longitudinal data based on hypothesized causal diagrams; jointly supervised with [Hubert Wong](https://scholar.google.com/citations?user=ZkOv_mkAAAAJ). After finishing her undergraduate degree, she joined as a Biostatistics M.Sc. Student at Harvard T.H. Chan School of Public Health. |  |
-| Yang Qu, [Statistics](http://www.stat.ubc.ca/) | Data wrangling (R, Python) |  |
-| An Hoang, [Foresry](https://forestry.ubc.ca/) | Data wrangling (R, Python) |  |
-
-- [x] **Postdoctoral Fellow Supervision** 
-
-| Name | Research Interests | Department |
-|--|----|-|
-| [Michael Asamoah-Boaheng](https://scholar.google.com/citations?user=0ySHLOIAAAAJ&hl=en), [CORSIP](https://www.occupationalcancer.ca/2021/corsip/), Started 2021 | Discriminant analysis, Classification, time series, epidemiology, medical statistics. Jointly supervised by [Brian Grunau](https://scholar.google.ca/citations?hl=en&user=uOHQ19QAAAAJ).  | [UBC Emergency Medicine](https://emergency.med.ubc.ca/) |
-
-- [x] **Co-supervising / Committee member** 
-
-| Name | Research Interests | Primary Supervisor | Program | Department | Graduation Year |
-|-|--|-|-|-|-|
-| [Mohammad Atiquzzaman](https://scholar.google.com/citations?user=kLAOcR0AAAAJ) | Osteoarthritis, mediation analysis, plasmode simulation | [Aslam Anis](https://scholar.google.com/citations?user=ZiEy4d8AAAAJ) | PhD | [Pharmaceutical Sciences](https://pharmsci.ubc.ca/)  | 2019, [Thesis](https://dx.doi.org/10.14288/1.0387284) |
-| [Steve Kanters](https://scholar.google.com/citations?user=Y52-vGUAAAAJ) | Network meta analysis, Bayesian analysis, IPD, HIV | [Nick Bansback](https://scholar.google.com/citations?user=HMs0olgAAAAJ) | PhD | [SPPH](http://www.spph.ubc.ca/) | 2019, [Thesis](https://dx.doi.org/10.14288/1.0383244) |
-| [Molly Sweeney Magee](https://scholar.google.com/citations?user=4bXL3kcAAAAJ) | Colorectal Cancer and missing data | [Trevor Dummer](https://scholar.google.com/citations?user=6qXib9YAAAAJ) | PhD | [SPPH](http://www.spph.ubc.ca/) | 2021, [Thesis](https://dx.doi.org/10.14288/1.0396770) |
-| Derek Ouyang | Stepped-wedge Trial, and power | [Hubert Wong](https://scholar.google.com/citations?user=ZkOv_mkAAAAJ) | PhD | [SPPH](http://www.spph.ubc.ca/) | 2021, [Thesis](https://dx.doi.org/10.14288/1.0396685) |
-| Katherine McLeod | Prison health policy, time-dependent modelling | [Jane Buxton](https://scholar.google.com/citations?user=pPItoZAAAAAJ) | PhD | [SPPH](http://www.spph.ubc.ca/) | 2021, [Thesis](https://dx.doi.org/10.14288/1.0403799) |
-| [Dahn Jeong](https://scholar.google.com/citations?user=hCn2msMAAAAJ) | Hepatitis C and time-dependent modelling, causal inference | [Naveed Janjua](https://scholar.google.com/citations?user=1jeSvjUAAAAJ) | PhD | [SPPH](http://www.spph.ubc.ca/) | ongoing |
-| Randip Gill | Childhood Poverty, Immigration, Mental Health, Educational Trajectories | [Anne Gadermann](https://scholar.google.ca/citations?user=sAp60rAAAAAJ) | PhD | [SPPH](http://www.spph.ubc.ca/) | ongoing |
-| [Kamila Romanowski](https://scholar.google.com/citations?user=zF2bLbkAAAAJ) | Tuberculosis long-term impacts and trajectories | James Johnson | PhD | [Respiratory Medicine](https://respiratory.med.ubc.ca/) | ongoing |
-| [Taraneh Bahremand](https://scholar.google.com/citations?hl=en&user=fK6uYIoAAAAJ) | Utilization and safety studies of inhaled pharmacotherapies in COPD | [Mohsen Sadatsafavi](https://scholar.google.com/citations?user=SxrGIa4AAAAJ)| MSc | [Pharmaceutical Sciences](https://pharmsci.ubc.ca/) | 2021, [Thesis](https://dx.doi.org/10.14288/1.0401798) |
-| Stephen van Gaal | Carotid endarterectomy, administrative data, data science and data mining | [Jason Sutherland](https://scholar.google.com/citations?user=0UzWKx8AAAAJ) | MSc | [SPPH](http://www.spph.ubc.ca/) | Ongoing |
-| Liang Xu | Stepped-wedge trial and sample size | [Hubert Wong](https://scholar.google.com/citations?user=ZkOv_mkAAAAJ) | MSc | [SPPH](http://www.spph.ubc.ca/) | Ongoing |
-
-
 # Available to supervise
 
 I am currently looking for a postdoctoral researchers and multiple graduate students (current and prospective) for a number of projects (with methodologic focuses within epidemiologic contexts). See [program of research](/Research/) for details about my research. Following are few examples:
@@ -136,4 +69,78 @@ Note:
   - Please check out these websites for [MSc](https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-population-public-health) and [PhD](https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-population-public-health) requirements for [SPPH](http://www.spph.ubc.ca/), UBC (see under 'Requirements' section). 
   - Note that the requirements vary by department (e.g., check for [Statistics](https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-statistics)).
   - Please check out my [G+PS profile](https://www.grad.ubc.ca/researcher/16712-karim) for my research interests, as well as my previous publications. 
+
+
+
+# Trainees (Present and Alumni)
+
+
+
+- [X] **PhD Supervision**
+
+
+<style>
+table th:first-of-type {
+    width: 15%;
+}
+table th:nth-of-type(2) {
+    width: 65%;
+}
+table th:nth-of-type(3) {
+    width: 15%;
+}
+</style>
+
+
+
+| Name and website link | Research Interests or Bio | Image |
+|--|----|-|
+| [Christopher Andrew Basham](https://www.linkedin.com/in/candrewbasham/), [SPPH](http://www.spph.ubc.ca/), Graduated in 2021,  [Thesis](https://dx.doi.org/10.14288/1.0402446) | C. Andrew Basham is a tuberculosis (TB) epidemiologist with a background in Environmental and Urban Studies (BA) from the University of Winnipeg. Under the supervision of Drs. Ehsan Karim and James Johnston, Andrew has completed his doctoral research on TB survivor health using causal inference methods with health administrative data. He is currently a [research fellow](https://www.drugepi.org/dope/team) at the Division of Pharmacoepidemiology and Pharmacoeconomics, Department of Medicine, Brigham and Women's Hospital | ![](./images/ab.jpg) |
+| [Md. Belal Hossain](https://www.linkedin.com/in/md-belal-hossain-3906b36a/), [SPPH](http://www.spph.ubc.ca/), transferred from MSc | Belal Hossain is a Ph.D. student at the School of Population and Public Health, University British Columbia. Under Dr. Karim’s guidance, Belal has been working with causal inference methods to estimate treatment effects in trials with incomplete medication adherence, integrating machine learning approaches within the framework of causal inference, and applying/adapting these innovative and emerging techniques in real-life epidemiological data analysis. His current research interests include biostatistics and epidemiology, focusing on causal inference from observational studies and clinical trials with medication nonadherence, and machine learning and deep learning approaches in risk score prediction from a large healthcare database. His PhD work is focused on causal inference in tubercolosis data. | ![](./images/bh.jpg) |
+| Fardowsa Yusuf, [SPPH](http://www.spph.ubc.ca/) | Multiple sclerosis, data mining, clustering; jointly supervised with Helen Tremlett. Awarded the CIHR Frederick Banting and Charles Best Canada Graduate Scholarship Doctoral Award for her research on the Multiple Sclerosis (MS) prodrome. | ![](./images/m.jpg) |
+| [Hanna Frank](https://www.linkedin.com/in/hanna-f-940813b9/), [SPPH](http://www.spph.ubc.ca/) | Hanna Frank is an PhD student at the UBC School of Population and Public Health. She gained a background in mathematics, statistics, and computer science through the completion of a BSc in mathematical sciences at the University of British Columbia. Her research interests focus on the use of data science in health care, and she is currently working on a project looking at the use of machine learning in propensity score methods in epidemiology. Her application area is multiple sclerosis. | ![](./images/hf.jpg) |
+
+
+- [x] **MSc Supervision**
+
+| Name and website link | Research Interests or Bio | Image |
+|--|----|-|
+| Eric Sanders, [Statistics](http://www.stat.ubc.ca/), Graduated 2019, [Thesis](https://dx.doi.org/10.14288/1.0380529) | After completing BSc in Statistics at Queen’s University and MSc in Statistics with a Biostatistics specialization at the University of British Columbia (MSc thesis jointly supervised by [Prof. Paul Gustafson](https://scholar.google.ca/citations?user=yxcvXB0AAAAJ) and Dr. Ehsan Karim), Eric Sanders is now a PhD student at the University of Toronto. | ![](./images/es.jpg) |
+| [Lucy Mosquera](https://www.linkedin.com/in/lucy-k-mosquera/), [Statistics](http://www.stat.ubc.ca/), Graduated 2020, [Thesis](https://dx.doi.org/10.14288/1.0392954) | Lucy Mosquera has a background in biology and mathematics, having completed her BSc at Queen’s University in Kingston and her MSc in statistics at the University of British Columbia. Lucy’s MSc. thesis compared causal inference methods to recover the true effect of receiving a new treatment when trial participants do not adhere to the treatment protocol. Currently, she is focused on methods to make better use of existing data through synthetic data generation to enable widespread data sharing at the start-up Replica Analytics. | ![](./images/lm.jpg) |
+| [Mohammad Abdullah Heel Kafi](https://scholar.google.ca/citations?user=zAkZwDMAAAAJ), [SPPH](http://www.spph.ubc.ca/), Graduated 2021, [Thesis](http://hdl.handle.net/2429/78089) | Effect modification in propensity score | ![](./images/m.jpg) |
+
+
+- [x] **Undergraduate Supervision**
+
+| Name | Research Interests and activities|  |
+|--|----|-|
+| Jingyi Huang, [Statistics](http://www.stat.ubc.ca/), Graduated 2018 | Simulating complex cross-sectional and longitudinal data based on hypothesized causal diagrams; jointly supervised with [Hubert Wong](https://scholar.google.com/citations?user=ZkOv_mkAAAAJ). After finishing her undergraduate degree, she joined as a Biostatistics M.Sc. Student at Harvard T.H. Chan School of Public Health. |  |
+| Yang Qu, [Statistics](http://www.stat.ubc.ca/) | Data wrangling (R, Python) |  |
+| An Hoang, [Foresry](https://forestry.ubc.ca/) | Data wrangling (R, Python) |  |
+| Yuanhong Zhang | Deep learning in causal inference  |  |
+| Mohammad Barrichello Hafiizh Noor | Deep learning in structural data and visualization |  |
+
+- [x] **Postdoctoral Fellow Supervision** 
+
+| Name | Research Interests | Department |
+|--|----|-|
+| [Michael Asamoah-Boaheng](https://scholar.google.com/citations?user=0ySHLOIAAAAJ&hl=en), [CORSIP](https://www.occupationalcancer.ca/2021/corsip/), Started 2021 | Discriminant analysis, Classification, time series, epidemiology, medical statistics. Jointly supervised by [Brian Grunau](https://scholar.google.ca/citations?hl=en&user=uOHQ19QAAAAJ).  | [UBC Emergency Medicine](https://emergency.med.ubc.ca/) |
+
+- [x] **Co-supervising / Committee member** 
+
+| Name | Research Interests | Primary Supervisor | Program | Department | Graduation Year |
+|-|--|-|-|-|-|
+| [Mohammad Atiquzzaman](https://scholar.google.com/citations?user=kLAOcR0AAAAJ) | Osteoarthritis, mediation analysis, plasmode simulation | [Aslam Anis](https://scholar.google.com/citations?user=ZiEy4d8AAAAJ) | PhD | [Pharmaceutical Sciences](https://pharmsci.ubc.ca/)  | 2019, [Thesis](https://dx.doi.org/10.14288/1.0387284) |
+| [Steve Kanters](https://scholar.google.com/citations?user=Y52-vGUAAAAJ) | Network meta analysis, Bayesian analysis, IPD, HIV | [Nick Bansback](https://scholar.google.com/citations?user=HMs0olgAAAAJ) | PhD | [SPPH](http://www.spph.ubc.ca/) | 2019, [Thesis](https://dx.doi.org/10.14288/1.0383244) |
+| [Molly Sweeney Magee](https://scholar.google.com/citations?user=4bXL3kcAAAAJ) | Colorectal Cancer and missing data | [Trevor Dummer](https://scholar.google.com/citations?user=6qXib9YAAAAJ) | PhD | [SPPH](http://www.spph.ubc.ca/) | 2021, [Thesis](https://dx.doi.org/10.14288/1.0396770) |
+| Derek Ouyang | Stepped-wedge Trial, and power | [Hubert Wong](https://scholar.google.com/citations?user=ZkOv_mkAAAAJ) | PhD | [SPPH](http://www.spph.ubc.ca/) | 2021, [Thesis](https://dx.doi.org/10.14288/1.0396685) |
+| Katherine McLeod | Prison health policy, time-dependent modelling | [Jane Buxton](https://scholar.google.com/citations?user=pPItoZAAAAAJ) | PhD | [SPPH](http://www.spph.ubc.ca/) | 2021, [Thesis](https://dx.doi.org/10.14288/1.0403799) |
+| [Dahn Jeong](https://scholar.google.com/citations?user=hCn2msMAAAAJ) | Hepatitis C and time-dependent modelling, causal inference | [Naveed Janjua](https://scholar.google.com/citations?user=1jeSvjUAAAAJ) | PhD | [SPPH](http://www.spph.ubc.ca/) | ongoing |
+| Randip Gill | Childhood Poverty, Immigration, Mental Health, Educational Trajectories | [Anne Gadermann](https://scholar.google.ca/citations?user=sAp60rAAAAAJ) | PhD | [SPPH](http://www.spph.ubc.ca/) | ongoing |
+| [Kamila Romanowski](https://scholar.google.com/citations?user=zF2bLbkAAAAJ) | Tuberculosis long-term impacts and trajectories | James Johnson | PhD | [Respiratory Medicine](https://respiratory.med.ubc.ca/) | ongoing |
+| Jialin Han | Addressing missing data in longitudinal health data | Adeera Levin and [Sean Barbour](https://nephrology.medicine.ubc.ca/person/sean-barbour/) | PhD | Experimental Medicine | ongoing |
+| [Taraneh Bahremand](https://scholar.google.com/citations?hl=en&user=fK6uYIoAAAAJ) | Utilization and safety studies of inhaled pharmacotherapies in COPD | [Mohsen Sadatsafavi](https://scholar.google.com/citations?user=SxrGIa4AAAAJ)| MSc | [Pharmaceutical Sciences](https://pharmsci.ubc.ca/) | 2021, [Thesis](https://dx.doi.org/10.14288/1.0401798) |
+| Stephen van Gaal | Carotid endarterectomy, administrative data, data science and data mining | [Jason Sutherland](https://scholar.google.com/citations?user=0UzWKx8AAAAJ) | MSc | [SPPH](http://www.spph.ubc.ca/) | Ongoing |
+| Liang Xu | Stepped-wedge trial and sample size | [Hubert Wong](https://scholar.google.com/citations?user=ZkOv_mkAAAAJ) | MSc | [SPPH](http://www.spph.ubc.ca/) | ABD |
+
 
