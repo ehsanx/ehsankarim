@@ -9,13 +9,12 @@ output:
 always_allow_html: true    
 ---
 
-# Available to supervise
+# Not available to supervise at the moment
 
-I am currently looking for a postdoctoral researchers and multiple graduate students (current and prospective) for a number of projects (with methodologic focuses within epidemiologic contexts). See [program of research](/Research/) for details about my research. Following are few examples:
+<span style="color:red">**Quota filled up; at capacity**</span>. Also not available to serve any new supervisory committee.
 
-- Improving Causal Inference Methods in Statistics for Analyzing [High-dimensional / Big Data](https://doi.org/10.1097/EDE.0000000000000787).
-- Developing and Evaluating Causal Inference Methods for Pragmatic Trials to [address nonadherence](https://ehsanx.github.io/Causal-Inference-Methods-for-Pragmatic-Trials/).
-- Applying causal inference methods within the context of the disease [multiple sclerosis](https://journals.sagepub.com/doi/full/10.1177/0962280216668554) in particular.
+**Don't apply until the status changes on this website**. Following are applicable when I become available to supervise again.
+
 
 # Instructions to Apply
 
@@ -108,7 +107,7 @@ table th:nth-of-type(3) {
 | Eric Sanders, [Statistics](http://www.stat.ubc.ca/), Graduated 2019, [Thesis](https://dx.doi.org/10.14288/1.0380529) | After completing BSc in Statistics at Queen’s University and MSc in Statistics with a Biostatistics specialization at the University of British Columbia (MSc thesis jointly supervised by [Prof. Paul Gustafson](https://scholar.google.ca/citations?user=yxcvXB0AAAAJ) and Dr. Ehsan Karim), Eric Sanders is now a PhD student at the University of Toronto. | ![](./images/es.jpg) |
 | [Lucy Mosquera](https://www.linkedin.com/in/lucy-k-mosquera/), [Statistics](http://www.stat.ubc.ca/), Graduated 2020, [Thesis](https://dx.doi.org/10.14288/1.0392954) | Lucy Mosquera has a background in biology and mathematics, having completed her BSc at Queen’s University in Kingston and her MSc in statistics at the University of British Columbia. Lucy’s MSc. thesis compared causal inference methods to recover the true effect of receiving a new treatment when trial participants do not adhere to the treatment protocol. Currently, she is focused on methods to make better use of existing data through synthetic data generation to enable widespread data sharing at the start-up Replica Analytics. | ![](./images/lm.jpg) |
 | [Mohammad Abdullah Heel Kafi](https://scholar.google.ca/citations?user=zAkZwDMAAAAJ), [SPPH](http://www.spph.ubc.ca/), Graduated 2021, [Thesis](http://hdl.handle.net/2429/78089) | Effect modification in propensity score | ![](./images/m.jpg) |
-
+| [Momenul Haque Mondol](https://scholar.google.ca/citations?user=hGgyIHUAAAAJ), [SPPH](http://www.spph.ubc.ca/), Ongoing | Data science in health science | ![](./images/m.jpg) |
 
 - [x] **Undergraduate Supervision**
 
@@ -119,6 +118,7 @@ table th:nth-of-type(3) {
 | An Hoang, [Foresry](https://forestry.ubc.ca/) | Data wrangling (R, Python) |  |
 | Yuanhong Zhang | Deep learning in causal inference  |  |
 | Mohammad Barrichello Hafiizh Noor | Deep learning in structural data and visualization |  |
+| Chuyi (Astra) Zheng | Data wrangling (R), simulation and systematic review |  |
 
 - [x] **Postdoctoral Fellow Supervision** 
 
@@ -140,7 +140,8 @@ table th:nth-of-type(3) {
 | [Kamila Romanowski](https://scholar.google.com/citations?user=zF2bLbkAAAAJ) | Tuberculosis long-term impacts and trajectories | James Johnson | PhD | [Respiratory Medicine](https://respiratory.med.ubc.ca/) | ongoing |
 | Jialin Han | Addressing missing data in longitudinal health data | Adeera Levin and [Sean Barbour](https://nephrology.medicine.ubc.ca/person/sean-barbour/) | PhD | Experimental Medicine | ongoing |
 | [Taraneh Bahremand](https://scholar.google.com/citations?hl=en&user=fK6uYIoAAAAJ) | Utilization and safety studies of inhaled pharmacotherapies in COPD | [Mohsen Sadatsafavi](https://scholar.google.com/citations?user=SxrGIa4AAAAJ)| MSc | [Pharmaceutical Sciences](https://pharmsci.ubc.ca/) | 2021, [Thesis](https://dx.doi.org/10.14288/1.0401798) |
+| Liang Xu | Stepped-wedge trial and sample size | [Hubert Wong](https://scholar.google.com/citations?user=ZkOv_mkAAAAJ) | MSc | [SPPH](http://www.spph.ubc.ca/) | 2022, [Thesis](https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0419311) |
 | Stephen van Gaal | Carotid endarterectomy, administrative data, data science and data mining | [Jason Sutherland](https://scholar.google.com/citations?user=0UzWKx8AAAAJ) | MSc | [SPPH](http://www.spph.ubc.ca/) | Ongoing |
-| Liang Xu | Stepped-wedge trial and sample size | [Hubert Wong](https://scholar.google.com/citations?user=ZkOv_mkAAAAJ) | MSc | [SPPH](http://www.spph.ubc.ca/) | ABD |
+| Sebastian Santana | Actionable Population-Level Metrics and Estimate Risk Factors for Migrant Subpopulations | [Anne Gadermann](https://scholar.google.ca/citations?user=sAp60rAAAAAJ) | MSc | [SPPH](http://www.spph.ubc.ca/) | ongoing |
 
 

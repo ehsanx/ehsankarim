@@ -108,13 +108,9 @@ kable(dt0, format = "html") %>%
   column_spec(2, width = "12cm") 
 ```
 
-# Available to supervise
+# Not available to supervise at the moment
 
-I am currently looking for a postdoctoral researchers and multiple graduate students (current and prospective) for a number of projects (with methodologic focuses within epidemiologic contexts). See [program of research](/Research/) for details about my research. Following are few examples:
-
-- Improving Causal Inference Methods in Statistics for Analyzing [High-dimensional / Big Data](https://t.co/vvjmIrKMrR).
-- Developing and Evaluating Causal Inference Methods for Pragmatic Trials to [address nonadherence](https://www.youtube.com/watch?v=ur1etAewqHA).
-- Applying causal inference methods within the context of the disease [multiple sclerosis](https://journals.sagepub.com/doi/full/10.1177/0962280216668554) in particular.
+**Quota is filled up for this year**. Don't apply now. Following are applicable when I become available to supervise again.
 
 # Instructions to Apply
 
