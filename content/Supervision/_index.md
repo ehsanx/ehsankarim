@@ -11,7 +11,7 @@ always_allow_html: true
 
 # Not available to supervise at the moment
 
-<span style="color:red">**Quota filled up; at capacity**</span>. Also not available to serve any new supervisory committee.
+<span style="color:red">**Quota filled up at the moment; at capacity**</span>. Also not available to serve any new supervisory committee.
 
 **Don't apply until the status changes on this website**. Following are applicable when I become available to supervise again.
 
