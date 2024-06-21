@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>P Gustafson {ME Karim} | Ehsan&#39;s Page</title>
+    <link>/authors/P-Gustafson-ME-Karim/</link>
+      <atom:link href="/authors/P-Gustafson-ME-Karim/index.xml" rel="self" type="application/rss+xml" />
+    <description>P Gustafson {ME Karim}</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>P Gustafson {ME Karim}</title>
+      <link>/authors/P-Gustafson-ME-Karim/</link>
+    </image>
+    
+    <item>
+      <title>Hypothesis testing for an exposure–disease association in case–control studies under nondifferential exposure misclassification in the presence of validation data: Bayesian and …</title>
+      <link>/publication/journal-article/2016-01-01_MEKa2016Hypot/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2016-01-01_MEKa2016Hypot/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

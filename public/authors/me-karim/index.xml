@@ -5,12 +5,20 @@
     <link>/authors/ME-Karim/</link>
       <atom:link href="/authors/ME-Karim/index.xml" rel="self" type="application/rss+xml" />
     <description>ME Karim</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>ME Karim</title>
       <link>/authors/ME-Karim/</link>
     </image>
+    
+    <item>
+      <title>High-dimensional propensity score and its machine learning extensions in residual confounding control</title>
+      <link>/publication/journal-article/2024-01-01_MEKa2024Highd/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2024-01-01_MEKa2024Highd/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A pragmatic randomized controlled trial testing the effects of the international scientific SCI exercise guidelines on SCI chronic pain: protocol for the EPIC-SCI trial</title>
@@ -317,6 +325,14 @@
     </item>
     
     <item>
+      <title>Causal inference approaches for dealing with time-dependent confounding in longitudinal studies, with applications to multiple sclerosis research</title>
+      <link>/publication/journal-article/2015-01-01_MEKa2015Causa/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2015-01-01_MEKa2015Causa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Directed Acyclic Graphs to Identify Confounders: A Case Study Exploring the Impact of Hunger on Virologic Suppression Among HIV-Positive Illicit Drug Users Receiving HIV Treatment</title>
       <link>/publication/journal-article/2015-01-01_anema2015directed/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
@@ -357,6 +373,14 @@
     </item>
     
     <item>
+      <title>Can joint replacement reduce cardiovascular risk?</title>
+      <link>/publication/journal-article/2013-01-01_MEKa2013Canjo/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2013-01-01_MEKa2013Canjo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Interferon beta and long-term disability in multiple sclerosis</title>
       <link>/publication/journal-article/2013-01-01_shirani2013interferon/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
@@ -377,6 +401,30 @@
       <link>/publication/journal-article/2012-01-01_shirani2012association/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
       <guid>/publication/journal-article/2012-01-01_shirani2012association/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluating the performance of hypothesis testing in case-control studies with exposure misclassification, using frequentist and Bayesian techniques</title>
+      <link>/publication/journal-article/2009-01-01_MEKa2009Evalu/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2009-01-01_MEKa2009Evalu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Frailty Models</title>
+      <link>/publication/journal-article/2008-01-01_FrailtyModels/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2008-01-01_FrailtyModels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Frailty Models</title>
+      <link>/publication/journal-article/2008-01-01_MEKa2008Frail/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2008-01-01_MEKa2008Frail/</guid>
       <description></description>
     </item>
     

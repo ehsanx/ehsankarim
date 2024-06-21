@@ -107,7 +107,7 @@ table th:nth-of-type(3) {
 | Eric Sanders, [Statistics](http://www.stat.ubc.ca/), Graduated 2019, [Thesis](https://dx.doi.org/10.14288/1.0380529) | After completing BSc in Statistics at Queen’s University and MSc in Statistics with a Biostatistics specialization at the University of British Columbia (MSc thesis jointly supervised by [Prof. Paul Gustafson](https://scholar.google.ca/citations?user=yxcvXB0AAAAJ) and Dr. Ehsan Karim), Eric Sanders is now a PhD student at the University of Toronto. | ![](./images/es.jpg) |
 | [Lucy Mosquera](https://www.linkedin.com/in/lucy-k-mosquera/), [Statistics](http://www.stat.ubc.ca/), Graduated 2020, [Thesis](https://dx.doi.org/10.14288/1.0392954) | Lucy Mosquera has a background in biology and mathematics, having completed her BSc at Queen’s University in Kingston and her MSc in statistics at the University of British Columbia. Lucy’s MSc. thesis compared causal inference methods to recover the true effect of receiving a new treatment when trial participants do not adhere to the treatment protocol. Currently, she is focused on methods to make better use of existing data through synthetic data generation to enable widespread data sharing at the start-up Replica Analytics. | ![](./images/lm.jpg) |
 | [Mohammad Abdullah Heel Kafi](https://scholar.google.ca/citations?user=zAkZwDMAAAAJ), [SPPH](http://www.spph.ubc.ca/), Graduated 2021, [Thesis](http://hdl.handle.net/2429/78089) | Effect modification in propensity score | ![](./images/m.jpg) |
-| [Momenul Haque Mondol](https://scholar.google.ca/citations?user=hGgyIHUAAAAJ), [SPPH](http://www.spph.ubc.ca/), Ongoing | Data science in health science | ![](./images/m.jpg) |
+| [Momenul Haque Mondol](https://scholar.google.ca/citations?user=hGgyIHUAAAAJ), [SPPH](http://www.spph.ubc.ca/), Ongoing | Data science in health science | ![](./images/mhm.jpg) |
 
 - [x] **Undergraduate Supervision**
 
@@ -119,6 +119,9 @@ table th:nth-of-type(3) {
 | Yuanhong Zhang | Deep learning in causal inference  |  |
 | Mohammad Barrichello Hafiizh Noor | Deep learning in structural data and visualization |  |
 | Chuyi (Astra) Zheng | Data wrangling (R), simulation and systematic review |  |
+| Annie Wang, [Statistics](http://www.stat.ubc.ca/) | Neural net in causal inference  |  |
+| Eric Li, [Statistics](http://www.stat.ubc.ca/) | Data science and vizualization |  |
+| Yang Lei, [Statistics](http://www.stat.ubc.ca/) | Proxy selection from high-dimensional health databases   |  |
 
 - [x] **Postdoctoral Fellow Supervision** 
 
@@ -135,13 +138,14 @@ table th:nth-of-type(3) {
 | [Molly Sweeney Magee](https://scholar.google.com/citations?user=4bXL3kcAAAAJ) | Colorectal Cancer and missing data | [Trevor Dummer](https://scholar.google.com/citations?user=6qXib9YAAAAJ) | PhD | [SPPH](http://www.spph.ubc.ca/) | 2021, [Thesis](https://dx.doi.org/10.14288/1.0396770) |
 | Derek Ouyang | Stepped-wedge Trial, and power | [Hubert Wong](https://scholar.google.com/citations?user=ZkOv_mkAAAAJ) | PhD | [SPPH](http://www.spph.ubc.ca/) | 2021, [Thesis](https://dx.doi.org/10.14288/1.0396685) |
 | Katherine McLeod | Prison health policy, time-dependent modelling | [Jane Buxton](https://scholar.google.com/citations?user=pPItoZAAAAAJ) | PhD | [SPPH](http://www.spph.ubc.ca/) | 2021, [Thesis](https://dx.doi.org/10.14288/1.0403799) |
-| [Dahn Jeong](https://scholar.google.com/citations?user=hCn2msMAAAAJ) | Hepatitis C and time-dependent modelling, causal inference | [Naveed Janjua](https://scholar.google.com/citations?user=1jeSvjUAAAAJ) | PhD | [SPPH](http://www.spph.ubc.ca/) | ongoing |
-| Randip Gill | Childhood Poverty, Immigration, Mental Health, Educational Trajectories | [Anne Gadermann](https://scholar.google.ca/citations?user=sAp60rAAAAAJ) | PhD | [SPPH](http://www.spph.ubc.ca/) | ongoing |
-| [Kamila Romanowski](https://scholar.google.com/citations?user=zF2bLbkAAAAJ) | Tuberculosis long-term impacts and trajectories | James Johnson | PhD | [Respiratory Medicine](https://respiratory.med.ubc.ca/) | ongoing |
-| Jialin Han | Addressing missing data in longitudinal health data | Adeera Levin and [Sean Barbour](https://nephrology.medicine.ubc.ca/person/sean-barbour/) | PhD | Experimental Medicine | ongoing |
+| Randip Gill | Childhood Poverty, Immigration, Mental Health, Educational Trajectories | [Anne Gadermann](https://scholar.google.ca/citations?user=sAp60rAAAAAJ) | PhD | [SPPH](http://www.spph.ubc.ca/) | 2024, [Thesis](http://hdl.handle.net/2429/87688) |
+| [Kamila Romanowski](https://scholar.google.com/citations?user=zF2bLbkAAAAJ) | Tuberculosis long-term impacts and trajectories | James Johnson | PhD | [Respiratory Medicine](https://respiratory.med.ubc.ca/) | 2023, [Thesis](http://hdl.handle.net/2429/86725) |
+| Maram Alkawaja | The Middle Years Development instrument | [Eva Oberle](https://scholar.google.ca/citations?hl=en&user=N5dtN18AAAAJ) | PhD | [SPPH](http://www.spph.ubc.ca/) | Ongoing |
+| Shelby Marozoff | Sex and Gender Disparities in Cancer Incidence and Survival | [Trevor Dummer](https://scholar.google.com/citations?user=6qXib9YAAAAJ) | PhD | [SPPH](http://www.spph.ubc.ca/) | Ongoing |
+| [Dahn Jeong](https://scholar.google.com/citations?user=hCn2msMAAAAJ) | Hepatitis C and time-dependent modelling, causal inference | [Naveed Janjua](https://scholar.google.com/citations?user=1jeSvjUAAAAJ) | PhD | [SPPH](http://www.spph.ubc.ca/) | Ongoing |
 | [Taraneh Bahremand](https://scholar.google.com/citations?hl=en&user=fK6uYIoAAAAJ) | Utilization and safety studies of inhaled pharmacotherapies in COPD | [Mohsen Sadatsafavi](https://scholar.google.com/citations?user=SxrGIa4AAAAJ)| MSc | [Pharmaceutical Sciences](https://pharmsci.ubc.ca/) | 2021, [Thesis](https://dx.doi.org/10.14288/1.0401798) |
 | Liang Xu | Stepped-wedge trial and sample size | [Hubert Wong](https://scholar.google.com/citations?user=ZkOv_mkAAAAJ) | MSc | [SPPH](http://www.spph.ubc.ca/) | 2022, [Thesis](https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0419311) |
 | Stephen van Gaal | Carotid endarterectomy, administrative data, data science and data mining | [Jason Sutherland](https://scholar.google.com/citations?user=0UzWKx8AAAAJ) | MSc | [SPPH](http://www.spph.ubc.ca/) | Ongoing |
-| Sebastian Santana | Actionable Population-Level Metrics and Estimate Risk Factors for Migrant Subpopulations | [Anne Gadermann](https://scholar.google.ca/citations?user=sAp60rAAAAAJ) | MSc | [SPPH](http://www.spph.ubc.ca/) | ongoing |
+| Sebastian Santana | Actionable Population-Level Metrics and Estimate Risk Factors for Migrant Subpopulations | [Anne Gadermann](https://scholar.google.ca/citations?user=sAp60rAAAAAJ) | MSc | [SPPH](http://www.spph.ubc.ca/) | Ongoing |
 
 

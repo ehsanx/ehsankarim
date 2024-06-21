@@ -17,11 +17,7 @@ layout: docs
 
   1. [An Introductory R Guide for Targeted Maximum Likelihood Estimation in Medical Research](https://r-medicine.org/schedule/) (organized together with Hanna Frank), 2021 R/Medicine Virtual Conference, August 24, 2021. [36 participants for live session; recording open to all conference delegates] 
 
-{{< tweet 1430306896754339840 >}}
-
   2. [Understanding Propensity Score Matching](https://cseb.ca/wp-content/uploads/2021/06/Conference-Program-CSEB2021-210601.pdf); CSEB 2021 Virtual Conference, June 3, 2021 [11 participants].
-
-{{< tweet 1401350445335924736 >}}
 
   3. [Applying Propensity Score Approaches to Complex Survey Data Analyses](https://icas2019.isrt.ac.bd/home/conference-workshops); International Conference on Applied Statistics 2019, Dhaka, Bangladesh (26th December, 2019). [59 participants] 
   4. [Propensity Score Analysis in the Context of Complex Survey Data](https://www.mcgill.ca/epi-biostat-occh/seminars-events/atlantic-causal-inference-conference-2019/workshop-descriptions); Atlantic Causal Inference Conference, May 22 2019, Montreal [16 participants]. 
@@ -40,8 +36,6 @@ layout: docs
   - 328 registrants nationwide
   - [x] [Materials](https://ehsanx.github.io/SARGC-TIMethods/) can be downloaded (the slides, software requirements, link to the github page) from here.
   - [Video recording posted online](https://t.co/S8cwiHajvE?amp=1) 
-  
-{{< tweet 1312181045815463936 >}}  
   
   2. [Introduction to Causal Inference: Propensity Score Analysis in Healthcare Data](https://www.popdata.bc.ca/events/etu/Advanced_Methods_Causal_Inf_May14_2020), Webinar for Population Data BC (in partnership with [IC/ES](https://www.ices.on.ca/)), May 14th, 2020 (Invited Webinar) 
   

@@ -5,12 +5,100 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Ehsan&#39;s Page</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Ehsan&#39;s Page</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>High-dimensional propensity score and its machine learning extensions in residual confounding control</title>
+      <link>/publication/journal-article/2024-01-01_MEKa2024Highd/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2024-01-01_MEKa2024Highd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementing TMLE in the presence of a continuous outcome</title>
+      <link>/publication/journal-article/2024-01-01_HAFr2024Imple/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2024-01-01_HAFr2024Imple/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The intensity and duration of occupational noise exposure and cardiovascular disease in the United States: a nationally representative study, 2015 to 2020</title>
+      <link>/publication/journal-article/2024-01-01_XGuo2024Thein/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2024-01-01_XGuo2024Thein/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Propensity Score Analysis of the Effect of a Single Dose Vitamin A Supplementation on Child Hemoglobin Status in Bangladesh</title>
+      <link>/publication/journal-article/2023-01-01_JRKh2023AProp/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2023-01-01_JRKh2023AProp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adding nuance to dietary prescriptions: does sodium reduction benefit people already losing weight?</title>
+      <link>/publication/journal-article/2023-01-01_JADe2023Addin/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2023-01-01_JADe2023Addin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chronic physical conditions and suicidal ideation: a population-level analysis of Canadian school-attending young adults</title>
+      <link>/publication/journal-article/2023-01-01_PVir2023Chron/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2023-01-01_PVir2023Chron/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Key considerations for choosing a statistical method to deal with incomplete treatment adherence in pragmatic trials</title>
+      <link>/publication/journal-article/2023-01-01_MBHo2023Keyco/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2023-01-01_MBHo2023Keyco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multimorbidity prevalence and chronic disease patterns among tuberculosis survivors in a high-income setting</title>
+      <link>/publication/journal-article/2023-01-01_CABa2023Multi/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2023-01-01_CABa2023Multi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The relationship between mood disorder diagnosis and experiencing an unmet health-care need in Canada: findings from the 2014 Canadian Community Health Survey</title>
+      <link>/publication/journal-article/2023-01-01_KEMc2023There/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2023-01-01_KEMc2023There/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An E-value analysis of potential unmeasured or residual confounding in systematic reviews of post-tuberculosis mortality, respiratory disease, and cardiovascular disease</title>
+      <link>/publication/journal-article/2022-01-01_CABa2022AnEva/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2022-01-01_CABa2022AnEva/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analysis approaches to address treatment nonadherence in pragmatic trials with point-treatment settings: a simulation study</title>
+      <link>/publication/journal-article/2022-01-01_MBHo2022Analy/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2022-01-01_MBHo2022Analy/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Association Between Prescription Opioid Therapy for Noncancer Pain and Hepatitis C Virus Seroconversion</title>
@@ -21,10 +109,34 @@
     </item>
     
     <item>
+      <title>Considerations for choosing an imputation method for addressing sparse measurement issues dictated by the study design-An illustration from per-protocol analysis in pragmatic …</title>
+      <link>/publication/journal-article/2022-01-01_MEKa2022Consi/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2022-01-01_MEKa2022Consi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>The association between Diabetes and Excessive Daytime Sleepiness among American adults aged 20-79 years: Findings from the 2015-2018 National Health and Nutrition Examination Surveys</title>
       <link>/publication/journal-article/2022-01-01_yusuf2022association/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       <guid>/publication/journal-article/2022-01-01_yusuf2022association/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The association between diabetes and excessive daytime sleepiness among American adults aged 20–79 years: findings from the 2015–2018 National Health and Nutrition Examination …</title>
+      <link>/publication/journal-article/2022-01-01_FLAY2022Theas/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2022-01-01_FLAY2022Theas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Traditional birth attendant-assisted versus unassisted births: a comparison of neonatal deaths in Nigeria, 2008–2018</title>
+      <link>/publication/journal-article/2022-01-01_AIOk2022Tradi/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2022-01-01_AIOk2022Tradi/</guid>
       <description></description>
     </item>
     
@@ -45,6 +157,14 @@
     </item>
     
     <item>
+      <title>Are US adults with low-exposure to methylmercury at increased risk for depression? A study based on 2011–2016 National Health and Nutrition Examination Surveys (NHANES)</title>
+      <link>/publication/journal-article/2021-01-01_VRos2021AreUS/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2021-01-01_VRos2021AreUS/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Comparing the use of aggregate data and various methods of integrating individual patient data to network meta-analysis and its application to first-line ART</title>
       <link>/publication/journal-article/2021-01-01_kanters2021comparing/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
@@ -61,6 +181,14 @@
     </item>
     
     <item>
+      <title>Evaluating Adjusted Per-Protocol Effect Estimators in Pragmatic Trials to Address Treatment Non-Adherence</title>
+      <link>/publication/journal-article/2021-01-01_LMos2021Evalu/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2021-01-01_LMos2021Evalu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Impact of HCV infection and ethnicity on incident type 2 diabetes: findings from a large population-based cohort in British Columbia</title>
       <link>/publication/journal-article/2021-01-01_jeong2021impact/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
@@ -73,6 +201,14 @@
       <link>/publication/journal-article/2021-01-01_Sanders2021partial/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>/publication/journal-article/2021-01-01_Sanders2021partial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Incorporating partial adherence into the principal stratification analysis framework</title>
+      <link>/publication/journal-article/2021-01-01_ESan2021Incor/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2021-01-01_ESan2021Incor/</guid>
       <description></description>
     </item>
     
@@ -101,10 +237,26 @@
     </item>
     
     <item>
+      <title>Performance of statistical methods to address treatment non-adherence in pragmatic clinical trials with point-treatment settings: a simulation study</title>
+      <link>/publication/journal-article/2021-01-01_MBHo2021Perfo/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2021-01-01_MBHo2021Perfo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Post-tuberculosis airway disease: A population-based cohort study of people immigrating to British Columbia, Canada, 1985--2015</title>
       <link>/publication/journal-article/2021-01-01_basham2021post/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>/publication/journal-article/2021-01-01_basham2021post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sodium intake and high blood pressure among adults on caloric restriction: a multi-year cross-sectional analysis of the US Population, 2007-2018</title>
+      <link>/publication/journal-article/2021-01-01_JADe2021Sodiu/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2021-01-01_JADe2021Sodiu/</guid>
       <description></description>
     </item>
     
@@ -161,6 +313,14 @@
       <link>/publication/journal-article/2020-01-01_ahmed2020application/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>/publication/journal-article/2020-01-01_ahmed2020application/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Application of decision tree-based techniques to veneer processing</title>
+      <link>/publication/journal-article/2020-01-01_SSAh2020Appli/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2020-01-01_SSAh2020Appli/</guid>
       <description></description>
     </item>
     
@@ -293,6 +453,14 @@
     </item>
     
     <item>
+      <title>Multimorbidity prevalence in Canada: a comparison of Northern Territories with Provinces, 2013/14</title>
+      <link>/publication/journal-article/2019-01-01_CABa2019Multi/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2019-01-01_CABa2019Multi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Nephrology consultation and mortality in people with stage 4 chronic kidney disease: a population-based study</title>
       <link>/publication/journal-article/2019-01-01_liu2019nephrology/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
@@ -317,10 +485,26 @@
     </item>
     
     <item>
+      <title>The effect of serious offending on health: A marginal structural model</title>
+      <link>/publication/journal-article/2019-01-01_VBa2019Theef/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2019-01-01_VBa2019Theef/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>The effect of serious offending on health: a marginal structural model</title>
       <link>/publication/journal-article/2019-01-01_bacak2019effect/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>/publication/journal-article/2019-01-01_bacak2019effect/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The randomization-induced risk of a trial failing to attain its target power: assessment and mitigation</title>
+      <link>/publication/journal-article/2019-01-01_HWon2019Thera/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2019-01-01_HWon2019Thera/</guid>
       <description></description>
     </item>
     
@@ -349,10 +533,26 @@
     </item>
     
     <item>
+      <title>When exposure is subject to nondifferential misclassification, are validation data helpful in testing for an exposure–disease association?</title>
+      <link>/publication/journal-article/2019-01-01_PGus2019Whene/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2019-01-01_PGus2019Whene/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Can we train machine learning methods to outperform the high-dimensional propensity score algorithm?</title>
       <link>/publication/journal-article/2018-01-01_karim2018can/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>/publication/journal-article/2018-01-01_karim2018can/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Can we train machine learning methods to outperform the high-dimensional propensity score algorithm?</title>
+      <link>/publication/journal-article/2018-01-01_MEKa2018Canwe/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2018-01-01_MEKa2018Canwe/</guid>
       <description></description>
     </item>
     
@@ -397,6 +597,14 @@
     </item>
     
     <item>
+      <title>GUIDANCE FOR PRACTITIONERS ON THE CHOICES OF SOFTWARE IMPLEMENTATION FOR FRAILTY MODELS: SIMULATIONS AND AN APPLICATION IN DETERMINING THE BIRTH INTERVAL DYNAMICS</title>
+      <link>/publication/journal-article/2018-01-01_MEKA2018GUIDA/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2018-01-01_MEKA2018GUIDA/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Guidance for Practitioners on the Choices of Software Implementation for Frailty Models: Simulations and An Application in Determining the Birth Interval Dynamics</title>
       <link>/publication/journal-article/2018-01-01_karim2018guidance/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
@@ -429,6 +637,14 @@
     </item>
     
     <item>
+      <title>Estimating inverse probability weights using super learner when weight‐model specification is unknown in a marginal structural Cox model context</title>
+      <link>/publication/journal-article/2017-01-01_MEKa2017Estim/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2017-01-01_MEKa2017Estim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>On the application of statistical learning approaches to construct inverse probability weights in marginal structural cox models: hedging against weight-model misspecification</title>
       <link>/publication/journal-article/2017-01-01_karim2017application/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
@@ -449,6 +665,14 @@
       <link>/publication/journal-article/2016-01-01_karim2016hypothesis/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>/publication/journal-article/2016-01-01_karim2016hypothesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hypothesis testing for an exposure–disease association in case–control studies under nondifferential exposure misclassification in the presence of validation data: Bayesian and …</title>
+      <link>/publication/journal-article/2016-01-01_MEKa2016Hypot/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2016-01-01_MEKa2016Hypot/</guid>
       <description></description>
     </item>
     
@@ -485,10 +709,26 @@
     </item>
     
     <item>
+      <title>Antibody dissociation rates are predictive of neutralizing antibody (NAb) course: A comparison of interferon beta-1b-treated Multiple Sclerosis (MS) patients with transient …</title>
+      <link>/publication/journal-article/2015-01-01_EGib2015Antib/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2015-01-01_EGib2015Antib/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Beta-interferon exposure and onset of secondary progressive multiple sclerosis</title>
       <link>/publication/journal-article/2015-01-01_zhang2015beta/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       <guid>/publication/journal-article/2015-01-01_zhang2015beta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Causal inference approaches for dealing with time-dependent confounding in longitudinal studies, with applications to multiple sclerosis research</title>
+      <link>/publication/journal-article/2015-01-01_MEKa2015Causa/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2015-01-01_MEKa2015Causa/</guid>
       <description></description>
     </item>
     
@@ -533,10 +773,26 @@
     </item>
     
     <item>
+      <title>Can joint replacement reduce cardiovascular risk?</title>
+      <link>/publication/journal-article/2013-01-01_MEKa2013Canjo/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2013-01-01_MEKa2013Canjo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Interferon beta and long-term disability in multiple sclerosis</title>
       <link>/publication/journal-article/2013-01-01_shirani2013interferon/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
       <guid>/publication/journal-article/2013-01-01_shirani2013interferon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Graph Essentials</title>
+      <link>/publication/journal-article/2013-01-01_EKar2013RGrap/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2013-01-01_EKar2013RGrap/</guid>
       <description></description>
     </item>
     
@@ -553,6 +809,30 @@
       <link>/publication/journal-article/2012-01-01_shirani2012association/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
       <guid>/publication/journal-article/2012-01-01_shirani2012association/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluating the performance of hypothesis testing in case-control studies with exposure misclassification, using frequentist and Bayesian techniques</title>
+      <link>/publication/journal-article/2009-01-01_MEKa2009Evalu/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2009-01-01_MEKa2009Evalu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Frailty Models</title>
+      <link>/publication/journal-article/2008-01-01_FrailtyModels/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2008-01-01_FrailtyModels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Frailty Models</title>
+      <link>/publication/journal-article/2008-01-01_MEKa2008Frail/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2008-01-01_MEKa2008Frail/</guid>
       <description></description>
     </item>
     

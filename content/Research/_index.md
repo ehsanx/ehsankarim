@@ -14,6 +14,7 @@ My program of research is about developing causal inference methods for large he
 
 - [x] **Use of machine learning / AI approaches in the causal inference context**
   - TMLE and variants
+  - hdPS
   - Double machine learning
   - Autoencoders for dimensionality reduction
 - [x] **Practical issues dealing with large health administrative databases**
@@ -32,10 +33,6 @@ My program of research is about developing causal inference methods for large he
     - Dealing with data sparseness for post-baseline prognostic factors
   - Extending the principal stratification framework for multi-category of partial adherence
   - Comparing the per-protocol effect estimation methods with instrumental methods in point-treatment scenario
-
-<p align="center">
-	<iframe width=427 height=240 src="https://www.youtube.com/embed/ur1etAewqHA?html5=1" frameborder="0" allowfullscreen></iframe><br/>
-</p>
 
 - [x] **Survey data analysis**
   - Incorporating causal inference and data science approaches within the survey data analysis framework
@@ -74,6 +71,7 @@ My program of research is about developing causal inference methods for large he
 
 Some notable funding sources listed below (excluding start-up fundings):
 
+- [MS Canada](https://mscanada.ca/ms-research/our-research-program/research-studies-we-fund/development-and-validation-of-an-ms)
 - [Michael Smith Foundation for Health Research](https://www.msfhr.org/causal-inference-framework-analyzing-large-administrative-healthcare-databases-focus-multiple), 
 - [Natural Sciences and Engineering Research Council of Canada](https://www.nserc-crsng.gc.ca/ase-oro/Details-Detailles_eng.asp?id=655112), 
 - [BC SUPPORT Unit](https://bcsupportunit.ca/real-world-clinical-trials-project-themes), and other start-up funds.

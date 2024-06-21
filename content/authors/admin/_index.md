@@ -56,9 +56,6 @@ social:
 - icon: orcid
   icon_pack: ai
   link: https://orcid.org/0000-0002-0346-2871
-- icon: mendeley
-  icon_pack: ai
-  link: https://www.mendeley.com/profiles/ehsan-karim/ 
 - icon: zotero
   icon_pack: ai
   link: https://www.zotero.org/ehsanx
@@ -70,7 +67,7 @@ social:
   link: https://www.linkedin.com/in/ehsan-karim-3747ba45/
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/ehsan7x
+  link: https://x.com/ehsanX364
 
 superuser: true
 user_groups:
@@ -81,9 +78,9 @@ user_groups:
 Dr. M. Ehsan Karim is 
 
 - an Assistant Professor (tenure-track) in Health Data Science in the School of Population and Public Health ([SPPH](http://www.spph.ubc.ca/person/ehsan-karim/)), The University of British Columbia ([UBC](http://www.ubc.ca/)),
-- a Scientist at the Centre for Health Evaluation and Outcome Sciences ([CHEOS](http://www.cheos.ubc.ca/people/mohammad-ehsanul-ehsan-karim/)), St. Paul's Hospital, 
-- a Michael Smith Foundation for Health Research ([MSFHR](https://www.msfhr.org/causal-inference-framework-analyzing-large-administrative-healthcare-databases-focus-multiple)) Scholar, and
+- a Scientist at the Centre for Health Evaluation and Outcome Sciences ([CHEOS](http://www.cheos.ubc.ca/people/mohammad-ehsanul-ehsan-karim/)), St. Paul's Hospital, and
 - an Associate Member, [UBC Statistics](https://www.stat.ubc.ca/people). 
+- He was also a Michael Smith Foundation for Health Research ([MSFHR](https://www.msfhr.org/causal-inference-framework-analyzing-large-administrative-healthcare-databases-focus-multiple)) Scholar.
 
 He obtained his Ph.D. in Statistics from [UBC](http://hdl.handle.net/2429/51933), supported by a studentship from the Multiple Sclerosis Society of Canada ([MSSOC](https://mssociety.ca/)). He completed his postgraduate training in the Department of Epidemiology, Biostatistics and Occupational Health at [McGill](https://www.mcgill.ca/epi-biostat-occh/), supported by a fellowship from the Canadian Network for Observational Drug Effect Studies ([CNODES](https://www.cnodes.ca/methods/methods-members/)). 
 

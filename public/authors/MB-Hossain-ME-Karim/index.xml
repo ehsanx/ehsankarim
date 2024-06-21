@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MB Hossain {ME Karim} | Ehsan&#39;s Page</title>
+    <link>/authors/MB-Hossain-ME-Karim/</link>
+      <atom:link href="/authors/MB-Hossain-ME-Karim/index.xml" rel="self" type="application/rss+xml" />
+    <description>MB Hossain {ME Karim}</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>MB Hossain {ME Karim}</title>
+      <link>/authors/MB-Hossain-ME-Karim/</link>
+    </image>
+    
+    <item>
+      <title>Considerations for choosing an imputation method for addressing sparse measurement issues dictated by the study design-An illustration from per-protocol analysis in pragmatic …</title>
+      <link>/publication/journal-article/2022-01-01_MEKa2022Consi/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2022-01-01_MEKa2022Consi/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

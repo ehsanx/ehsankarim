@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ME Karim {H Wong Y Ouyang} | Ehsan&#39;s Page</title>
+    <link>/authors/ME-Karim-H-Wong-Y-Ouyang/</link>
+      <atom:link href="/authors/ME-Karim-H-Wong-Y-Ouyang/index.xml" rel="self" type="application/rss+xml" />
+    <description>ME Karim {H Wong Y Ouyang}</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>ME Karim {H Wong Y Ouyang}</title>
+      <link>/authors/ME-Karim-H-Wong-Y-Ouyang/</link>
+    </image>
+    
+    <item>
+      <title>The randomization-induced risk of a trial failing to attain its target power: assessment and mitigation</title>
+      <link>/publication/journal-article/2019-01-01_HWon2019Thera/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2019-01-01_HWon2019Thera/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

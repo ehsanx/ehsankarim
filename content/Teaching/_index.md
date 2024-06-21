@@ -29,8 +29,6 @@ layout: docs
 
   - **SPPH 504/007**: *Application of Epidemiological Methods* (Section 7: restricted to Ph.D. level SPPH students).
         
-{{< tweet 1306751311895953409 >}}        
-
 This course is transitioned to SPPH 604 now. Previous year Syllabus and materials from SPPH 504/007    
 
   1. **2021-2022** [Syllabus](https://med-fom-spph.sites.olt.ubc.ca/files/2021/09/SPPH-504-section-007-Course-Outline.pdf)

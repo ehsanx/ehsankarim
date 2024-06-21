@@ -11,22 +11,5 @@ view: 4
 
 See most updated list of publications at [Google Scholar](https://scholar.google.ca/citations?user=fStySaMAAAAJ&hl=en).
 
-```{r, echo=FALSE, warning=FALSE, message=FALSE}
-libs <- c(
-  'dplyr',
-  'ggplot2',
-  'scholar',
-  'easyPubMed',
-  'scales'
-)
-
-invisible(lapply(libs, library, character.only = T))
-
-scholar.id = "fStySaMAAAAJ" 
-ct <- get_citation_history(scholar.id)
-ct$year <- as.Date(as.character(ct$year), "%Y")
-ggplot(ct, aes(year, cites)) + geom_line() + geom_point() +
-  scale_x_date(labels = date_format("%Y"))
-ggsave("cite.png")
-```
+![Citation Plot](cite.png)
 

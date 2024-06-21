@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ME Karim {KE McLeod} | Ehsan&#39;s Page</title>
+    <link>/authors/ME-Karim-KE-McLeod/</link>
+      <atom:link href="/authors/ME-Karim-KE-McLeod/index.xml" rel="self" type="application/rss+xml" />
+    <description>ME Karim {KE McLeod}</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>ME Karim {KE McLeod}</title>
+      <link>/authors/ME-Karim-KE-McLeod/</link>
+    </image>
+    
+    <item>
+      <title>The relationship between mood disorder diagnosis and experiencing an unmet health-care need in Canada: findings from the 2014 Canadian Community Health Survey</title>
+      <link>/publication/journal-article/2023-01-01_KEMc2023There/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2023-01-01_KEMc2023There/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
