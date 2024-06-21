@@ -98,7 +98,7 @@ citation_plot <- ggplot(citations, aes(x = year, y = cites)) +
   ) +
   theme_minimal()
 
-parent_dir <- dirname(bibfolder)
-
+#parent_dir <- dirname(bibfolder)
 # Save the plot as a PNG file in the parent directory
-ggsave(file.path(parent_dir, "cite.png"), plot = citation_plot, width = 8, height = 6)
+#ggsave(file.path(parent_dir, "cite.png"), plot = citation_plot, width = 8, height = 6)
+ggsave("cite.png", plot = citation_plot, width = 8, height = 6)

@@ -11,5 +11,5 @@ view: 4
 
 See most updated list of publications at [Google Scholar](https://scholar.google.ca/citations?user=fStySaMAAAAJ&hl=en).
 
-![Citation Plot](cite.png)
+![Citation Plot](journal-article/cite.png)
 
