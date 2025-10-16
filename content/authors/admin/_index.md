@@ -1,42 +1,38 @@
 ---
 authors:
 - admin
-bio: Causal inference, Biostatistics, Epidemiology, Statistical learning, Survey data analysis, Bayesian methodologies.
+bio: My research focuses on developing and applying causal inference and machine learning methods to large health administrative databases to generate reliable real-world evidence.
+
+interests:
+- Causal Inference
+- Machine Learning & AI
+- Pharmacoepidemiology
+- Health Administrative Data
+- Biostatistics & Epidemiology
+- Pragmatic Trials
+- Longitudinal & Survival Analysis
+- Survey Data Analysis
+
 education:
   courses:
   - course: Postdoctoral Research in Biostatistics
-    institution: Epidemiology, Biostatistics & Occupational Health; McGill University
-    year: 2016
+    institution: McGill University
   - course: PhD in Statistics
-    institution: Statistics; University of British Columbia
-    year: 2015
+    institution: University of British Columbia
   - course: MSc in Statistics
-    institution: Statistics; University of British Columbia
-    year: 2009
+    institution: University of British Columbia
   - course: MSc in Applied Statistics
-    institution: Institute of Statistical Research and Training, University of Dhaka
-    year: 2007
+    institution: University of Dhaka
   - course: BSc in Applied Statistics
-    institution: Institute of Statistical Research and Training, University of Dhaka
-    year: 2005    
-email: "ehsan.karim@ubc.ca"
-interests:
-- Causal inference
-- Machine Learning and AI
-- Biostatistics & Epidemiology
-- Observational data analysis
-- Time-dependent confounding 
-- Pragmatic Trials
-- Mediation analysis 
-- Longitudinal analysis
-- Survival analysis 
-- Survey data analysis
+    institution: University of Dhaka
 
 name: M. Ehsan Karim
+role: Associate Professor in Health Data Science 
+
 organizations:
-- name: University of British Columbia (UBC)
-  url: ""
-role: Assistant Professor in Health Data Science; MSFHR Scholar; CHEOS Scientist
+- name: The University of British Columbia (UBC)
+  url: "https://www.ubc.ca"
+
 social:
 - icon: envelope
   icon_pack: fas
@@ -44,30 +40,24 @@ social:
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.ca/citations?user=fStySaMAAAAJ&hl=en
-- icon: publons
+- icon: webofscience
   icon_pack: ai
-  link: https://publons.com/researcher/1172512/ehsan-karim/
-- icon: pubmed
-  icon_pack: ai
-  link: https://www.ncbi.nlm.nih.gov/myncbi/1PCD5j7s5g8Qe/bibliography/public/
+  link: https://www.webofscience.com/wos/author/record/I-1803-2018
 - icon: github
   icon_pack: fab
   link: https://github.com/ehsanx/
 - icon: orcid
   icon_pack: ai
   link: https://orcid.org/0000-0002-0346-2871
-- icon: zotero
-  icon_pack: ai
-  link: https://www.zotero.org/ehsanx
-- icon: researchgate
-  icon_pack: ai
-  link: https://www.researchgate.net/profile/Mohammad_Karim2
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/ehsan-karim-3747ba45/
 - icon: twitter
   icon_pack: fab
   link: https://x.com/ehsanX364
+- icon: youtube
+  icon_pack: fab
+  link: https://www.youtube.com/@EhsanKarim
 
 superuser: true
 user_groups:
@@ -75,16 +65,90 @@ user_groups:
 - Visitors
 ---
 
-Dr. M. Ehsan Karim is 
+<button type="button" onclick="toggleBio(event)" style="background-color:#4CAF50;color:white;border:none;padding:8px 16px;border-radius:6px;cursor:pointer;">
+  Show Narrative Biography
+</button>
 
-- an Assistant Professor (tenure-track) in Health Data Science in the School of Population and Public Health ([SPPH](http://www.spph.ubc.ca/person/ehsan-karim/)), The University of British Columbia ([UBC](http://www.ubc.ca/)),
-- a Scientist at the Centre for Health Evaluation and Outcome Sciences ([CHEOS](http://www.cheos.ubc.ca/people/mohammad-ehsanul-ehsan-karim/)), St. Paul's Hospital, and
-- an Associate Member, [UBC Statistics](https://www.stat.ubc.ca/people). 
-- He was also a Michael Smith Foundation for Health Research ([MSFHR](https://www.msfhr.org/causal-inference-framework-analyzing-large-administrative-healthcare-databases-focus-multiple)) Scholar.
+<div id="fullbio" style="display:none;margin-top:1em;">
 
-He obtained his Ph.D. in Statistics from [UBC](http://hdl.handle.net/2429/51933), supported by a studentship from the Multiple Sclerosis Society of Canada ([MSSOC](https://mssociety.ca/)). He completed his postgraduate training in the Department of Epidemiology, Biostatistics and Occupational Health at [McGill](https://www.mcgill.ca/epi-biostat-occh/), supported by a fellowship from the Canadian Network for Observational Drug Effect Studies ([CNODES](https://www.cnodes.ca/methods/methods-members/)). 
+Dr. M. Ehsan Karim is an Associate Professor in Health Data Science in the [School of Population and Public Health](http://www.spph.ubc.ca) at [The University of British Columbia](http://www.ubc.ca/), a Scientist at the [Centre for Advancing Health Outcomes](https://www.advancinghealth.ubc.ca/) (St. Paul’s Hospital), and an Associate Member of [UBC Statistics](https://www.stat.ubc.ca). He was a [Michael Smith Health Research BC](https://healthresearchbc.ca/) Scholar (2018–2023).
 
-His current [program of research](/Research/) focuses on developing causal inference and pharmacoepidemiological methodologies, and applications of data science approaches in the large healthcare data analysis context to answer real-world comparative effectiveness research questions. His program of research is supported by grants from the Natural Sciences and Engineering Research Council of Canada ([NSERC](https://www.nserc-crsng.gc.ca/ase-oro/Details-Detailles_eng.asp?id=655112)) and the [BC SUPPORT Unit](https://bcsupportunit.ca/real-world-clinical-trials-project-themes). He [supervises](/Supervision/) graduate students from both [SPPH](http://www.spph.ubc.ca/) and [Statistics](https://www.stat.ubc.ca/people) Department. 
+He obtained his Ph.D. in Statistics from [UBC](http://hdl.handle.net/2429/51933), supported by a studentship from [MS Canada](https://mssociety.ca/). He completed his postgraduate training at [McGill University](https://www.mcgill.ca/epi-biostat-occh/) with a fellowship from the [Canadian Network for Observational Drug Effect Studies (CNODES)](https://www.cnodes.ca/).
 
-He also conducts, supports, collaborates and implements patient-oriented research as well as pragmatic / clinical trial design and analysis. Within SPPH, he developed and [teaches](/Teaching/) a core PhD capstone course that integrates state-of-the-art epidemiological, data science, and data analytic methods. He regularly offers [workshops and webinars](/workshops/) about emerging methods nationally and internationally. [Publication](/publication/) list and selected [services](/Service/) can be accessed from the current website. 
+His research program focuses on developing and applying causal inference and data science methods to answer real-world comparative effectiveness questions using nonrandomized data. A central theme is the analysis of large health administrative databases, advancing state-of-the-art biostatistical and epidemiological methods to generate reliable real-world evidence. Multiple sclerosis is a key application area for his work. His research is supported by grants from [CIHR](https://cihr-irsc.gc.ca/), [NSERC](https://www.nserc-crsng.gc.ca), [MS Canada](https://mssociety.ca/), and the [BC SUPPORT Unit](https://bcsupportunit.ca/).
 
+A dedicated educator and mentor, Dr. Karim supervises students in both [SPPH](http://www.spph.ubc.ca/) and [Statistics](https://www.stat.ubc.ca/people). He developed and teaches the PhD capstone course *SPPH 604*, and authored the open-access [*Advanced Epidemiological Methods*](https://ehsanx.github.io/EpiMethods/) textbook. He was named a [**UBC Open Educational Resources (OER) Champion**](https://champions.open.ubc.ca/) for 2024–2025.
+
+Dr. Karim serves as an Associate Editor for *[Pharmacoepidemiology and Drug Safety](https://onlinelibrary.wiley.com/journal/10991557)* and is a regular grant reviewer for national funding bodies. His contributions have been recognized with the *Author Service Award* (*BMC Medical Research Methodology*, 2025), *Exemplary Reviewer* (*Epidemiology*, 2020), and *Best Reviewer* (*Pharmacoepidemiology and Drug Safety*, 2015 & 2017).
+</div>
+
+---
+
+<div id="shortbio">
+
+### Dr. M. Ehsan Karim
+- **Associate Professor, Health Data Science**  
+[School of Population and Public Health](http://www.spph.ubc.ca), [The University of British Columbia](http://www.ubc.ca/)  
+- Scientist, [Centre for Advancing Health Outcomes](https://www.advancinghealth.ubc.ca/) (St. Paul’s Hospital)  
+- Associate Member, [UBC Statistics](https://www.stat.ubc.ca)  
+- *Michael Smith Health Research BC Scholar (2018–2023)*  
+
+---
+
+#### **Education**
+- **Ph.D. in Statistics**, [University of British Columbia](http://hdl.handle.net/2429/51933)  
+  Supported by a studentship from [MS Canada](https://mssociety.ca/).  
+- **Postgraduate Fellowship**, [McGill University](https://www.mcgill.ca/epi-biostat-occh/)  
+  Supported by the [Canadian Network for Observational Drug Effect Studies (CNODES)](https://www.cnodes.ca/).
+
+---
+
+#### **Research**
+Dr. Karim’s research focuses on developing and applying **causal inference** and **data science methods** to address real-world comparative effectiveness questions using **nonrandomized data**.  
+His program emphasizes:
+- Advanced **biostatistical and epidemiological methods** for large **health administrative databases**  
+- Improving reliability of **real-world evidence** generation  
+- Applications to **multiple sclerosis** and related neurological conditions  
+
+His research is funded by **CIHR**, **NSERC**, **MS Canada**, and the **BC SUPPORT Unit**.
+
+---
+
+#### **Teaching**
+A dedicated educator and mentor, Dr. Karim supervises students in both [SPPH](http://www.spph.ubc.ca/) and [Statistics](https://www.stat.ubc.ca/people).  
+- Developer and instructor of **SPPH 604 (PhD Capstone Course)**  
+- Author of the open-access textbook [*Advanced Epidemiological Methods*](https://ehsanx.github.io/EpiMethods/)  
+- Recognized as a [**UBC Open Educational Resources (OER) Champion**](https://champions.open.ubc.ca/) for 2024–2025
+
+---
+
+#### **Service**
+Dr. Karim contributes actively to academic service:  
+- **Associate Editor**, *[Pharmacoepidemiology and Drug Safety](https://onlinelibrary.wiley.com/journal/10991557)*  
+- **Grant Reviewer**, national funding agencies  
+- **Awards and Recognition:**  
+  - *Author Service Award*, *BMC Medical Research Methodology* (2025)  
+  - *Exemplary Reviewer*, *Epidemiology* (2020)  
+  - *Best Reviewer*, *Pharmacoepidemiology and Drug Safety* (2015, 2017)
+
+---  
+  
+</div>
+
+<script>
+function toggleBio(event) {
+  var full = document.getElementById("fullbio");
+  var short = document.getElementById("shortbio");
+  var btn = event.target;
+
+  if (full.style.display === "none") {
+    full.style.display = "block";
+    short.style.display = "none";
+    btn.innerText = "Hide Narrative Biography";
+  } else {
+    full.style.display = "none";
+    short.style.display = "block";
+    btn.innerText = "Show Narrative Biography";
+  }
+}
+</script>
