@@ -55,6 +55,9 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://x.com/ehsanX364
+- icon: amazon
+  icon_pack: fab
+  link: https://www.amazon.com/author/ehsanx
 - icon: youtube
   icon_pack: fab
   link: https://www.youtube.com/@EhsanKarim
