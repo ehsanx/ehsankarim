@@ -1,0 +1,4 @@
+# Previous site was a one-pager with no real sub-pages.
+# Send any stray old inbound URL to the homepage. Existing static files
+# (index.html, avatar.jpg) are served directly and take priority over this rule.
+/*  /  301

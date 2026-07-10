@@ -6,9 +6,4 @@
   publish = "redesign-preview"
   command = "echo 'Static one-page site — no build step required.'"
 
-# The previous site was a one-pager with no real sub-pages. Send any stray old inbound URL
-# to the homepage (static files in the publish dir are still served directly and take priority).
-[[redirects]]
-  from = "/*"
-  to = "/"
-  status = 301
+# Redirects live in redesign-preview/_redirects (the canonical publish-dir location).
