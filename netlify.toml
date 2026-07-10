@@ -1,9 +1,7 @@
 # ehsank.com — 2026 redesign (static one-page site).
 # Netlify serves the pre-built static site in redesign-preview/ as-is; there is no Hugo build.
-# To roll back to the previous Hugo site: `git revert` the commit that introduced this file,
-# or use Netlify's dashboard to re-publish the last Hugo deploy.
+# To roll back to the previous Hugo site: `git revert` the deploy commit, or use Netlify's
+# dashboard to re-publish the last Hugo deploy.
 [build]
   publish = "redesign-preview"
   command = "echo 'Static one-page site — no build step required.'"
-
-# Redirects live in redesign-preview/_redirects (the canonical publish-dir location).
