@@ -4,11 +4,21 @@ _Last updated: 2026-07-06_
 
 ## Current state
 
-A complete redesign preview of the faculty website has been built and is **awaiting the owner's review**.
-The live site (Hugo Academic theme, deployed from this repo) has **not** been touched. Nothing is committed;
-all new files are untracked in the working tree.
+**LIVE.** The 2026 redesign is deployed to production at **https://ehsank.com/** (merged to `master` and pushed
+2026-07-06; Netlify auto-deployed). Verified live: home + `/avatar.jpg` return 200, correct `<title>`, all
+content edits present, all removed items absent. The previous Hugo site is fully recoverable via git history
+(revert the deploy commits) or Netlify's "Publish deploy" on a prior Hugo build.
 
-- **Preview site (deliverable):** `redesign-preview/index.html` + `redesign-preview/avatar.jpg`
+Deploy commits on `master`: `8ddc53d` (static site + netlify.toml static-serve), `1b69b6e` (_redirects attempt),
+`199911b` (removed the non-working catch-all redirect — see note below). `.claude/` remains untracked (do not commit).
+
+**Redirect note:** a `/* -> / 301` catch-all (old links → home) was attempted via both `netlify.toml` and a
+`_redirects` file; Netlify did **not** honor it in this no-build static-serve setup (unknown paths kept 404-ing).
+It was removed to keep config honest. Unknown/old paths now return a standard Netlify 404 — acceptable, since the
+previous one-pager had no real sub-pages. If old-link forwarding is ever wanted, investigate via the Netlify
+dashboard (redirect rules there, or confirm the deploy is reading the publish-dir `_redirects`).
+
+- **Deployed site source:** `redesign-preview/index.html` + `redesign-preview/avatar.jpg`
   — one-page, self-contained (inline CSS/JS, system fonts, inline SVG icons), only external ref is `avatar.jpg`.
   Open directly in a browser to review.
 - **Hosted review copy (photo embedded):** https://claude.ai/code/artifact/c190d0c4-3248-49db-9563-0893b1fb6598
@@ -53,8 +63,9 @@ session scratchpad `C:\Users\wilds\AppData\Local\Temp\claude\E--GitHub-ehsankari
 
 ## Outstanding (priority order)
 
-1. **Owner review** of the preview; collect change requests (palette, section order, content edits).
-2. **Go live** (deployment is prepped — see below). One command flips it.
+1. ~~Owner review~~ / ~~go live~~ — **DONE** (live at ehsank.com as of 2026-07-06).
+2. Optional follow-ups the owner may still want: the "6 vs 7 books" count (see rev2 note — currently 6),
+   and whether to forward old inbound links (see redirect note above).
 3. Small enhancements discussed but not built: GA4 (old site has dead UA-164587756-1), og:image,
    publication DOI links per entry (deck has DOIs for all 12 selected pubs — currently only some are linked).
 4. `.claude/launch.json` has two static-server configs (`variants-preview` :8735 scratchpad, `redesign-preview`
