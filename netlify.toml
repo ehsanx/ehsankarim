@@ -1,14 +1,14 @@
+# ehsank.com — 2026 redesign (static one-page site).
+# Netlify serves the pre-built static site in redesign-preview/ as-is; there is no Hugo build.
+# To roll back to the previous Hugo site: `git revert` the commit that introduced this file,
+# or use Netlify's dashboard to re-publish the last Hugo deploy.
 [build]
-command = "hugo"
-publish = "public"
-[build.environment]
-HUGO_VERSION = "0.81.0"
+  publish = "redesign-preview"
+  command = "echo 'Static one-page site — no build step required.'"
 
-[context]
-[context.branch-deploy]
-command = "hugo -F -b $DEPLOY_PRIME_URL"
-[context.deploy-preview]
-command = "hugo -F -b $DEPLOY_PRIME_URL"
-[context.production]
-[context.production.environment]
-HUGO_ENV = "production"
+# The previous site was a one-pager with no real sub-pages. Send any stray old inbound URL
+# to the homepage (static files in the publish dir are still served directly and take priority).
+[[redirects]]
+  from = "/*"
+  to = "/"
+  status = 301

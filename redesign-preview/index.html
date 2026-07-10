@@ -1,0 +1,1445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>M. Ehsan Karim — Associate Professor in Health Data Science | UBC</title>
+<meta name="description" content="Dr. M. Ehsan Karim develops causal inference and machine learning methods that turn large health administrative databases into reliable real-world evidence. Associate Professor, School of Population and Public Health, University of British Columbia.">
+<meta property="og:title" content="M. Ehsan Karim — Associate Professor in Health Data Science | UBC">
+<meta property="og:description" content="He develops causal inference and machine learning methods that turn large health administrative databases into reliable real-world evidence.">
+<meta property="og:type" content="profile">
+<meta property="og:url" content="https://ehsank.com/">
+<meta name="theme-color" content="#faf8f4">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%230f2a43'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='38' font-weight='700' fill='%23c9a227' text-anchor='middle'%3EK%3C/text%3E%3C/svg%3E">
+<link rel="canonical" href="https://ehsank.com/">
+<script>document.documentElement.classList.add("js");</script>
+<style>
+/* ============================================================
+   INSTITUTIONAL ELEGANCE — Dr. M. Ehsan Karim (final)
+   Palette: warm ivory paper, deep navy ink, oxblood accent
+   ============================================================ */
+:root{
+  --paper:      #faf8f4;
+  --paper-deep: #f3efe7;
+  --card:       #fffefb;
+  --ink:        #0f2a43;
+  --ink-soft:   #35506b;
+  --ink-faint:  #5a7089;
+  --oxblood:    #7a2531;
+  --oxblood-dk: #5f1c26;
+  --bronze:     #8a6a34;
+  --bronze-lt:  #d9b876;
+  --rule:       #d9d2c3;
+  --rule-soft:  #e7e1d4;
+  --navy-band:  #0f2a43;
+  --navy-band2: #123252;
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Charter, "Book Antiqua", Georgia, "Times New Roman", serif;
+  --sans: "Segoe UI", "Gill Sans", "Gill Sans MT", Seravek, "Trebuchet MS", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  --step--1: 0.85rem;
+  --step-0:  1.0625rem;   /* 17px base */
+  --step-1:  1.328rem;
+  --step-2:  1.66rem;
+  --step-3:  2.075rem;
+  --step-4:  2.594rem;
+  --step-5:  3.242rem;
+  --measure: 72ch;
+  --space-1: .5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2.5rem;
+  --space-5: 4rem;
+  --space-6: 6rem;
+  --nav-h: 4rem;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--nav-h) + 1rem)}
+body{
+  font-family:var(--sans);
+  font-size:var(--step-0);
+  line-height:1.65;
+  color:var(--ink);
+  background:var(--paper);
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;height:auto;display:block}
+h1,h2,h3,h4{font-family:var(--serif);font-weight:600;line-height:1.2;color:var(--ink)}
+p{max-width:var(--measure)}
+a{color:var(--oxblood);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px;transition:color .18s ease}
+a:hover{color:var(--oxblood-dk)}
+:focus-visible{outline:3px solid var(--bronze);outline-offset:3px;border-radius:2px}
+/* Dark-context focus: switch to light bronze on navy bands (>=3:1 vs navy) */
+.stats :focus-visible,
+.trainee-band :focus-visible,
+.site-footer :focus-visible,
+.skip-link:focus-visible{outline-color:var(--bronze-lt)}
+::selection{background:var(--bronze-lt);color:var(--ink)}
+.nb{white-space:nowrap}
+
+/* ---------- Skip link ---------- */
+.skip-link{
+  position:absolute;left:1rem;top:-4rem;z-index:200;
+  background:var(--ink);color:var(--paper);padding:.65rem 1.2rem;
+  font-family:var(--sans);font-size:var(--step--1);letter-spacing:.06em;text-transform:uppercase;
+  text-decoration:none;border-radius:0 0 4px 4px;transition:top .2s ease;
+}
+.skip-link:focus{top:0;color:var(--paper)}
+
+/* ---------- Layout helpers ---------- */
+.wrap{max-width:74rem;margin-inline:auto;padding-inline:clamp(1.25rem, 4vw, 3rem)}
+section{padding-block:clamp(3.5rem, 7vw, var(--space-6))}
+section + section{border-top:1px solid var(--rule-soft)}
+
+/* Small-caps kicker + rule */
+.kicker{
+  display:flex;align-items:center;gap:1rem;
+  margin-bottom:var(--space-3);
+}
+.kicker span{
+  font-family:var(--sans);
+  font-size:var(--step--1);
+  font-weight:600;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  color:var(--oxblood);
+  white-space:nowrap;
+}
+.kicker::before{content:"";width:2.4rem;height:2px;background:var(--oxblood);flex:none}
+.kicker::after{content:"";flex:1;height:1px;background:var(--rule)}
+.section-title{font-size:var(--step-3);margin-bottom:var(--space-3);letter-spacing:-.01em}
+.section-intro{color:var(--ink-soft);margin-bottom:var(--space-4)}
+
+/* ---------- Header / nav ---------- */
+.site-header{
+  position:sticky;top:0;z-index:100;
+  background:rgba(250,248,244,.94);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--rule);
+}
+html:not(.js) .site-header{position:static}
+.nav-bar{
+  display:flex;align-items:center;justify-content:space-between;gap:1rem;
+  min-height:var(--nav-h);
+}
+.brand{
+  font-family:var(--serif);
+  font-size:1.12rem;
+  font-weight:600;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--ink);
+  text-decoration:none;
+  white-space:nowrap;
+}
+.brand em{font-style:normal;color:var(--oxblood)}
+.brand:hover{color:var(--oxblood)}
+.nav-toggle{
+  display:none;
+  align-items:center;gap:.55rem;
+  background:none;border:1px solid var(--rule);border-radius:4px;
+  padding:.5rem .8rem;cursor:pointer;color:var(--ink);
+  font-family:var(--sans);font-size:.82rem;font-weight:600;
+  letter-spacing:.12em;text-transform:uppercase;
+}
+.nav-toggle svg{display:block;flex:none}
+.nav-toggle .icon-close{display:none}
+.nav-toggle[aria-expanded="true"] .icon-open{display:none}
+.nav-toggle[aria-expanded="true"] .icon-close{display:block}
+.nav-links{
+  display:flex;align-items:center;gap:.2rem;list-style:none;flex-wrap:wrap;justify-content:flex-end;
+}
+.nav-links a{
+  display:block;
+  font-family:var(--sans);
+  font-size:.8rem;
+  font-weight:600;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:var(--ink-soft);
+  text-decoration:none;
+  padding:.45rem .55rem;
+  border-bottom:2px solid transparent;
+  transition:color .18s ease,border-color .18s ease;
+}
+.nav-links a:hover{color:var(--oxblood)}
+.nav-links a.is-active{color:var(--oxblood);border-bottom-color:var(--oxblood)}
+@media (max-width: 1180px){
+  html.js .nav-toggle{display:inline-flex}
+  html.js .nav-links{
+    position:absolute;top:100%;left:0;right:0;
+    flex-direction:column;align-items:stretch;gap:0;
+    background:var(--paper);
+    border-bottom:1px solid var(--rule);
+    box-shadow:0 14px 30px rgba(15,42,67,.12);
+    padding:.5rem 0 1rem;
+    display:none;
+  }
+  html.js .nav-links.open{display:flex}
+  html.js .nav-links a{
+    padding:.8rem clamp(1.25rem,4vw,3rem);
+    border-bottom:none;border-left:3px solid transparent;
+    font-size:.9rem;
+  }
+  html.js .nav-links a.is-active{border-left-color:var(--oxblood);background:var(--paper-deep)}
+}
+
+/* ---------- Hero ---------- */
+.hero{padding-block:clamp(2.5rem, 5.5vw, 4.5rem)}
+.hero-grid{
+  display:grid;
+  grid-template-columns:minmax(0, 7fr) minmax(0, 6fr);
+  gap:clamp(2rem, 5vw, 4.5rem);
+  align-items:center;
+}
+.hero-kicker{
+  font-family:var(--sans);font-size:var(--step--1);font-weight:600;
+  letter-spacing:.24em;text-transform:uppercase;color:var(--bronze);
+  margin-bottom:.7rem;
+}
+.hero-name{
+  font-size:clamp(2.5rem, 5vw, 3.7rem);
+  font-weight:700;
+  letter-spacing:-.015em;
+  line-height:1.06;
+  margin-bottom:.65rem;
+}
+.hero-title{
+  font-family:var(--serif);font-style:italic;
+  font-size:var(--step-1);color:var(--oxblood);
+  margin-bottom:1.1rem;
+}
+.hero-affils{
+  list-style:none;
+  border-left:2px solid var(--rule);
+  padding-left:1.1rem;
+  margin-bottom:1.3rem;
+  color:var(--ink-soft);
+  font-size:.97rem;
+}
+.hero-affils li + li{margin-top:.3rem}
+.hero-lede{
+  font-family:var(--serif);
+  font-size:var(--step-1);
+  line-height:1.5;
+  color:var(--ink);
+  max-width:36ch;
+  margin-bottom:1.6rem;
+}
+.hero-cta{display:flex;flex-wrap:wrap;gap:.8rem;margin-bottom:1.6rem}
+.profile-links{display:flex;flex-wrap:wrap;gap:.55rem;list-style:none}
+.profile-links a{
+  display:inline-flex;align-items:center;justify-content:center;
+  width:2.6rem;height:2.6rem;border-radius:50%;
+  border:1px solid var(--rule);
+  background:var(--card);
+  color:var(--ink-soft);
+  transition:color .18s ease,border-color .18s ease,background .18s ease,transform .18s ease;
+}
+.profile-links a:hover{
+  color:var(--paper);background:var(--oxblood);border-color:var(--oxblood);
+  transform:translateY(-2px);
+}
+.profile-links svg{width:1.15rem;height:1.15rem}
+.hero-photo{position:relative;justify-self:end;width:100%;max-width:34rem}
+.hero-photo::before{
+  content:"";position:absolute;inset:0;
+  transform:translate(16px,16px);
+  border:1px solid var(--bronze);
+  z-index:0;
+}
+.hero-photo figure{
+  position:relative;z-index:1;
+  background:var(--card);
+  border:1px solid var(--rule);
+  padding:.85rem;
+  box-shadow:0 18px 40px rgba(15,42,67,.10);
+}
+.hero-photo img{
+  width:100%;aspect-ratio:7/5;object-fit:cover;object-position:center 32%;
+  filter:saturate(.96);
+}
+.hero-photo figcaption{
+  font-family:var(--serif);font-style:italic;font-size:.88rem;
+  color:var(--ink-faint);text-align:center;padding-top:.7rem;
+}
+@media (max-width: 880px){
+  .hero-grid{grid-template-columns:1fr}
+  .hero-photo{justify-self:stretch;max-width:32rem;margin-inline:auto;order:-1}
+  .hero-lede{max-width:var(--measure)}
+}
+
+/* ---------- Buttons ---------- */
+.btn{
+  display:inline-flex;align-items:center;gap:.6rem;
+  font-family:var(--sans);font-size:.88rem;font-weight:600;
+  letter-spacing:.1em;text-transform:uppercase;
+  color:var(--paper);background:var(--oxblood);
+  border:1px solid var(--oxblood);
+  padding:.8rem 1.5rem;text-decoration:none;
+  transition:background .18s ease,color .18s ease;
+}
+.btn:hover{background:var(--oxblood-dk);color:var(--paper)}
+.btn svg{width:1rem;height:1rem}
+.btn--outline{background:transparent;color:var(--oxblood)}
+.btn--outline:hover{background:var(--oxblood);color:var(--paper)}
+
+/* ---------- Stats band ---------- */
+.stats{
+  background:linear-gradient(120deg, var(--navy-band), var(--navy-band2));
+  border-top:3px solid var(--bronze);
+  border-bottom:3px solid var(--bronze);
+  padding-block:clamp(2.25rem, 4.5vw, 3.25rem);
+}
+.stats-grid{
+  display:grid;
+  grid-template-columns:repeat(6, 1fr);
+  gap:1.5rem 1rem;
+  text-align:center;
+}
+.stat{display:flex;flex-direction:column}
+.stat dd{
+  order:-1;
+  font-family:var(--serif);
+  font-size:clamp(1.85rem, 3vw, 2.5rem);
+  font-weight:700;
+  color:var(--bronze-lt);
+  line-height:1.1;
+  letter-spacing:-.01em;
+  font-variant-numeric:tabular-nums;
+}
+.stat dt{
+  margin-top:.4rem;
+  font-size:.78rem;font-weight:600;
+  letter-spacing:.1em;text-transform:uppercase;
+  color:#c4d2e0;
+  line-height:1.4;
+}
+@media (max-width: 900px){.stats-grid{grid-template-columns:repeat(3,1fr)}}
+@media (max-width: 520px){.stats-grid{grid-template-columns:repeat(2,1fr)}}
+
+/* ---------- About + At a glance ---------- */
+.about-grid{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(16rem, 21rem);
+  gap:clamp(2rem, 4.5vw, 4rem);
+  align-items:start;
+}
+@media (max-width: 880px){.about-grid{grid-template-columns:1fr}}
+.about-body{max-width:var(--measure)}
+.about-body p + p{margin-top:var(--space-3)}
+.fact-card{
+  background:var(--card);
+  border:1px solid var(--rule);
+  border-top:3px solid var(--bronze);
+  padding:1.5rem 1.6rem 1.2rem;
+}
+.fact-card h3{
+  font-family:var(--sans);font-size:.8rem;font-weight:600;
+  letter-spacing:.2em;text-transform:uppercase;color:var(--bronze);
+  margin-bottom:.9rem;padding-bottom:.6rem;border-bottom:1px solid var(--rule-soft);
+}
+.fact-card ul{list-style:none}
+.fact-card li{
+  padding-block:.7rem;
+  border-bottom:1px solid var(--rule-soft);
+  font-size:.92rem;color:var(--ink-soft);line-height:1.5;
+}
+.fact-card li:last-child{border-bottom:none}
+.fact-card b{
+  display:block;font-family:var(--serif);font-weight:600;
+  font-size:1rem;color:var(--ink);
+}
+
+/* ---------- News & Highlights ---------- */
+.news-list{list-style:none;border-top:1px solid var(--rule)}
+.news-item{
+  display:grid;
+  grid-template-columns:9.5rem 1fr;
+  gap:1.4rem;
+  padding-block:1.05rem;
+  border-bottom:1px solid var(--rule-soft);
+}
+.news-date{
+  font-family:var(--sans);
+  font-size:.8rem;font-weight:600;
+  letter-spacing:.12em;text-transform:uppercase;
+  color:var(--bronze);
+  padding-top:.3rem;
+  font-variant-numeric:tabular-nums;
+  text-align:right;
+  padding-right:1.2rem;
+  border-right:2px solid var(--rule);
+}
+.news-text{font-size:.98rem;color:var(--ink-soft);max-width:var(--measure)}
+.news-text em{font-family:var(--serif);color:var(--oxblood)}
+@media (max-width: 640px){
+  .news-item{grid-template-columns:1fr;gap:.25rem}
+  .news-date{text-align:left;border-right:none;padding-right:0;padding-top:0}
+}
+
+/* ---------- Research themes ---------- */
+.theme-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(min(19rem,100%), 1fr));
+  gap:var(--space-3);
+  list-style:none;
+}
+.theme-card{
+  background:var(--card);
+  border:1px solid var(--rule);
+  border-top:3px solid var(--oxblood);
+  padding:1.6rem 1.6rem 1.7rem;
+  transition:box-shadow .22s ease, transform .22s ease;
+}
+.theme-card:hover{
+  box-shadow:0 14px 32px rgba(15,42,67,.10);
+  transform:translateY(-3px);
+}
+.theme-card h3{font-size:var(--step-1);margin-bottom:.65rem}
+.theme-card p{font-size:.95rem;color:var(--ink-soft)}
+.funders{
+  margin-top:var(--space-4);
+  border-top:1px solid var(--rule-soft);
+  padding-top:var(--space-3);
+  font-size:.92rem;
+  color:var(--ink-faint);
+  max-width:none;
+}
+.funders b{
+  font-family:var(--sans);font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+  font-size:.78rem;color:var(--bronze);margin-right:.6rem;
+}
+
+/* ---------- Publications ---------- */
+.pub-list{list-style:none}
+.pub{
+  display:grid;
+  grid-template-columns:5rem 1fr;
+  gap:1.4rem;
+  padding-block:1.35rem;
+  border-bottom:1px solid var(--rule-soft);
+  transition:background .18s ease;
+}
+.pub:first-child{border-top:1px solid var(--rule)}
+.pub:hover{background:var(--paper-deep)}
+.pub-year{
+  font-family:var(--serif);
+  font-size:var(--step-1);
+  font-weight:600;
+  color:var(--bronze);
+  line-height:1.25;
+  text-align:right;
+  padding-right:1.2rem;
+  border-right:2px solid var(--rule);
+}
+.pub-title{
+  font-size:1.08rem;
+  font-weight:600;
+  line-height:1.4;
+  margin-bottom:.3rem;
+}
+.pub-title a{color:var(--ink);text-decoration:none}
+.pub-title a:hover{color:var(--oxblood);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.pub-authors{font-size:.92rem;color:var(--ink-soft);margin-bottom:.3rem;max-width:none}
+.pub-authors strong{color:var(--ink);font-weight:700}
+.pub-meta{
+  font-size:.92rem;color:var(--ink-faint);max-width:none;
+  display:flex;flex-wrap:wrap;align-items:center;gap:.35rem .7rem;
+}
+.pub-meta cite{font-family:var(--serif);font-style:italic;color:var(--oxblood)}
+.tag{
+  display:inline-block;
+  font-size:.72rem;font-weight:600;
+  letter-spacing:.08em;text-transform:uppercase;
+  color:var(--ink-soft);
+  background:var(--paper-deep);
+  border:1px solid var(--rule);
+  border-radius:999px;
+  padding:.14rem .65rem;
+  white-space:nowrap;
+}
+.tag--honor{color:var(--oxblood);border-color:var(--oxblood);background:transparent}
+@media (max-width: 640px){
+  .pub{grid-template-columns:1fr;gap:.4rem}
+  .pub-year{text-align:left;border-right:none;padding-right:0;font-size:1.05rem}
+}
+/* Quiet sourced-metrics strip (replaces the loud block button) */
+.pub-metrics{
+  margin-top:var(--space-4);
+  border-top:1px solid var(--rule);
+  padding-top:var(--space-3);
+}
+.pub-metrics-line{
+  font-family:var(--serif);
+  font-size:1.08rem;
+  color:var(--ink);
+  max-width:none;
+}
+.pub-metrics-line .src{color:var(--ink-faint);font-size:.94rem}
+.pub-metrics-precise{
+  margin-top:.35rem;
+  font-size:.88rem;color:var(--ink-faint);max-width:none;
+}
+.text-cta{
+  display:inline-block;margin-top:.95rem;
+  font-family:var(--sans);font-size:.9rem;font-weight:600;
+  letter-spacing:.04em;color:var(--oxblood);
+  text-decoration:none;border-bottom:1px solid var(--bronze-lt);
+  padding-bottom:.1rem;
+}
+.text-cta:hover{color:var(--oxblood-dk);border-bottom-color:var(--oxblood)}
+
+/* ---------- Books & software ---------- */
+.split-2{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+  gap:clamp(2rem, 5vw, 4rem);
+}
+@media (max-width: 880px){.split-2{grid-template-columns:1fr}}
+.subhead{
+  font-size:var(--step-2);
+  margin-bottom:var(--space-3);
+  padding-bottom:.6rem;
+  border-bottom:1px solid var(--rule);
+}
+.book-list,.soft-list{list-style:none}
+.book-list li,.soft-list li{
+  padding-block:.85rem;
+  border-bottom:1px solid var(--rule-soft);
+  font-size:.96rem;
+  color:var(--ink-soft);
+}
+.book-list li:first-child,.soft-list li:first-child{padding-top:0}
+.book-list b,.soft-list b{
+  display:block;font-family:var(--serif);font-weight:600;font-size:1.05rem;color:var(--ink);
+}
+.book-list a,.soft-list a{color:var(--oxblood)}
+.pill{
+  display:inline-block;font-size:.7rem;font-weight:600;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--bronze);
+  border:1px solid var(--bronze);border-radius:999px;
+  padding:.08rem .55rem;margin-left:.4rem;vertical-align:2px;white-space:nowrap;
+}
+.amazon-note{margin-top:var(--space-3);font-size:.94rem;color:var(--ink-faint)}
+
+/* ---------- Teaching ---------- */
+.course-list{list-style:none;display:grid;gap:var(--space-3)}
+.course{
+  background:var(--card);
+  border:1px solid var(--rule);
+  border-left:4px solid var(--bronze);
+  padding:1.5rem 1.7rem;
+}
+.course h3{font-size:var(--step-1);margin-bottom:.25rem}
+.course .course-role{
+  font-family:var(--serif);font-style:italic;color:var(--ink-faint);
+  font-size:.93rem;margin-bottom:.7rem;
+}
+.course p{font-size:.96rem;color:var(--ink-soft)}
+.teaching-cols{
+  margin-top:var(--space-4);
+  display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+  gap:clamp(2rem, 5vw, 4rem);
+}
+@media (max-width: 880px){.teaching-cols{grid-template-columns:1fr}}
+.teaching-cols h3{
+  font-size:var(--step-1);margin-bottom:var(--space-2);
+  padding-bottom:.5rem;border-bottom:1px solid var(--rule);
+}
+.teaching-cols p,.teaching-cols li{font-size:.96rem;color:var(--ink-soft)}
+.teaching-cols ul{list-style:none}
+.teaching-cols ul li{
+  padding-left:1.35rem;position:relative;margin-bottom:.65rem;
+}
+.teaching-cols ul li::before{
+  content:"—";position:absolute;left:0;color:var(--oxblood);
+}
+
+/* ---------- Trainees ---------- */
+.trainee-band{
+  background:linear-gradient(120deg, var(--navy-band), var(--navy-band2));
+  border-top:3px solid var(--bronze);
+  border-bottom:3px solid var(--bronze);
+  padding:clamp(1.6rem, 3.5vw, 2.4rem) clamp(1.25rem, 3vw, 2.5rem);
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:1.25rem 1rem;
+  text-align:center;
+  margin-bottom:var(--space-4);
+}
+.trainee-band .tstat{display:flex;flex-direction:column}
+.trainee-band dd{
+  order:-1;
+  font-family:var(--serif);
+  font-size:clamp(2rem, 3.2vw, 2.7rem);
+  font-weight:700;
+  color:var(--bronze-lt);
+  line-height:1.1;
+  font-variant-numeric:tabular-nums;
+}
+.trainee-band dt{
+  margin-top:.4rem;
+  font-size:.78rem;font-weight:600;
+  letter-spacing:.1em;text-transform:uppercase;
+  color:#c4d2e0;line-height:1.4;
+}
+.outcomes{list-style:none;margin-top:var(--space-3)}
+.outcomes li{
+  padding-left:1.35rem;position:relative;margin-bottom:.7rem;
+  font-size:.96rem;color:var(--ink-soft);max-width:var(--measure);
+}
+.outcomes li::before{content:"—";position:absolute;left:0;color:var(--bronze)}
+.prospective{
+  margin-top:var(--space-4);
+  background:var(--paper-deep);
+  border:1px solid var(--rule);
+  border-left:4px solid var(--oxblood);
+  padding:1.6rem 1.8rem;
+}
+.prospective h3{font-size:var(--step-1);margin-bottom:.5rem}
+.prospective p{color:var(--ink-soft);max-width:var(--measure)}
+.prospective p + p{margin-top:.75rem}
+.apply-list{list-style:none;margin-top:.6rem;display:flex;flex-direction:column;gap:.4rem}
+.apply-list li{
+  padding-left:1.5rem;position:relative;color:var(--ink-soft);
+  font-size:.96rem;max-width:var(--measure);
+}
+.apply-list li::before{
+  content:"";position:absolute;left:0;top:.55em;
+  width:.5rem;height:.5rem;border:1.5px solid var(--oxblood);border-radius:50%;
+}
+
+/* ---------- Funding & awards ---------- */
+.table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.grant-table{
+  width:100%;min-width:46rem;
+  border-collapse:collapse;
+}
+.grant-table caption{
+  text-align:left;
+  font-family:var(--serif);font-size:var(--step-2);font-weight:600;color:var(--ink);
+  padding-bottom:.9rem;
+}
+.grant-table th{
+  font-family:var(--sans);font-size:.76rem;font-weight:600;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--bronze);
+  text-align:left;padding:.7rem 1.1rem .55rem 0;
+  border-top:1px solid var(--rule);
+  border-bottom:2px solid var(--rule);
+}
+.grant-table td{
+  padding:1rem 1.1rem 1rem 0;
+  border-bottom:1px solid var(--rule-soft);
+  vertical-align:top;
+  font-size:.94rem;color:var(--ink-soft);
+}
+.grant-table td b{font-family:var(--serif);font-weight:600;color:var(--ink);font-size:1rem}
+.grant-years{
+  font-family:var(--serif);font-weight:600;color:var(--bronze);
+  white-space:nowrap;font-variant-numeric:tabular-nums;
+}
+.grant-table th.col-amount,
+.grant-table td.grant-amount{text-align:right;padding-right:0}
+.grant-amount{
+  font-family:var(--serif);font-weight:600;color:var(--ink);
+  white-space:nowrap;font-variant-numeric:tabular-nums;
+}
+.awards-head{margin-top:var(--space-5)}
+.award-list{list-style:none;columns:2;column-gap:3.5rem}
+.award-list li{
+  break-inside:avoid;
+  padding-left:1.35rem;position:relative;margin-bottom:.8rem;
+  font-size:.96rem;color:var(--ink-soft);
+}
+.award-list li::before{content:"—";position:absolute;left:0;color:var(--oxblood)}
+@media (max-width: 760px){.award-list{columns:1}}
+
+/* ---------- Service ---------- */
+.service-grid{
+  display:grid;grid-template-columns:repeat(2, minmax(0,1fr));
+  gap:var(--space-3);
+}
+@media (max-width: 760px){.service-grid{grid-template-columns:1fr}}
+.service-block{
+  background:var(--card);border:1px solid var(--rule);padding:1.6rem 1.7rem;
+}
+.service-block h3{
+  font-size:1.06rem;font-family:var(--sans);font-weight:600;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--oxblood);
+  margin-bottom:.9rem;
+}
+.service-block p,.service-block li{font-size:.95rem;color:var(--ink-soft)}
+.service-block ul{list-style:none}
+.service-block ul li{padding-left:1.2rem;position:relative;margin-bottom:.55rem}
+.service-block ul li::before{content:"—";position:absolute;left:0;color:var(--bronze)}
+
+/* ---------- Contact ---------- */
+.contact{background:var(--paper-deep)}
+.contact-grid{
+  display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);
+  gap:clamp(2rem, 5vw, 4rem);align-items:start;
+}
+@media (max-width: 760px){.contact-grid{grid-template-columns:1fr}}
+.contact-invite{
+  font-family:var(--serif);font-size:var(--step-2);line-height:1.35;
+  max-width:24ch;
+}
+.contact-email{
+  display:inline-flex;align-items:center;gap:.7rem;
+  font-family:var(--serif);font-size:var(--step-1);
+  margin-top:var(--space-3);
+}
+.contact-email svg{width:1.25rem;height:1.25rem;flex:none}
+.contact-details address{
+  font-style:normal;line-height:1.7;color:var(--ink-soft);
+  border-left:2px solid var(--bronze);padding-left:1.2rem;
+}
+.contact-details h3{
+  font-size:.82rem;font-family:var(--sans);font-weight:600;
+  letter-spacing:.18em;text-transform:uppercase;color:var(--bronze);
+  margin-bottom:.8rem;
+}
+.contact-note{margin-top:var(--space-3);font-size:.94rem;color:var(--ink-faint)}
+
+/* ---------- Footer ---------- */
+.site-footer{
+  background:var(--navy-band);
+  color:#b9c8d8;
+  padding-block:var(--space-5) var(--space-4);
+  border-top:3px solid var(--bronze);
+}
+.footer-grid{
+  display:flex;flex-wrap:wrap;gap:2.5rem 4rem;justify-content:space-between;
+  padding-bottom:var(--space-4);border-bottom:1px solid rgba(255,255,255,.14);
+}
+.footer-brand{max-width:26rem}
+.footer-brand b{
+  display:block;font-family:var(--serif);font-size:var(--step-1);
+  color:#fdfcf9;font-weight:600;margin-bottom:.5rem;
+}
+.footer-brand p{font-size:.92rem;line-height:1.6}
+.footer-nav h3,.footer-social h3{
+  font-size:.76rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--bronze-lt);margin-bottom:1rem;font-family:var(--sans);
+}
+.footer-nav ul{list-style:none;columns:2;column-gap:2.5rem}
+.footer-nav a{
+  color:#b9c8d8;text-decoration:none;font-size:.92rem;
+  display:inline-block;padding-block:.22rem;
+}
+.footer-nav a:hover{color:#fdfcf9;text-decoration:underline;text-underline-offset:3px}
+.footer-social ul{display:flex;flex-wrap:wrap;gap:.6rem;list-style:none;max-width:16rem}
+.footer-social a{
+  display:inline-flex;align-items:center;justify-content:center;
+  width:2.4rem;height:2.4rem;border-radius:50%;
+  border:1px solid rgba(255,255,255,.25);color:#b9c8d8;
+  transition:color .18s ease,border-color .18s ease,background .18s ease;
+}
+.footer-social a:hover{color:var(--navy-band);background:var(--bronze-lt);border-color:var(--bronze-lt)}
+.footer-social svg{width:1.05rem;height:1.05rem}
+.footer-bottom{
+  padding-top:var(--space-3);
+  display:flex;flex-wrap:wrap;gap:.5rem 2rem;justify-content:space-between;align-items:baseline;
+  font-size:.85rem;color:#8fa3b8;
+}
+.footer-bottom .colophon{font-family:var(--serif);font-style:italic}
+
+/* ---------- Scroll reveal (progressive enhancement: only when JS
+     is present AND the user has not requested reduced motion) ---------- */
+@media screen and (prefers-reduced-motion: no-preference){
+  html.js .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease, transform .7s ease}
+  html.js .reveal.revealed{opacity:1;transform:none}
+}
+
+/* ---------- Reduced motion: also neutralise hover motion ---------- */
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.001s !important;transition-duration:.001s !important}
+  .theme-card:hover,
+  .profile-links a:hover,
+  .footer-social a:hover,
+  .btn:hover{transform:none !important}
+}
+
+/* ---------- Print ---------- */
+@media print{
+  @page{margin:1.6cm}
+  html{scroll-behavior:auto}
+  body{background:#fff;color:#000}
+  .reveal{opacity:1 !important;transform:none !important;transition:none !important}
+  .skip-link,.nav-toggle,.site-header{display:none !important}
+  section{padding-block:1.4rem;break-inside:auto}
+  .stats,.trainee-band{
+    background:#fff !important;border-color:#999 !important;
+  }
+  .stat dd,.trainee-band dd{color:#000 !important}
+  .stat dt,.trainee-band dt{color:#333 !important}
+  .site-footer{background:#fff !important;color:#333 !important;border-color:#999 !important}
+  .footer-brand b,.footer-nav a,.footer-social a{color:#000 !important}
+  .footer-nav h3,.footer-social h3{color:#333 !important}
+  .footer-bottom{color:#333 !important}
+  .theme-card,.course,.service-block,.fact-card,.prospective{box-shadow:none !important;break-inside:avoid}
+  .hero-photo figure{box-shadow:none !important}
+  a{color:#000}
+  .table-scroll{overflow:visible}
+  .grant-table{min-width:0}
+}
+</style>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="wrap nav-bar">
+    <a class="brand" href="#top">M<em>.</em> Ehsan Karim</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <svg class="icon-open" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      <svg class="icon-close" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19"/></svg>
+      Menu
+    </button>
+    <nav aria-label="Primary">
+      <ul class="nav-links" id="site-nav">
+        <li><a href="#about">About</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#books">Books</a></li>
+        <li><a href="#teaching">Teaching</a></li>
+        <li><a href="#trainees">Trainees</a></li>
+        <li><a href="#funding">Funding</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="top" aria-label="Introduction">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="hero-kicker">University of British Columbia</p>
+        <h1 class="hero-name">M. Ehsan Karim</h1>
+        <p class="hero-title">Associate Professor in Health Data Science</p>
+        <ul class="hero-affils">
+          <li>School of Population and Public Health, University of British Columbia</li>
+          <li>Scientist, Centre for Advancing Health Outcomes, St. Paul&rsquo;s Hospital</li>
+          <li>Associate Member, UBC Department of Statistics</li>
+        </ul>
+        <p class="hero-lede">He develops causal inference and machine learning methods that turn large health administrative databases into reliable real-world evidence.</p>
+        <div class="hero-cta">
+          <a class="btn" href="#research">Explore research</a>
+          <a class="btn btn--outline" href="#prospective">Prospective students</a>
+        </div>
+        <ul class="profile-links" aria-label="Profiles and contact">
+          <li><a href="https://scholar.google.ca/citations?user=fStySaMAAAAJ&amp;hl=en" aria-label="Google Scholar" title="Google Scholar">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5.242 13.769 0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.749-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg></a></li>
+          <li><a href="https://orcid.org/0000-0002-0346-2871" aria-label="ORCID" title="ORCID">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947a.95.95 0 0 1-.947.947.95.95 0 0 1-.947-.947c0-.516.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 4.022-2.484 4.022-3.722 0-2.016-1.284-3.722-4.097-3.722h-2.222z"/></svg></a></li>
+          <li><a href="https://github.com/ehsanx/" aria-label="GitHub" title="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a></li>
+          <li><a href="https://www.linkedin.com/in/ehsan-karim-3747ba45/" aria-label="LinkedIn" title="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 0H5C2.239 0 0 2.239 0 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5V5c0-2.761-2.238-5-5-5zM8 19H5V8h3v11zM6.5 6.732c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zM20 19h-3v-5.604c0-3.368-4-3.113-4 0V19h-3V8h3v1.765c1.396-2.586 7-2.777 7 2.476V19z"/></svg></a></li>
+          <li><a href="https://x.com/ehsanX364" aria-label="X (Twitter)" title="X (Twitter)">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a></li>
+          <li><a href="https://www.webofscience.com/wos/author/record/I-1803-2018" aria-label="Web of Science" title="Web of Science">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path stroke-linecap="round" stroke-linejoin="round" d="M6.5 8l2 8 3.5-7 3.5 7 2-8"/></svg></a></li>
+          <li><a href="https://www.amazon.com/author/ehsanx" aria-label="Amazon author page" title="Amazon author page">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M13.8 12.9c0 1.9.05 3.4-.9 5-.77 1.34-2 2.16-3.35 2.16-1.86 0-2.95-1.42-2.95-3.5 0-4.13 3.7-4.88 7.2-4.88v.9zm0-2.9c-3 0-9.2.35-9.2 5.7 0 3.06 2.05 5.1 4.85 5.1 1.9 0 3.4-.75 4.6-2.2.7 1 1 1.5 2.15 2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M10.4 5.2c.9-1 2.2-1.5 3.6-1.2 1.8.4 2.5 2 2.5 3.7v6.6" stroke-linecap="round"/><path d="M4 19.5c2.4 1.6 5.2 2.4 8.1 2.4 2.3 0 4.9-.5 7-1.7" stroke-linecap="round"/><path d="M19.9 19.6c.4-.5 1-.4 1.1-.1" stroke-linecap="round"/></svg></a></li>
+          <li><a href="https://www.youtube.com/@EhsanKarim" aria-label="YouTube" title="YouTube">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a></li>
+          <li><a href="mailto:ehsan.karim@ubc.ca" aria-label="Email ehsan.karim@ubc.ca" title="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="1.5"/><path d="M3 6.5l9 6.5 9-6.5"/></svg></a></li>
+        </ul>
+      </div>
+      <div class="hero-photo">
+        <figure>
+          <img src="avatar.jpg" alt="Portrait of Dr. M. Ehsan Karim" width="1050" height="750">
+          <figcaption>MSFHR / Health Research BC Scholar 2018&ndash;2023 &middot; AMS UBC OER Champion 2024&ndash;2025</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= STATS ================= -->
+  <section class="stats" aria-label="Career at a glance">
+    <div class="wrap">
+      <dl class="stats-grid">
+        <div class="stat reveal"><dt>Peer-reviewed publications</dt><dd><span class="nb">130+</span></dd></div>
+        <div class="stat reveal"><dt><span class="nb">PI research</span> funding</dt><dd><span class="nb">$1.29M</span></dd></div>
+        <div class="stat reveal"><dt>Trainees supervised</dt><dd><span class="nb">36</span></dd></div>
+        <div class="stat reveal"><dt>Invited presentations</dt><dd><span class="nb">55</span></dd></div>
+        <div class="stat reveal"><dt>Books &amp; open textbooks</dt><dd><span class="nb">6</span></dd></div>
+        <div class="stat reveal"><dt>Citations</dt><dd><span class="nb">2,400+</span></dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section id="about" aria-labelledby="about-h">
+    <div class="wrap">
+      <div class="kicker reveal"><span>Biography</span></div>
+      <h2 class="section-title reveal" id="about-h">About</h2>
+      <div class="about-grid">
+        <div class="about-body reveal">
+          <p>Dr. M. Ehsan Karim is an Associate Professor in Health Data Science in the School of Population and Public Health at the University of British Columbia, a Scientist at the Centre for Advancing Health Outcomes (St. Paul&rsquo;s Hospital), and an Associate Member of UBC Statistics. He held a Michael Smith Health Research BC Scholar Award from 2018 to 2023 and was promoted to Associate Professor with tenure in July 2025.</p>
+          <p>He earned his PhD in Statistics from UBC, supported by an MS Canada studentship, and completed postdoctoral training in epidemiology and biostatistics at McGill University with a fellowship from the Canadian Network for Observational Drug Effect Studies (CNODES).</p>
+          <p>His research program develops and applies causal inference and machine learning methods to answer real-world comparative effectiveness questions from non-randomized data, with a central focus on large health administrative databases and multiple sclerosis as a key application area. An advocate for open education, he authored the open-access textbook <a href="https://ehsanx.github.io/EpiMethods/"><em>Advanced Epidemiological Methods</em></a>, teaches UBC&rsquo;s PhD capstone methods course, and was named a UBC OER Champion for 2024&ndash;2025.</p>
+        </div>
+        <aside class="fact-card reveal" aria-label="At a glance">
+          <h3>At a glance</h3>
+          <ul>
+            <li><b>PhD in Statistics</b> University of British Columbia</li>
+            <li><b>Postdoctoral training</b> Epidemiology &amp; biostatistics, McGill University (CNODES fellowship)</li>
+            <li><b>Michael Smith Health Research BC Scholar Award</b> $450,000 &middot; 2018&ndash;2023</li>
+            <li><b>UBC OER Champion</b> 2024&ndash;2025, for open textbooks and course materials</li>
+            <li><b>Key application area</b> Multiple sclerosis, from therapy effectiveness to the MS prodrome</li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= NEWS & HIGHLIGHTS ================= -->
+  <section id="news" aria-labelledby="news-h">
+    <div class="wrap">
+      <div class="kicker reveal"><span>Announcements</span></div>
+      <h2 class="section-title reveal" id="news-h">News &amp; Highlights</h2>
+      <ul class="news-list">
+        <li class="news-item reveal">
+          <div class="news-date">July 2025</div>
+          <p class="news-text">Promoted to Associate Professor with tenure, UBC School of Population and Public Health.</p>
+        </li>
+        <li class="news-item reveal">
+          <div class="news-date">2025&ndash;2029</div>
+          <p class="news-text">Co-leads the CIHR-funded STRIVE-STBBI skills training network ($800,000) for real-world intervention evaluation.</p>
+        </li>
+        <li class="news-item reveal">
+          <div class="news-date">February 2025</div>
+          <p class="news-text">Appointed Associate Editor of <em>Pharmacoepidemiology and Drug Safety</em>.</p>
+        </li>
+        <li class="news-item reveal">
+          <div class="news-date">2025</div>
+          <p class="news-text">Received the Editorial Contribution Award and Author Service Award from <em>BMC Medical Research Methodology</em>.</p>
+        </li>
+        <li class="news-item reveal">
+          <div class="news-date">2024&ndash;2025</div>
+          <p class="news-text">Named AMS UBC OER Champion for open educational resource contributions.</p>
+        </li>
+        <li class="news-item reveal">
+          <div class="news-date">May 2026</div>
+          <p class="news-text">Presenting the &ldquo;AI and LLMs &mdash; Research Perspective&rdquo; workshop at the Society for Epidemiologic Research Annual Meeting.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= RESEARCH ================= -->
+  <section id="research" aria-labelledby="research-h">
+    <div class="wrap">
+      <div class="kicker reveal"><span>Research Program</span></div>
+      <h2 class="section-title reveal" id="research-h">Research Themes</h2>
+      <ul class="theme-grid">
+        <li class="theme-card reveal">
+          <h3>Causal Inference Methods</h3>
+          <p>Develops and evaluates methods for estimating treatment effects from non-randomized data &mdash; including targeted maximum likelihood estimation (TMLE) with single and double cross-fitting, marginal structural models, and propensity score approaches. His work tackles time-dependent confounding, treatment-confounder feedback, and immortal time bias in longitudinal studies.</p>
+        </li>
+        <li class="theme-card reveal">
+          <h3>Machine Learning &amp; AI for Health</h3>
+          <p>Investigates when machine learning genuinely improves causal estimation &mdash; from Super Learner weight estimation to deep-learning propensity score architectures such as Dragonnet and autoencoders. The goal is rigorous, verifiable use of AI in health research rather than black-box prediction.</p>
+        </li>
+        <li class="theme-card reveal">
+          <h3>Real-World Evidence &amp; Pharmacoepidemiology</h3>
+          <p>Advances the methodology of real-world evidence generation, including high-dimensional propensity score (hdPS) techniques and their machine learning and doubly robust extensions for residual confounding control. This program also addresses non-adherence and per-protocol effects in pragmatic clinical trials.</p>
+        </li>
+        <li class="theme-card reveal">
+          <h3>Health Administrative Data</h3>
+          <p>Builds statistical strategies for the scale and messiness of population-level administrative databases &mdash; proxy adjustment, missing data, survival prediction, and disease-specific comorbidity indices &mdash; so routinely collected health data can support trustworthy inference.</p>
+        </li>
+        <li class="theme-card reveal">
+          <h3>Multiple Sclerosis Applications</h3>
+          <p>Applies these methods where they matter: comparative effectiveness of MS therapies, an MS-specific Comorbidity Summary Index (MSCSI), and risk prediction algorithms for the MS prodrome to enable earlier detection. Supported by CIHR and MS Canada.</p>
+        </li>
+        <li class="theme-card reveal">
+          <h3>Survey &amp; Longitudinal Methods</h3>
+          <p>Develops guidance for analyzing nationally representative complex surveys (Canadian, US, and international) and longitudinal cohorts, including propensity score analysis in the complex survey context and small-sample inference for stepped-wedge designs.</p>
+        </li>
+      </ul>
+      <p class="funders reveal"><b>Funded by</b> Canadian Institutes of Health Research (CIHR) &middot; Natural Sciences and Engineering Research Council of Canada (NSERC) &middot; MS Canada &middot; Michael Smith Health Research BC &middot; BC SUPPORT Unit</p>
+    </div>
+  </section>
+
+  <!-- ================= PUBLICATIONS ================= -->
+  <section id="publications" aria-labelledby="pubs-h">
+    <div class="wrap">
+      <div class="kicker reveal"><span>Scholarship</span></div>
+      <h2 class="section-title reveal" id="pubs-h">Selected Publications</h2>
+      <p class="section-intro reveal">A selection from 130+ peer-reviewed articles spanning causal inference methodology, machine learning for health, and high-impact applied work.</p>
+      <ol class="pub-list">
+        <li class="pub reveal">
+          <div class="pub-year" aria-hidden="true">2025</div>
+          <div>
+            <h3 class="pub-title"><a href="https://doi.org/10.1080/00031305.2024.2368794">High-dimensional propensity score and its machine learning extensions in residual confounding control</a></h3>
+            <p class="pub-authors"><strong>Karim ME</strong>.</p>
+            <p class="pub-meta"><cite>The American Statistician</cite> 79(1), 72&ndash;90, 2025 <span class="tag">Methods</span></p>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <div class="pub-year" aria-hidden="true">2025</div>
+          <div>
+            <h3 class="pub-title"><a href="https://doi.org/10.1093/aje/kwae447">Towards robust causal inference in epidemiological research: employing double cross-fit TMLE in right heart catheterization data</a></h3>
+            <p class="pub-authors">Mondol MH, <strong>Karim ME</strong>.</p>
+            <p class="pub-meta"><cite>American Journal of Epidemiology</cite> 194(10), 2813&ndash;2819, 2025 <span class="tag">Causal inference</span></p>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <div class="pub-year" aria-hidden="true">2024</div>
+          <div>
+            <h3 class="pub-title"><a href="https://doi.org/10.1186/s12874-024-02284-5">Can supervised deep learning architecture outperform autoencoders in building propensity score models for matching?</a></h3>
+            <p class="pub-authors"><strong>Karim ME</strong>.</p>
+            <p class="pub-meta"><cite>BMC Medical Research Methodology</cite> 24, 167, 2024 <span class="tag">Machine learning</span></p>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <div class="pub-year" aria-hidden="true">2024</div>
+          <div>
+            <h3 class="pub-title"><a href="https://doi.org/10.1001/jama.2024.16954">Buprenorphine/naloxone vs methadone for the treatment of opioid use disorder</a></h3>
+            <p class="pub-authors">Nosyk B, Min JE, Homayra F, et al. (incl. <strong>Karim ME</strong>).</p>
+            <p class="pub-meta"><cite>JAMA</cite> 2024 <span class="tag">High-impact applied</span></p>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <div class="pub-year" aria-hidden="true">2023</div>
+          <div>
+            <h3 class="pub-title"><a href="https://doi.org/10.1002/pst.2258">Key considerations for choosing a statistical method to deal with incomplete treatment adherence in pragmatic trials</a></h3>
+            <p class="pub-authors">Hossain MB, <strong>Karim ME</strong>.</p>
+            <p class="pub-meta"><cite>Pharmaceutical Statistics</cite> 22(1), 205&ndash;231, 2023 <span class="tag">Pragmatic trials</span></p>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <div class="pub-year" aria-hidden="true">2022</div>
+          <div>
+            <h3 class="pub-title"><a href="https://doi.org/10.1177/13524585221085733">Recommendations for the use of propensity score methods in multiple sclerosis research</a></h3>
+            <p class="pub-authors">Simoneau G, Pellegrini F, Debray T, et al., <strong>Karim ME</strong>.</p>
+            <p class="pub-meta"><cite>Multiple Sclerosis Journal</cite> 28(9), 1467&ndash;1480, 2022 <span class="tag">Guidance</span> <span class="tag">Senior author</span></p>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <div class="pub-year" aria-hidden="true">2021</div>
+          <div>
+            <h3 class="pub-title"><a href="https://doi.org/10.1093/aje/kwaa243">Dealing with treatment-confounder feedback and sparse follow-up in longitudinal studies: application of a marginal structural model in a multiple sclerosis cohort</a></h3>
+            <p class="pub-authors"><strong>Karim ME</strong>, Tremlett H, Zhu F, Petkau J, Kingwell E.</p>
+            <p class="pub-meta"><cite>American Journal of Epidemiology</cite> 190(5), 908&ndash;917, 2021 <span class="tag">Causal inference</span></p>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <div class="pub-year" aria-hidden="true">2018</div>
+          <div>
+            <h3 class="pub-title"><a href="https://doi.org/10.1097/ede.0000000000000787">Can we train machine learning methods to outperform the high-dimensional propensity score algorithm?</a></h3>
+            <p class="pub-authors"><strong>Karim ME</strong>, Pang M, Platt RW.</p>
+            <p class="pub-meta"><cite>Epidemiology</cite> 29(2), 191&ndash;198, 2018 <span class="tag">Machine learning</span></p>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <div class="pub-year" aria-hidden="true">2017</div>
+          <div>
+            <h3 class="pub-title"><a href="https://doi.org/10.1002/sim.7266">Estimating inverse probability weights using super learner when weight-model specification is unknown in a marginal structural Cox model context</a></h3>
+            <p class="pub-authors"><strong>Karim ME</strong>, Platt RW, and the BeAMS study group.</p>
+            <p class="pub-meta"><cite>Statistics in Medicine</cite> 36(13), 2032&ndash;2047, 2017 <span class="tag">Machine learning</span></p>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <div class="pub-year" aria-hidden="true">2016</div>
+          <div>
+            <h3 class="pub-title"><a href="https://doi.org/10.1093/aje/kwv445">Comparison of statistical approaches for dealing with immortal time bias in drug effectiveness studies</a></h3>
+            <p class="pub-authors"><strong>Karim ME</strong>, Gustafson P, Petkau J, Tremlett H, and the BeAMS study group.</p>
+            <p class="pub-meta"><cite>American Journal of Epidemiology</cite> 184(4), 325&ndash;335, 2016 <span class="tag">Methods</span></p>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <div class="pub-year" aria-hidden="true">2014</div>
+          <div>
+            <h3 class="pub-title"><a href="https://doi.org/10.1093/aje/kwu125">Marginal structural Cox models for estimating the association between beta-interferon exposure and disease progression in a multiple sclerosis cohort</a></h3>
+            <p class="pub-authors"><strong>Karim ME</strong>, Gustafson P, Petkau J, et al.</p>
+            <p class="pub-meta"><cite>American Journal of Epidemiology</cite> 180(2), 160&ndash;171, 2014 <span class="tag tag--honor">SER Top-10 Article of 2014</span></p>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <div class="pub-year" aria-hidden="true">2012</div>
+          <div>
+            <h3 class="pub-title"><a href="https://doi.org/10.1001/jama.2012.7625">Association between use of interferon beta and progression of disability in patients with relapsing-remitting multiple sclerosis</a></h3>
+            <p class="pub-authors">Shirani A, Zhao Y, <strong>Karim ME</strong>, et al.</p>
+            <p class="pub-meta"><cite>JAMA</cite> 308(3), 247&ndash;256, 2012 <span class="tag">High-impact applied</span></p>
+          </div>
+        </li>
+      </ol>
+      <div class="pub-metrics reveal">
+        <p class="pub-metrics-line">130+ peer-reviewed publications &middot; 2,400+ citations &middot; h-index 25 <span class="src">(Google Scholar, May 2026)</span></p>
+        <p class="pub-metrics-precise">134 peer-reviewed journal articles, plus 13 refereed conference proceedings.</p>
+        <a class="text-cta" href="https://scholar.google.ca/citations?user=fStySaMAAAAJ&amp;hl=en">View all on Google Scholar &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= BOOKS & SOFTWARE ================= -->
+  <section id="books" aria-labelledby="books-h">
+    <div class="wrap">
+      <div class="kicker reveal"><span>Open Scholarship</span></div>
+      <h2 class="section-title reveal" id="books-h">Books &amp; Software</h2>
+      <div class="split-2">
+        <div class="reveal">
+          <h3 class="subhead">Books &amp; open textbooks</h3>
+          <ul class="book-list">
+            <li><b><a href="https://ehsanx.github.io/EpiMethods/">Advanced Epidemiological Methods</a></b> Karim ME and the Epi-OER team, 2024 <span class="pill">Open &middot; Free</span></li>
+            <li><b><a href="https://ehsanx.github.io/Scientific-Writing-for-Health-Research/">Scientific Writing for Health Research</a></b> Karim ME, Jeong D, Yusuf F, 2021 <span class="pill">Open &middot; Free</span></li>
+            <li><b><a href="https://ehsanx.github.io/psw/">Understanding Propensity Score Matching</a></b> Karim ME, 2021 <span class="pill">Open &middot; Free</span></li>
+            <li><b><a href="https://ehsanx.github.io/into2ML/">Understanding Basics and Usage of Machine Learning in Medical Literature</a></b> Karim ME, 2021 <span class="pill">Open &middot; Free</span></li>
+            <li><b><a href="https://doi.org/10.5281/zenodo.5246085">R Guide for TMLE in Medical Research</a></b> Karim ME, Frank H, 2021 <span class="pill">Open &middot; Free</span></li>
+            <li><b>R Graph Essentials</b> Packt Publishing, 2013 &middot; ISBN 9781782165460 <span class="pill">Videobook</span></li>
+          </ul>
+        </div>
+        <div class="reveal">
+          <h3 class="subhead">Research software</h3>
+          <ul class="soft-list">
+            <li><b><a href="https://ehsanx.github.io/svyTable1">svyTable1</a></b> Survey-weighted descriptive statistics and diagnostic tables <span class="pill">R package &middot; 2025</span></li>
+            <li><b><a href="https://github.com/ehsanx/ReSliceTMLE">ReSliceTMLE</a></b> Resampling-based targeted maximum likelihood estimation <span class="pill">R package &middot; 2025</span></li>
+            <li><b><a href="https://belalanik.shinyapps.io/TBCalculator/">TB Mortality Risk Calculator</a></b> Mortality risk prediction for people diagnosed with TB <span class="pill">R Shiny app &middot; 2024</span></li>
+            <li><b><a href="https://github.com/momenulhaque/Crossfit">Crossfit</a></b> Sample splitting (cross-fit) for TMLE in causal inference <span class="pill">R package &middot; 2023</span></li>
+            <li><b><a href="https://doi.org/10.5281/zenodo.4127299">simMSM / genMSM / iptw</a></b> Simulation and weighting tools for marginal structural models <span class="pill">R &amp; Stata &middot; 2020</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TEACHING ================= -->
+  <section id="teaching" aria-labelledby="teaching-h">
+    <div class="wrap">
+      <div class="kicker reveal"><span>Education</span></div>
+      <h2 class="section-title reveal" id="teaching-h">Teaching</h2>
+      <ul class="course-list">
+        <li class="course reveal">
+          <h3>SPPH 604 &mdash; Application of Advanced Epidemiological Methods</h3>
+          <p class="course-role">Developer &amp; sole instructor &middot; PhD level &middot; 3 credits</p>
+          <p>UBC&rsquo;s PhD capstone methods course, developed by Dr. Karim and taught since 2018. Covers causal inference, propensity scores, mediation analysis, machine learning, survey data analysis, and missing data &mdash; with 65 contact hours of hands-on tutorials bridging the methodological gap for SPPH doctoral trainees.</p>
+        </li>
+        <li class="course reveal">
+          <h3>SPPH 381H &mdash; Health Data Science: AI and Knowledge Translation</h3>
+          <p class="course-role">Developer &middot; 400-level undergraduate</p>
+          <p>A comprehensive toolkit for applying data science to health research, featuring &ldquo;Zero to AI Co-Pilot&rdquo; pedagogy, a verification-first assessment framework for auditing AI-generated code, and OCAP&reg;/CARE integration for Indigenous data sovereignty.</p>
+        </li>
+        <li class="course reveal">
+          <h3>MEDI 504A &mdash; Emerging Topics in Experimental Medicine</h3>
+          <p class="course-role">Co-instructor &middot; Graduate &middot; 1.5 credits</p>
+          <p>Part of a Faculty of Medicine health data science initiative, spanning multi-omics, machine learning and AI in clinical research, and large administrative datasets in population health.</p>
+        </li>
+      </ul>
+      <div class="teaching-cols">
+        <div class="reveal">
+          <h3>Open education</h3>
+          <p>Most of Dr. Karim&rsquo;s course content is published as Open Educational Resources, freely available to UBC students and a global audience &mdash; including the <a href="https://ehsanx.github.io/EpiMethods/"><em>Advanced Epidemiological Methods</em></a> textbook and the <a href="https://ehsanx.github.io/ML4PH/"><em>ML4PH</em></a> machine learning materials. His OER work has been supported by UBC OER Fund Implementation and Affordability Grants (~$50,000).</p>
+        </div>
+        <div class="reveal">
+          <h3>Recognition</h3>
+          <ul>
+            <li><strong>AMS UBC OER Champion Award, 2024&ndash;2025</strong> &mdash; recognizing open educational resource contributions</li>
+            <li>Faculty of Medicine Merit Awards (teaching, research and service), four consecutive years, 2021&ndash;2024</li>
+            <li>More than a dozen conference workshops and webinars delivered nationally and internationally, from SER and the Statistical Society of Canada to R/Medicine</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TRAINEES ================= -->
+  <section id="trainees" aria-labelledby="trainees-h">
+    <div class="wrap">
+      <div class="kicker reveal"><span>Mentorship</span></div>
+      <h2 class="section-title reveal" id="trainees-h">Trainees &amp; Mentorship</h2>
+      <dl class="trainee-band reveal">
+        <div class="tstat"><dt>Graduate students</dt><dd><span class="nb">22</span></dd></div>
+        <div class="tstat"><dt>Postdoctoral fellow</dt><dd><span class="nb">1</span></dd></div>
+        <div class="tstat"><dt>Undergraduate trainees</dt><dd><span class="nb">13</span></dd></div>
+      </dl>
+      <div class="reveal">
+        <p>Dr. Karim supervises graduate students in both the School of Population and Public Health and the Department of Statistics, building their skills in data science, causal inference, and health analytics. His trainees have completed theses spanning machine learning for survival prediction, the multiple sclerosis prodrome, comorbidity index development, and methods for pragmatic trials &mdash; and have gone on to positions at Harvard, McGill, McMaster, and the BC Centre for Disease Control.</p>
+      </div>
+      <div class="prospective reveal" id="prospective">
+        <h3>Prospective students</h3>
+        <p>Dr. Karim supervises a small number of graduate students in SPPH and Statistics, and takes on new trainees only as capacity and funding allow. Admission is through the SPPH and Statistics graduate programs; contacting him is not a substitute for a formal application.</p>
+        <p>If you would like to be considered, email <a href="mailto:ehsan.karim@ubc.ca">ehsan.karim@ubc.ca</a> with a brief note on your research interests and attach:</p>
+        <ul class="apply-list">
+          <li>your CV, including a list of publications</li>
+          <li>an unofficial transcript</li>
+          <li>a list of references</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FUNDING & AWARDS ================= -->
+  <section id="funding" aria-labelledby="funding-h">
+    <div class="wrap">
+      <div class="kicker reveal"><span>Support &amp; Recognition</span></div>
+      <h2 class="section-title reveal" id="funding-h">Funding &amp; Awards</h2>
+      <p class="section-intro reveal">CAD $1.29M in research funding as principal investigator since 2017.</p>
+      <div class="table-scroll reveal">
+        <table class="grant-table">
+          <caption>Selected grants as Principal Investigator</caption>
+          <thead>
+            <tr>
+              <th scope="col">Funder &middot; Program</th>
+              <th scope="col">Years</th>
+              <th scope="col">Project</th>
+              <th scope="col" class="col-amount">Amount</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><b>CIHR</b> &middot; HIV/AIDS &amp; STBBI Clinical Trials Network, Phase 2</td>
+              <td class="grant-years">2025&ndash;2029</td>
+              <td>Skills Training for Real-world InterVention Evaluation in STBBIs (STRIVE-STBBI)</td>
+              <td class="grant-amount">$800,000</td>
+            </tr>
+            <tr>
+              <td><b>Michael Smith Foundation for Health Research</b> &middot; Scholar Award</td>
+              <td class="grant-years">2018&ndash;2023</td>
+              <td>A causal inference framework for analyzing large administrative health care databases, with a focus on multiple sclerosis</td>
+              <td class="grant-amount">$450,000</td>
+            </tr>
+            <tr>
+              <td><b>MS Canada</b> &middot; Discovery Research Grant</td>
+              <td class="grant-years">2023&ndash;2026</td>
+              <td>Development and validation of the Multiple Sclerosis-specific Comorbidity Summary Index (MSCSI)</td>
+              <td class="grant-amount">$199,859</td>
+            </tr>
+            <tr>
+              <td><b>CIHR</b> &middot; Project Grant</td>
+              <td class="grant-years">2024&ndash;2025</td>
+              <td>A risk prediction algorithm for prodromal multiple sclerosis</td>
+              <td class="grant-amount">$153,000</td>
+            </tr>
+            <tr>
+              <td><b>NSERC</b> &middot; Discovery Grant</td>
+              <td class="grant-years">2018&ndash;2025</td>
+              <td>Improving causal inference methods in statistics for analyzing big data</td>
+              <td class="grant-amount">$126,000</td>
+            </tr>
+            <tr>
+              <td><b>BC SUPPORT Unit</b> &middot; Real-World Clinical Trials Methods Cluster</td>
+              <td class="grant-years">2018&ndash;2021</td>
+              <td>Developing and evaluating causal inference methods for pragmatic trials</td>
+              <td class="grant-amount">$100,000</td>
+            </tr>
+            <tr>
+              <td><b>MS Canada</b> &middot; Catalyst Research Grant</td>
+              <td class="grant-years">2024&ndash;2026</td>
+              <td>Reducing residual confounding in MS research: a machine learning approach</td>
+              <td class="grant-amount">$29,976</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <h3 class="subhead awards-head reveal">Selected awards &amp; distinctions</h3>
+      <ul class="award-list reveal">
+        <li>Michael Smith Foundation for Health Research Scholar Award, $450,000 (2018&ndash;2023)</li>
+        <li>AMS UBC OER Champion Award (2024&ndash;2025)</li>
+        <li>Faculty of Medicine Merit Award, UBC &mdash; four consecutive years (2021, 2022, 2023, 2024)</li>
+        <li>First-authored article named among the top 10 &ldquo;2014 Articles of the Year&rdquo; in the <em>American Journal of Epidemiology</em> &mdash; Society for Epidemiologic Research (2015)</li>
+        <li>Editorial Contribution Award and Author Service Award, <em>BMC Medical Research Methodology</em> (2025)</li>
+        <li>Exemplary Reviewer (top 20), <em>Epidemiology</em> (2020)</li>
+        <li>Best Reviewer, <em>Pharmacoepidemiology and Drug Safety</em> (2015 and 2017)</li>
+        <li>Outstanding Academic Performance Award, UBC Faculty of Medicine (2019, 2020)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= SERVICE ================= -->
+  <section id="service" aria-labelledby="service-h">
+    <div class="wrap">
+      <div class="kicker reveal"><span>Academic Community</span></div>
+      <h2 class="section-title reveal" id="service-h">Service</h2>
+      <div class="service-grid">
+        <div class="service-block reveal">
+          <h3>Editorial roles</h3>
+          <ul>
+            <li>Associate Editor, <em>Pharmacoepidemiology and Drug Safety</em> (2025&ndash;present)</li>
+            <li>Editorial Board Member, <em>BMC Medical Research Methodology</em> (2024&ndash;2025)</li>
+            <li>Associate Editor, <em>Journal of Statistical Research</em> (2020&ndash;present)</li>
+          </ul>
+        </div>
+        <div class="service-block reveal">
+          <h3>Peer review</h3>
+          <p>Reviewer since 2013 for more than 60 journals in biostatistics, epidemiology, and public health &mdash; including <em>Biometrics</em>, <em>Statistics in Medicine</em>, <em>Epidemiology</em>, <em>American Journal of Epidemiology</em>, and <em>BMJ</em>. Recognized as Exemplary Reviewer (<em>Epidemiology</em>, 2020) and Best Reviewer (<em>Pharmacoepidemiology and Drug Safety</em>, 2015, 2017).</p>
+        </div>
+        <div class="service-block reveal">
+          <h3>Grant panels</h3>
+          <p>CIHR Project Grant committees (2023&ndash;2025) and College of Reviewers (2024&ndash;2028) &middot; NSERC Discovery Grants, Mathematics and Statistics (2018&ndash;2024) &middot; MS Canada &middot; Dutch Research Council (NWO) &middot; MS Research Australia &middot; Health Research Council of New Zealand &middot; Fonds de recherche du Qu&eacute;bec.</p>
+        </div>
+        <div class="service-block reveal">
+          <h3>Conference leadership</h3>
+          <p>Frequent chair and organizer of invited sessions on causal inference and machine learning at JSM, the Statistical Society of Canada, CSEB, and ICSA-Canada.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section id="contact" class="contact" aria-labelledby="contact-h">
+    <div class="wrap">
+      <div class="kicker reveal"><span>Correspondence</span></div>
+      <h2 class="section-title reveal" id="contact-h">Contact</h2>
+      <div class="contact-grid">
+        <div class="reveal">
+          <a class="contact-email" href="mailto:ehsan.karim@ubc.ca">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="1.5"/><path d="M3 6.5l9 6.5 9-6.5"/></svg>
+            ehsan.karim@ubc.ca
+          </a>
+          <p class="contact-note">Get in touch &mdash; email is the fastest way to reach him.</p>
+        </div>
+        <div class="contact-details reveal">
+          <h3>Mailing address</h3>
+          <address>
+            School of Population and Public Health, UBC<br>
+            216 &ndash; 2206 East Mall<br>
+            Vancouver, BC V6T 1Z3, Canada
+          </address>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <b>Dr. M. Ehsan Karim</b>
+        <p>Associate Professor in Health Data Science, School of Population and Public Health, University of British Columbia. Causal inference and machine learning for reliable real-world evidence.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <h3>Quick links</h3>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#news">News &amp; Highlights</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#books">Books &amp; Software</a></li>
+          <li><a href="#teaching">Teaching</a></li>
+          <li><a href="#trainees">Trainees</a></li>
+          <li><a href="#funding">Funding &amp; Awards</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="footer-social">
+        <h3>Profiles</h3>
+        <ul>
+          <li><a href="https://scholar.google.ca/citations?user=fStySaMAAAAJ&amp;hl=en" aria-label="Google Scholar"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5.242 13.769 0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.749-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg></a></li>
+          <li><a href="https://orcid.org/0000-0002-0346-2871" aria-label="ORCID"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947a.95.95 0 0 1-.947.947.95.95 0 0 1-.947-.947c0-.516.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 4.022-2.484 4.022-3.722 0-2.016-1.284-3.722-4.097-3.722h-2.222z"/></svg></a></li>
+          <li><a href="https://github.com/ehsanx/" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a></li>
+          <li><a href="https://www.linkedin.com/in/ehsan-karim-3747ba45/" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 0H5C2.239 0 0 2.239 0 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5V5c0-2.761-2.238-5-5-5zM8 19H5V8h3v11zM6.5 6.732c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zM20 19h-3v-5.604c0-3.368-4-3.113-4 0V19h-3V8h3v1.765c1.396-2.586 7-2.777 7 2.476V19z"/></svg></a></li>
+          <li><a href="https://x.com/ehsanX364" aria-label="X (Twitter)"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a></li>
+          <li><a href="https://www.webofscience.com/wos/author/record/I-1803-2018" aria-label="Web of Science"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path stroke-linecap="round" stroke-linejoin="round" d="M6.5 8l2 8 3.5-7 3.5 7 2-8"/></svg></a></li>
+          <li><a href="https://www.amazon.com/author/ehsanx" aria-label="Amazon author page"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M13.8 12.9c0 1.9.05 3.4-.9 5-.77 1.34-2 2.16-3.35 2.16-1.86 0-2.95-1.42-2.95-3.5 0-4.13 3.7-4.88 7.2-4.88v.9zm0-2.9c-3 0-9.2.35-9.2 5.7 0 3.06 2.05 5.1 4.85 5.1 1.9 0 3.4-.75 4.6-2.2.7 1 1 1.5 2.15 2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M10.4 5.2c.9-1 2.2-1.5 3.6-1.2 1.8.4 2.5 2 2.5 3.7v6.6" stroke-linecap="round"/><path d="M4 19.5c2.4 1.6 5.2 2.4 8.1 2.4 2.3 0 4.9-.5 7-1.7" stroke-linecap="round"/><path d="M19.9 19.6c.4-.5 1-.4 1.1-.1" stroke-linecap="round"/></svg></a></li>
+          <li><a href="https://www.youtube.com/@EhsanKarim" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a></li>
+          <li><a href="mailto:ehsan.karim@ubc.ca" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="1.5"/><path d="M3 6.5l9 6.5 9-6.5"/></svg></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 M. Ehsan Karim. All rights reserved.</p>
+      <p class="colophon">Site updated May 2026 &middot; School of Population and Public Health, University of British Columbia</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------- Mobile nav toggle ---------- */
+  var toggle = document.querySelector(".nav-toggle");
+  var navList = document.getElementById("site-nav");
+  if (toggle && navList) {
+    toggle.addEventListener("click", function(){
+      var open = navList.classList.toggle("open");
+      toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+    navList.addEventListener("click", function(e){
+      if (e.target.closest("a")) {
+        navList.classList.remove("open");
+        toggle.setAttribute("aria-expanded", "false");
+      }
+    });
+    document.addEventListener("keydown", function(e){
+      if (e.key === "Escape" && navList.classList.contains("open")) {
+        navList.classList.remove("open");
+        toggle.setAttribute("aria-expanded", "false");
+        toggle.focus();
+      }
+    });
+  }
+
+  /* ---------- Active-section highlighting (scrollspy) ----------
+     On first paint, nothing is highlighted until a watched section
+     actually enters the spy window — never a random section. */
+  var navLinks = Array.prototype.slice.call(document.querySelectorAll(".nav-links a[href^='#']"));
+  var linkById = {};
+  navLinks.forEach(function(a){ linkById[a.getAttribute("href").slice(1)] = a; });
+  var watched = Object.keys(linkById)
+    .map(function(id){ return document.getElementById(id); })
+    .filter(Boolean);
+
+  function setActive(id){
+    navLinks.forEach(function(a){
+      var on = id && a.getAttribute("href") === "#" + id;
+      a.classList.toggle("is-active", !!on);
+      if (on) { a.setAttribute("aria-current", "location"); } else { a.removeAttribute("aria-current"); }
+    });
+  }
+
+  if ("IntersectionObserver" in window && watched.length) {
+    var visible = {};
+    var spy = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        visible[entry.target.id] = entry.isIntersecting ? entry.intersectionRatio : 0;
+      });
+      var bestId = null, bestRatio = 0;
+      watched.forEach(function(sec){
+        var r = visible[sec.id] || 0;
+        if (r > bestRatio) { bestRatio = r; bestId = sec.id; }
+      });
+      setActive(bestId);
+    }, { rootMargin: "-20% 0px -55% 0px", threshold: [0, 0.1, 0.25, 0.5, 0.75, 1] });
+    watched.forEach(function(sec){ spy.observe(sec); });
+  }
+
+  /* ---------- Scroll-reveal (progressive enhancement) ----------
+     Hiding CSS is scoped under html.js + prefers-reduced-motion:
+     no-preference, so no-JS and reduced-motion users always see
+     everything. Reveal all if IntersectionObserver is absent. */
+  var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var revealEls = Array.prototype.slice.call(document.querySelectorAll(".reveal"));
+  if (reduceMotion || !("IntersectionObserver" in window)) {
+    revealEls.forEach(function(el){ el.classList.add("revealed"); });
+  } else {
+    var revealer = new IntersectionObserver(function(entries, obs){
+      entries.forEach(function(entry){
+        if (entry.isIntersecting) {
+          entry.target.classList.add("revealed");
+          obs.unobserve(entry.target);
+        }
+      });
+    }, { rootMargin: "0px 0px -8% 0px", threshold: 0.08 });
+    revealEls.forEach(function(el){ revealer.observe(el); });
+  }
+})();
+</script>
+
+</body>
+</html>
