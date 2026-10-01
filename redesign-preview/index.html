@@ -279,8 +279,19 @@ html:not(.js) .site-header{position:static}
 }
 .btn:hover{background:var(--oxblood-dk);color:var(--paper)}
 .btn svg{width:1rem;height:1rem}
-.btn--outline{background:transparent;color:var(--oxblood)}
-.btn--outline:hover{background:var(--oxblood);color:var(--paper)}
+/* Supervision-intake status chip (top of hero text; links to the notice under Trainees) */
+.intake-chip{
+  display:inline-flex;align-items:center;gap:.55rem;
+  font-family:var(--sans);font-size:.8rem;font-weight:600;
+  letter-spacing:.08em;text-transform:uppercase;
+  color:var(--oxblood);text-decoration:none;
+  background:var(--card);border:1px solid var(--rule);border-radius:999px;
+  padding:.55rem 1rem;
+  transition:border-color .18s ease,background .18s ease;
+}
+.intake-chip:hover{border-color:var(--oxblood);background:var(--paper-deep);color:var(--oxblood)}
+.intake-dot{width:.55rem;height:.55rem;border-radius:50%;background:var(--oxblood);flex:none}
+.hero-grid .intake-chip{margin-bottom:1.1rem}
 
 /* ---------- Stats band ---------- */
 .stats{
@@ -519,7 +530,6 @@ html:not(.js) .site-header{position:static}
   border:1px solid var(--bronze);border-radius:999px;
   padding:.08rem .55rem;margin-left:.4rem;vertical-align:2px;white-space:nowrap;
 }
-.amazon-note{margin-top:var(--space-3);font-size:.94rem;color:var(--ink-faint)}
 
 /* ---------- Teaching ---------- */
 .course-list{list-style:none;display:grid;gap:var(--space-3)}
@@ -582,14 +592,8 @@ html:not(.js) .site-header{position:static}
   letter-spacing:.1em;text-transform:uppercase;
   color:#c4d2e0;line-height:1.4;
 }
-.outcomes{list-style:none;margin-top:var(--space-3)}
-.outcomes li{
-  padding-left:1.35rem;position:relative;margin-bottom:.7rem;
-  font-size:.96rem;color:var(--ink-soft);max-width:var(--measure);
-}
-.outcomes li::before{content:"—";position:absolute;left:0;color:var(--bronze)}
 .prospective{
-  margin-top:var(--space-4);
+  margin-block:0 var(--space-4);
   background:var(--paper-deep);
   border:1px solid var(--rule);
   border-left:4px solid var(--oxblood);
@@ -598,14 +602,11 @@ html:not(.js) .site-header{position:static}
 .prospective h3{font-size:var(--step-1);margin-bottom:.5rem}
 .prospective p{color:var(--ink-soft);max-width:var(--measure)}
 .prospective p + p{margin-top:.75rem}
-.apply-list{list-style:none;margin-top:.6rem;display:flex;flex-direction:column;gap:.4rem}
-.apply-list li{
-  padding-left:1.5rem;position:relative;color:var(--ink-soft);
-  font-size:.96rem;max-width:var(--measure);
-}
-.apply-list li::before{
-  content:"";position:absolute;left:0;top:.55em;
-  width:.5rem;height:.5rem;border:1.5px solid var(--oxblood);border-radius:50%;
+.prospective .notice-lede{font-family:var(--serif);font-size:1.12rem;color:var(--ink)}
+.prospective .notice-status{
+  font-family:var(--sans);font-size:.72rem;font-weight:600;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);
+  margin-bottom:.45rem;
 }
 
 /* ---------- Funding & awards ---------- */
@@ -679,10 +680,6 @@ html:not(.js) .site-header{position:static}
   gap:clamp(2rem, 5vw, 4rem);align-items:start;
 }
 @media (max-width: 760px){.contact-grid{grid-template-columns:1fr}}
-.contact-invite{
-  font-family:var(--serif);font-size:var(--step-2);line-height:1.35;
-  max-width:24ch;
-}
 .contact-email{
   display:inline-flex;align-items:center;gap:.7rem;
   font-family:var(--serif);font-size:var(--step-1);
@@ -698,7 +695,7 @@ html:not(.js) .site-header{position:static}
   letter-spacing:.18em;text-transform:uppercase;color:var(--bronze);
   margin-bottom:.8rem;
 }
-.contact-note{margin-top:var(--space-3);font-size:.94rem;color:var(--ink-faint)}
+.contact-note{margin-top:var(--space-3);font-size:.94rem;color:var(--ink-soft)}
 
 /* ---------- Footer ---------- */
 .site-footer{
@@ -820,6 +817,7 @@ html:not(.js) .site-header{position:static}
   <section class="hero" id="top" aria-label="Introduction">
     <div class="wrap hero-grid">
       <div>
+        <a class="intake-chip" href="#prospective"><span class="intake-dot" aria-hidden="true"></span>Not accepting new students</a>
         <p class="hero-kicker">University of British Columbia</p>
         <h1 class="hero-name">M. Ehsan Karim</h1>
         <p class="hero-title">Associate Professor in Health Data Science</p>
@@ -831,7 +829,6 @@ html:not(.js) .site-header{position:static}
         <p class="hero-lede">He develops causal inference and machine learning methods that turn large health administrative databases into reliable real-world evidence.</p>
         <div class="hero-cta">
           <a class="btn" href="#research">Explore research</a>
-          <a class="btn btn--outline" href="#prospective">Prospective students</a>
         </div>
         <ul class="profile-links" aria-label="Profiles and contact">
           <li><a href="https://scholar.google.ca/citations?user=fStySaMAAAAJ&amp;hl=en" aria-label="Google Scholar" title="Google Scholar">
@@ -869,12 +866,12 @@ html:not(.js) .site-header{position:static}
   <section class="stats" aria-label="Career at a glance">
     <div class="wrap">
       <dl class="stats-grid">
-        <div class="stat reveal"><dt>Peer-reviewed publications</dt><dd><span class="nb">130+</span></dd></div>
-        <div class="stat reveal"><dt><span class="nb">PI research</span> funding</dt><dd><span class="nb">$1.29M</span></dd></div>
+        <div class="stat reveal"><dt>Peer-reviewed publications</dt><dd><span class="nb">140+</span></dd></div>
+        <div class="stat reveal"><dt><span class="nb">PI research</span> funding</dt><dd><span class="nb">$1.32M</span></dd></div>
         <div class="stat reveal"><dt>Trainees supervised</dt><dd><span class="nb">36</span></dd></div>
-        <div class="stat reveal"><dt>Invited presentations</dt><dd><span class="nb">55</span></dd></div>
+        <div class="stat reveal"><dt>Invited presentations</dt><dd><span class="nb">58</span></dd></div>
         <div class="stat reveal"><dt>Books &amp; open textbooks</dt><dd><span class="nb">6</span></dd></div>
-        <div class="stat reveal"><dt>Citations</dt><dd><span class="nb">2,400+</span></dd></div>
+        <div class="stat reveal"><dt>Citations</dt><dd><span class="nb">2,700+</span></dd></div>
       </dl>
     </div>
   </section>
@@ -911,28 +908,32 @@ html:not(.js) .site-header{position:static}
       <h2 class="section-title reveal" id="news-h">News &amp; Highlights</h2>
       <ul class="news-list">
         <li class="news-item reveal">
+          <div class="news-date">2026&ndash;2031</div>
+          <p class="news-text">Co-principal investigator on a new five-year CIHR Project Grant ($794,990) that uses target trial emulation to evaluate novel prescribing practices for opioid use disorder in the context of a volatile drug supply.</p>
+        </li>
+        <li class="news-item reveal">
+          <div class="news-date">Jun&ndash;Sep 2026</div>
+          <p class="news-text">Posted ten new methods preprints on <a href="https://arxiv.org/search/stat?searchtype=author&amp;query=Karim,+M+E">arXiv</a>, spanning survey-weighted and adaptive TMLE, target trial emulation for time-varying treatments, plasmode simulation benchmarks, and a guide reconciling AIPW, TMLE, and double machine learning for applied researchers.</p>
+        </li>
+        <li class="news-item reveal">
+          <div class="news-date">Mar&ndash;Jul 2026</div>
+          <p class="news-text">Published a single-author invited review on prescription time-distribution matching and immortal time bias in <em>Current Opinion in Epidemiology and Public Health</em>, and a book chapter on effect modification in non-randomized studies; a study evaluating TMLE for survival outcomes was accepted in the <em>Journal of Statistical Research</em>.</p>
+        </li>
+        <li class="news-item reveal">
+          <div class="news-date">June 2026</div>
+          <p class="news-text">Gave invited UBC seminars on AI in health research: &ldquo;When AI Sounds Right but Gets Research Wrong&rdquo; at the Centre for Health Services and Policy Research, and &ldquo;Who Needs a Statistician Anymore?&rdquo; at the School of Population and Public Health.</p>
+        </li>
+        <li class="news-item reveal">
+          <div class="news-date">May&ndash;Jun 2026</div>
+          <p class="news-text">Taught the &ldquo;AI and LLMs &mdash; Research Perspective&rdquo; workshop (62 participants) at the Statistical Society of Canada Annual Meeting in Hamilton, where he also organized a session on advances in causal inference and gave invited talks on TMLE variants and on modernizing biostatistics education.</p>
+        </li>
+        <li class="news-item reveal">
+          <div class="news-date">2026&ndash;2027</div>
+          <p class="news-text">Awarded a UBC OER Affordability Grant ($24,996) to develop <em>Health Data Science in the AI Era</em>, an open educational resource for reproducible research and knowledge translation.</p>
+        </li>
+        <li class="news-item reveal">
           <div class="news-date">July 2025</div>
           <p class="news-text">Promoted to Associate Professor with tenure, UBC School of Population and Public Health.</p>
-        </li>
-        <li class="news-item reveal">
-          <div class="news-date">2025&ndash;2029</div>
-          <p class="news-text">Co-leads the CIHR-funded STRIVE-STBBI skills training network ($800,000) for real-world intervention evaluation.</p>
-        </li>
-        <li class="news-item reveal">
-          <div class="news-date">February 2025</div>
-          <p class="news-text">Appointed Associate Editor of <em>Pharmacoepidemiology and Drug Safety</em>.</p>
-        </li>
-        <li class="news-item reveal">
-          <div class="news-date">2025</div>
-          <p class="news-text">Received the Editorial Contribution Award and Author Service Award from <em>BMC Medical Research Methodology</em>.</p>
-        </li>
-        <li class="news-item reveal">
-          <div class="news-date">2024&ndash;2025</div>
-          <p class="news-text">Named AMS UBC OER Champion for open educational resource contributions.</p>
-        </li>
-        <li class="news-item reveal">
-          <div class="news-date">May 2026</div>
-          <p class="news-text">Presenting the &ldquo;AI and LLMs &mdash; Research Perspective&rdquo; workshop at the Society for Epidemiologic Research Annual Meeting.</p>
         </li>
       </ul>
     </div>
@@ -946,7 +947,7 @@ html:not(.js) .site-header{position:static}
       <ul class="theme-grid">
         <li class="theme-card reveal">
           <h3>Causal Inference Methods</h3>
-          <p>Develops and evaluates methods for estimating treatment effects from non-randomized data &mdash; including targeted maximum likelihood estimation (TMLE) with single and double cross-fitting, marginal structural models, and propensity score approaches. His work tackles time-dependent confounding, treatment-confounder feedback, and immortal time bias in longitudinal studies.</p>
+          <p>Develops and evaluates methods for estimating treatment effects from non-randomized data &mdash; including targeted maximum likelihood estimation (TMLE) with single and double cross-fitting, marginal structural models, propensity score approaches, and target trial emulation. His work tackles time-dependent confounding, treatment-confounder feedback, and immortal time bias in longitudinal studies, and benchmarks estimators with plasmode simulations built from real health data.</p>
         </li>
         <li class="theme-card reveal">
           <h3>Machine Learning &amp; AI for Health</h3>
@@ -954,7 +955,7 @@ html:not(.js) .site-header{position:static}
         </li>
         <li class="theme-card reveal">
           <h3>Real-World Evidence &amp; Pharmacoepidemiology</h3>
-          <p>Advances the methodology of real-world evidence generation, including high-dimensional propensity score (hdPS) techniques and their machine learning and doubly robust extensions for residual confounding control. This program also addresses non-adherence and per-protocol effects in pragmatic clinical trials.</p>
+          <p>Advances the methodology of real-world evidence generation, including high-dimensional propensity score (hdPS) techniques and their machine learning and doubly robust extensions for residual confounding control. This program also addresses non-adherence and per-protocol effects in pragmatic clinical trials. He is co-principal investigator of a CIHR-funded program of target trial emulations evaluating prescribing practices for opioid use disorder with linked British Columbia administrative data.</p>
         </li>
         <li class="theme-card reveal">
           <h3>Health Administrative Data</h3>
@@ -962,11 +963,11 @@ html:not(.js) .site-header{position:static}
         </li>
         <li class="theme-card reveal">
           <h3>Multiple Sclerosis Applications</h3>
-          <p>Applies these methods where they matter: comparative effectiveness of MS therapies, an MS-specific Comorbidity Summary Index (MSCSI), and risk prediction algorithms for the MS prodrome to enable earlier detection. Supported by CIHR and MS Canada.</p>
+          <p>Applies these methods where they matter: comparative effectiveness of MS therapies, an MS-specific Comorbidity Summary Index (MSCSI), and a risk prediction algorithm for the MS prodrome to enable earlier detection. Supported by CIHR and MS Canada.</p>
         </li>
         <li class="theme-card reveal">
           <h3>Survey &amp; Longitudinal Methods</h3>
-          <p>Develops guidance for analyzing nationally representative complex surveys (Canadian, US, and international) and longitudinal cohorts, including propensity score analysis in the complex survey context and small-sample inference for stepped-wedge designs.</p>
+          <p>Develops guidance for analyzing nationally representative complex surveys (Canadian, US, and international) and longitudinal cohorts, including propensity score analysis and design-based, survey-weighted TMLE in the complex survey context, and small-sample inference for stepped-wedge designs.</p>
         </li>
       </ul>
       <p class="funders reveal"><b>Funded by</b> Canadian Institutes of Health Research (CIHR) &middot; Natural Sciences and Engineering Research Council of Canada (NSERC) &middot; MS Canada &middot; Michael Smith Health Research BC &middot; BC SUPPORT Unit</p>
@@ -978,8 +979,24 @@ html:not(.js) .site-header{position:static}
     <div class="wrap">
       <div class="kicker reveal"><span>Scholarship</span></div>
       <h2 class="section-title reveal" id="pubs-h">Selected Publications</h2>
-      <p class="section-intro reveal">A selection from 130+ peer-reviewed articles spanning causal inference methodology, machine learning for health, and high-impact applied work.</p>
+      <p class="section-intro reveal">A selection from 140+ peer-reviewed articles spanning causal inference methodology, machine learning for health, and high-impact applied work.</p>
       <ol class="pub-list">
+        <li class="pub reveal">
+          <div class="pub-year" aria-hidden="true">2026</div>
+          <div>
+            <h3 class="pub-title"><a href="https://doi.org/10.1097/pxh.0000000000000080">Prescription time-distribution matching and immortal time bias: promise, failure modes, and time-aware alternatives</a></h3>
+            <p class="pub-authors"><strong>Karim ME</strong>.</p>
+            <p class="pub-meta"><cite>Current Opinion in Epidemiology and Public Health</cite> 2026 (advance online) <span class="tag">Invited review</span></p>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <div class="pub-year" aria-hidden="true">2026</div>
+          <div>
+            <h3 class="pub-title"><a href="https://doi.org/10.1080/00031305.2025.2526545">LASSO-based survival prediction modeling with multiply imputed data: a case study in tuberculosis mortality prediction</a></h3>
+            <p class="pub-authors">Hossain MB, Sadatsafavi M, Johnston JC, Wong H, Cook VJ, <strong>Karim ME</strong>.</p>
+            <p class="pub-meta"><cite>The American Statistician</cite> 80(1), 77&ndash;88, 2026 <span class="tag">Prediction</span></p>
+          </div>
+        </li>
         <li class="pub reveal">
           <div class="pub-year" aria-hidden="true">2025</div>
           <div>
@@ -991,7 +1008,7 @@ html:not(.js) .site-header{position:static}
         <li class="pub reveal">
           <div class="pub-year" aria-hidden="true">2025</div>
           <div>
-            <h3 class="pub-title"><a href="https://doi.org/10.1093/aje/kwae447">Towards robust causal inference in epidemiological research: employing double cross-fit TMLE in right heart catheterization data</a></h3>
+            <h3 class="pub-title"><a href="https://doi.org/10.1093/aje/kwae447">Towards robust causal inference in epidemiologic research: employing double cross-fit TMLE in right heart catheterization data</a></h3>
             <p class="pub-authors">Mondol MH, <strong>Karim ME</strong>.</p>
             <p class="pub-meta"><cite>American Journal of Epidemiology</cite> 194(10), 2813&ndash;2819, 2025 <span class="tag">Causal inference</span></p>
           </div>
@@ -1009,7 +1026,7 @@ html:not(.js) .site-header{position:static}
           <div>
             <h3 class="pub-title"><a href="https://doi.org/10.1001/jama.2024.16954">Buprenorphine/naloxone vs methadone for the treatment of opioid use disorder</a></h3>
             <p class="pub-authors">Nosyk B, Min JE, Homayra F, et al. (incl. <strong>Karim ME</strong>).</p>
-            <p class="pub-meta"><cite>JAMA</cite> 2024 <span class="tag">High-impact applied</span></p>
+            <p class="pub-meta"><cite>JAMA</cite> 332(21), 1822&ndash;1831, 2024 <span class="tag">High-impact applied</span></p>
           </div>
         </li>
         <li class="pub reveal">
@@ -1078,8 +1095,8 @@ html:not(.js) .site-header{position:static}
         </li>
       </ol>
       <div class="pub-metrics reveal">
-        <p class="pub-metrics-line">130+ peer-reviewed publications &middot; 2,400+ citations &middot; h-index 25 <span class="src">(Google Scholar, May 2026)</span></p>
-        <p class="pub-metrics-precise">134 peer-reviewed journal articles, plus 13 refereed conference proceedings.</p>
+        <p class="pub-metrics-line">140+ peer-reviewed publications &middot; 2,700+ citations &middot; h-index 27 <span class="src">(citations and h-index: Google Scholar, October 2026)</span></p>
+        <p class="pub-metrics-precise">141 peer-reviewed journal articles (one in press), plus 16 refereed conference proceedings.</p>
         <a class="text-cta" href="https://scholar.google.ca/citations?user=fStySaMAAAAJ&amp;hl=en">View all on Google Scholar &rarr;</a>
       </div>
     </div>
@@ -1092,7 +1109,7 @@ html:not(.js) .site-header{position:static}
       <h2 class="section-title reveal" id="books-h">Books &amp; Software</h2>
       <div class="split-2">
         <div class="reveal">
-          <h3 class="subhead">Books &amp; open textbooks</h3>
+          <h3 class="subhead">Books, open textbooks &amp; chapters</h3>
           <ul class="book-list">
             <li><b><a href="https://ehsanx.github.io/EpiMethods/">Advanced Epidemiological Methods</a></b> Karim ME and the Epi-OER team, 2024 <span class="pill">Open &middot; Free</span></li>
             <li><b><a href="https://ehsanx.github.io/Scientific-Writing-for-Health-Research/">Scientific Writing for Health Research</a></b> Karim ME, Jeong D, Yusuf F, 2021 <span class="pill">Open &middot; Free</span></li>
@@ -1100,6 +1117,7 @@ html:not(.js) .site-header{position:static}
             <li><b><a href="https://ehsanx.github.io/into2ML/">Understanding Basics and Usage of Machine Learning in Medical Literature</a></b> Karim ME, 2021 <span class="pill">Open &middot; Free</span></li>
             <li><b><a href="https://doi.org/10.5281/zenodo.5246085">R Guide for TMLE in Medical Research</a></b> Karim ME, Frank H, 2021 <span class="pill">Open &middot; Free</span></li>
             <li><b>R Graph Essentials</b> Packt Publishing, 2013 &middot; ISBN 9781782165460 <span class="pill">Videobook</span></li>
+            <li><b><a href="https://doi.org/10.1201/9781003300809-8">Effect Modification in Non-Randomized Studies: Methods and Applications with Propensity Scores</a></b> Karim ME, Chapter 8 in <em>Comparative Effectiveness and Personalized Medicine Research Using Real-World Data</em> (eds. Debray, Nguyen &amp; Platt), 2026 <span class="pill">Book chapter</span></li>
           </ul>
         </div>
         <div class="reveal">
@@ -1125,23 +1143,23 @@ html:not(.js) .site-header{position:static}
         <li class="course reveal">
           <h3>SPPH 604 &mdash; Application of Advanced Epidemiological Methods</h3>
           <p class="course-role">Developer &amp; sole instructor &middot; PhD level &middot; 3 credits</p>
-          <p>UBC&rsquo;s PhD capstone methods course, developed by Dr. Karim and taught since 2018. Covers causal inference, propensity scores, mediation analysis, machine learning, survey data analysis, and missing data &mdash; with 65 contact hours of hands-on tutorials bridging the methodological gap for SPPH doctoral trainees.</p>
+          <p>UBC&rsquo;s PhD capstone methods course, developed by Dr. Karim and taught since 2018 to more than 100 doctoral students. Covers causal inference, propensity scores, mediation analysis, machine learning, survey data analysis, and missing data &mdash; with hands-on tutorials that extend it to 65 contact hours (versus the standard 39), bridging the methodological gap for SPPH doctoral trainees.</p>
         </li>
         <li class="course reveal">
           <h3>SPPH 381H &mdash; Health Data Science: AI and Knowledge Translation</h3>
-          <p class="course-role">Developer &middot; 400-level undergraduate</p>
+          <p class="course-role">Developer &middot; Undergraduate</p>
           <p>A comprehensive toolkit for applying data science to health research, featuring &ldquo;Zero to AI Co-Pilot&rdquo; pedagogy, a verification-first assessment framework for auditing AI-generated code, and OCAP&reg;/CARE integration for Indigenous data sovereignty.</p>
         </li>
         <li class="course reveal">
           <h3>MEDI 504A &mdash; Emerging Topics in Experimental Medicine</h3>
-          <p class="course-role">Co-instructor &middot; Graduate &middot; 1.5 credits</p>
+          <p class="course-role">Co-instructor &middot; Graduate &middot; 1.5 credits &middot; 2021&ndash;2022</p>
           <p>Part of a Faculty of Medicine health data science initiative, spanning multi-omics, machine learning and AI in clinical research, and large administrative datasets in population health.</p>
         </li>
       </ul>
       <div class="teaching-cols">
         <div class="reveal">
           <h3>Open education</h3>
-          <p>Most of Dr. Karim&rsquo;s course content is published as Open Educational Resources, freely available to UBC students and a global audience &mdash; including the <a href="https://ehsanx.github.io/EpiMethods/"><em>Advanced Epidemiological Methods</em></a> textbook and the <a href="https://ehsanx.github.io/ML4PH/"><em>ML4PH</em></a> machine learning materials. His OER work has been supported by UBC OER Fund Implementation and Affordability Grants (~$50,000).</p>
+          <p>Most of Dr. Karim&rsquo;s course content is published as Open Educational Resources, freely available to UBC students and a global audience &mdash; including the <a href="https://ehsanx.github.io/EpiMethods/"><em>Advanced Epidemiological Methods</em></a> textbook and the <a href="https://ehsanx.github.io/HDSx/"><em>Health Data Science: AI and Knowledge Translation</em></a> course materials. His OER work has been supported by UBC OER Fund Implementation and Affordability Grants (~$50,000).</p>
         </div>
         <div class="reveal">
           <h3>Recognition</h3>
@@ -1160,23 +1178,20 @@ html:not(.js) .site-header{position:static}
     <div class="wrap">
       <div class="kicker reveal"><span>Mentorship</span></div>
       <h2 class="section-title reveal" id="trainees-h">Trainees &amp; Mentorship</h2>
+      <div class="prospective reveal" id="prospective">
+        <p class="notice-status">Supervision status &middot; in effect since October 2026</p>
+        <h3>Not accepting new students</h3>
+        <p class="notice-lede">Dr. Karim has reached his supervision capacity and is not accepting new students until further notice.</p>
+        <p>This applies to all prospective graduate students &mdash; master&rsquo;s and doctoral &mdash; in the School of Population and Public Health and the Department of Statistics, including visiting graduate students. Any change will be posted on this page.</p>
+        <p>Please do not send supervision inquiries in the meantime &mdash; because of their volume, he is unable to respond to them individually. Prospective applicants are encouraged to consult the School of Population and Public Health&rsquo;s guidance on finding a supervisor (<a href="https://spph.ubc.ca/phd/admission-requirements/looking-for-a-supervisor/">PhD</a>, <a href="https://spph.ubc.ca/msc/admission-requirements/looking-for-an-msc-supervisor/">MSc</a>) and the <a href="https://www.stat.ubc.ca/graduate-admissions">Department of Statistics graduate admissions</a> page to identify other potential supervisors.</p>
+      </div>
       <dl class="trainee-band reveal">
         <div class="tstat"><dt>Graduate students</dt><dd><span class="nb">22</span></dd></div>
         <div class="tstat"><dt>Postdoctoral fellow</dt><dd><span class="nb">1</span></dd></div>
         <div class="tstat"><dt>Undergraduate trainees</dt><dd><span class="nb">13</span></dd></div>
       </dl>
       <div class="reveal">
-        <p>Dr. Karim supervises graduate students in both the School of Population and Public Health and the Department of Statistics, building their skills in data science, causal inference, and health analytics. His trainees have completed theses spanning machine learning for survival prediction, the multiple sclerosis prodrome, comorbidity index development, and methods for pragmatic trials &mdash; and have gone on to positions at Harvard, McGill, McMaster, and the BC Centre for Disease Control.</p>
-      </div>
-      <div class="prospective reveal" id="prospective">
-        <h3>Prospective students</h3>
-        <p>Dr. Karim supervises a small number of graduate students in SPPH and Statistics, and takes on new trainees only as capacity and funding allow. Admission is through the SPPH and Statistics graduate programs; contacting him is not a substitute for a formal application.</p>
-        <p>If you would like to be considered, email <a href="mailto:ehsan.karim@ubc.ca">ehsan.karim@ubc.ca</a> with a brief note on your research interests and attach:</p>
-        <ul class="apply-list">
-          <li>your CV, including a list of publications</li>
-          <li>an unofficial transcript</li>
-          <li>a list of references</li>
-        </ul>
+        <p>Dr. Karim has supervised graduate students in both the School of Population and Public Health and the Department of Statistics, building their skills in data science, causal inference, and health analytics. His trainees&rsquo; theses span machine learning for survival prediction, the multiple sclerosis prodrome, comorbidity index development, and methods for pragmatic trials &mdash; and former trainees have gone on to positions at Harvard, McGill, McMaster, and the BC Centre for Disease Control.</p>
       </div>
     </div>
   </section>
@@ -1186,10 +1201,10 @@ html:not(.js) .site-header{position:static}
     <div class="wrap">
       <div class="kicker reveal"><span>Support &amp; Recognition</span></div>
       <h2 class="section-title reveal" id="funding-h">Funding &amp; Awards</h2>
-      <p class="section-intro reveal">CAD $1.29M in research funding as principal investigator since 2017.</p>
+      <p class="section-intro reveal">CAD $1.32M in research funding as principal investigator since 2017, plus $1.59M as co-principal investigator on two CIHR grants.</p>
       <div class="table-scroll reveal">
         <table class="grant-table">
-          <caption>Selected grants as Principal Investigator</caption>
+          <caption>Selected grants as Principal or Co-Principal Investigator</caption>
           <thead>
             <tr>
               <th scope="col">Funder &middot; Program</th>
@@ -1200,10 +1215,16 @@ html:not(.js) .site-header{position:static}
           </thead>
           <tbody>
             <tr>
-              <td><b>CIHR</b> &middot; HIV/AIDS &amp; STBBI Clinical Trials Network, Phase 2</td>
+              <td><b>CIHR</b> &middot; HIV/AIDS &amp; STBBI Clinical Trials Research Network, Phase 2 &middot; Co-PI</td>
               <td class="grant-years">2025&ndash;2029</td>
               <td>Skills Training for Real-world InterVention Evaluation in STBBIs (STRIVE-STBBI)</td>
               <td class="grant-amount">$800,000</td>
+            </tr>
+            <tr>
+              <td><b>CIHR</b> &middot; Project Grant &middot; Co-PI</td>
+              <td class="grant-years">2026&ndash;2031</td>
+              <td>Target trial emulations of novel prescribing practices for opioid use disorder in the context of a volatile drug supply</td>
+              <td class="grant-amount">$794,990</td>
             </tr>
             <tr>
               <td><b>Michael Smith Foundation for Health Research</b> &middot; Scholar Award</td>
@@ -1274,15 +1295,15 @@ html:not(.js) .site-header{position:static}
         </div>
         <div class="service-block reveal">
           <h3>Peer review</h3>
-          <p>Reviewer since 2013 for more than 60 journals in biostatistics, epidemiology, and public health &mdash; including <em>Biometrics</em>, <em>Statistics in Medicine</em>, <em>Epidemiology</em>, <em>American Journal of Epidemiology</em>, and <em>BMJ</em>. Recognized as Exemplary Reviewer (<em>Epidemiology</em>, 2020) and Best Reviewer (<em>Pharmacoepidemiology and Drug Safety</em>, 2015, 2017).</p>
+          <p>Reviewer since 2013 for more than 60 journals in biostatistics, epidemiology, and public health (over 200 completed reviews) &mdash; including <em>Biometrics</em>, <em>Statistics in Medicine</em>, <em>Epidemiology</em>, <em>American Journal of Epidemiology</em>, and <em>BMJ</em>. Recognized as Exemplary Reviewer (<em>Epidemiology</em>, 2020) and Best Reviewer (<em>Pharmacoepidemiology and Drug Safety</em>, 2015, 2017).</p>
         </div>
         <div class="service-block reveal">
-          <h3>Grant panels</h3>
+          <h3>Grant review</h3>
           <p>CIHR Project Grant committees (2023&ndash;2025) and College of Reviewers (2024&ndash;2028) &middot; NSERC Discovery Grants, Mathematics and Statistics (2018&ndash;2024) &middot; MS Canada &middot; Dutch Research Council (NWO) &middot; MS Research Australia &middot; Health Research Council of New Zealand &middot; Fonds de recherche du Qu&eacute;bec.</p>
         </div>
         <div class="service-block reveal">
           <h3>Conference leadership</h3>
-          <p>Frequent chair and organizer of invited sessions on causal inference and machine learning at JSM, the Statistical Society of Canada, CSEB, and ICSA-Canada.</p>
+          <p>Frequent chair and organizer of sessions on causal inference and machine learning at JSM, the Statistical Society of Canada (every year since 2023), CSEB, and ICSA-Canada, and a member of the Scientific Committee for the 2027 CSEB Conference in Ottawa.</p>
         </div>
       </div>
     </div>
@@ -1299,7 +1320,7 @@ html:not(.js) .site-header{position:static}
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="1.5"/><path d="M3 6.5l9 6.5 9-6.5"/></svg>
             ehsan.karim@ubc.ca
           </a>
-          <p class="contact-note">Get in touch &mdash; email is the fastest way to reach him.</p>
+          <p class="contact-note">Dr. Karim is not accepting new students and is unable to respond to supervision inquiries (see the <a href="#prospective">supervision notice</a>). For all other matters, email is the fastest way to reach him.</p>
         </div>
         <div class="contact-details reveal">
           <h3>Mailing address</h3>
@@ -1356,7 +1377,7 @@ html:not(.js) .site-header{position:static}
     </div>
     <div class="footer-bottom">
       <p>&copy; 2026 M. Ehsan Karim. All rights reserved.</p>
-      <p class="colophon">Site updated May 2026 &middot; School of Population and Public Health, University of British Columbia</p>
+      <p class="colophon">Site updated October 2026 &middot; School of Population and Public Health, University of British Columbia</p>
     </div>
   </div>
 </footer>

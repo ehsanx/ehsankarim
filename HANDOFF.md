@@ -1,8 +1,12 @@
 # HANDOFF — ehsank.com redesign
 
-_Last updated: 2026-07-06_
+_Last updated: 2026-10-01_
 
 ## Current state
+
+**2026-10-01 (rev4) — CV/Scholar refresh + "Not accepting new students" notice: edited in the working tree,
+NOT yet committed or pushed** (awaiting owner go-ahead; pushing `master` deploys to production via Netlify).
+See the rev4 entry in the Revision log. Everything below this paragraph describes the July 2026 deploy.
 
 **LIVE.** The 2026 redesign is deployed to production at **https://ehsank.com/** (merged to `master` and pushed
 2026-07-06; Netlify auto-deployed). Verified live: home + `/avatar.jpg` return 200, correct `<title>`, all
@@ -60,9 +64,41 @@ session scratchpad `C:\Users\wilds\AppData\Local\Temp\claude\E--GitHub-ehsankari
     no console errors, no dead anchors/dup IDs.
 - **2026-07-06 rev3:** Removed the Contact invitation sentence "Questions about research, collaboration, or
   graduate supervision?" (the email + "Get in touch — email is the fastest way to reach him." note remain).
+- **2026-10-01 rev4** (owner request: refresh from CV/Scholar; flag no capacity for new students "until otherwise
+  stated in this website"). Sources: `CV Karim (July 30, 2026).docx` (saved 2026-08-03; header still says May 15),
+  Google Scholar snapshot 2026-10-01, and the owner's MS Canada PI CV (`H_CV_Karim_Discovery_PI.pdf`, Sept 2026).
+  **The CV's summary tables were NOT refreshed by the owner** (still 21/33/80 = 134 articles, 591,359 competitive
+  operating, Scholar May 15) — all figures were recounted from the itemized lists. Process: 7-agent evidence-cited
+  audit → edits → 4-lens adversarial verification (fact-check / staleness / intake notice / technical+links).
+  1. **Intake closed:** hero CTA "Prospective students" replaced by a status chip ("● Not accepting new students",
+     top of hero text, first screen on phones) → `#prospective`; the Trainees section now *opens* with the notice
+     ("in effect since October 2026"; scope = prospective MSc/PhD in SPPH + Statistics incl. visiting graduate
+     students; asks people not to send supervision inquiries; links to SPPH "looking for a supervisor" PhD/MSc
+     pages and UBC Stats graduate admissions). Contact note rewritten to point to the notice. Application checklist
+     + mailto invitation removed. **To reopen intake:** remove the `.intake-chip` link and rewrite `#prospective`.
+  2. Stats: publications 130+ → 140+ (141 articles incl. 1 in press; proceedings 13 → 16); citations 2,400+ →
+     2,700+; h-index 25 → 27; invited presentations 55 → 58; PI funding $1.29M → **$1.32M** (CV summary omitted
+     the sole-PI MS Canada Catalyst grant $29,976 that is itemized in the PI table).
+  3. Funding: added CIHR Project Grant 2026–2031 $794,990 (co-PI, with Nosyk/Dennis/Murray); STRIVE and the new
+     grant marked "Co-PI"; caption → "Principal or Co-Principal Investigator"; intro adds "$1.59M as co-PI".
+  4. News fully refreshed (7 items, newest first). **Fixed a live error:** the May 2026 AI/LLM workshop was at
+     the SSC Annual Meeting (62 participants), not SER as the May CV had said.
+  5. Other fixes: dead ML4PH link (404) → HDSx course site; SPPH 604 contact hours wording; "completed theses …
+     comorbidity index" (Frank's PhD is in progress); AJE 2025 title "epidemiologic"; JAMA 2024 vol/pages;
+     SPPH 381H "400-level" → "Undergraduate"; MEDI 504A years; 2 new 2026 selected pubs (COEPH invited review;
+     TAS 2026 LASSO); book chapter (Chapter 8, 2026, DOI …-8; imprint is Chapman & Hall/CRC, not Routledge as
+     the CV says); research themes add target trial emulation, plasmode benchmarking, survey-weighted TMLE, OUD
+     TTE program; Service: SSC sessions every year since 2023, CSEB 2027 scientific committee, 200+ reviews,
+     "Grant panels" → "Grant review"; colophon → October 2026. Dead CSS removed; two AA contrast fixes.
 
 ## Outstanding (priority order)
 
+0. **Owner go-ahead to commit + push rev4 to `master`** (deploys ehsank.com). Then verify live (200, new text).
+   Optional items deliberately NOT applied (secondary-source-only or owner's call): "Stanford" placement and
+   2026 ECTRIMS fellowship (MS Canada CV only); micro-certificate co-PI grant $45,030 (MS Canada CV only);
+   "1M+ YouTube views"; new `svytmle` R package (on GitHub, not in CV); "Trainees supervised" → "mentored"
+   (14 of 22 are committee roles); NSERC DG end 2025 (UBC CV) vs 04/2026 (MS Canada CV) — site keeps 2025.
+   CV hygiene for the owner: refresh summary tables; add Catalyst to the PI total; chapter imprint; ML4PH link.
 1. ~~Owner review~~ / ~~go live~~ — **DONE** (live at ehsank.com as of 2026-07-06).
 2. Optional follow-ups the owner may still want: the "6 vs 7 books" count (see rev2 note — currently 6),
    and whether to forward old inbound links (see redirect note above).
