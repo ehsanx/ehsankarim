@@ -4,9 +4,9 @@ _Last updated: 2026-10-01_
 
 ## Current state
 
-**2026-10-01 (rev4) — CV/Scholar refresh + "Not accepting new students" notice: edited in the working tree,
-NOT yet committed or pushed** (awaiting owner go-ahead; pushing `master` deploys to production via Netlify).
-See the rev4 entry in the Revision log. Everything below this paragraph describes the July 2026 deploy.
+**2026-10-01 (rev4) — CV/Scholar refresh + "Not accepting new students" notice: LIVE.** Committed as `c5e69cb`
+on `master`, pushed, and Netlify-deployed; verified live (home + avatar 200, notice/new stats/new grant present,
+no stale strings). See the rev4 entry in the Revision log. The paragraphs below describe the July 2026 deploy.
 
 **LIVE.** The 2026 redesign is deployed to production at **https://ehsank.com/** (merged to `master` and pushed
 2026-07-06; Netlify auto-deployed). Verified live: home + `/avatar.jpg` return 200, correct `<title>`, all
@@ -93,7 +93,7 @@ session scratchpad `C:\Users\wilds\AppData\Local\Temp\claude\E--GitHub-ehsankari
 
 ## Outstanding (priority order)
 
-0. **Owner go-ahead to commit + push rev4 to `master`** (deploys ehsank.com). Then verify live (200, new text).
+0. ~~Commit + push rev4~~ — **DONE** (`c5e69cb`, live 2026-10-01).
    Optional items deliberately NOT applied (secondary-source-only or owner's call): "Stanford" placement and
    2026 ECTRIMS fellowship (MS Canada CV only); micro-certificate co-PI grant $45,030 (MS Canada CV only);
    "1M+ YouTube views"; new `svytmle` R package (on GitHub, not in CV); "Trainees supervised" → "mentored"
